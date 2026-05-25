@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Amiri, Cinzel, Cormorant_Garamond } from "next/font/google";
 import { BookmarksClient } from "@/components/BookmarksClient";
 import { Footer } from "@/components/Footer";
@@ -41,7 +41,6 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   applicationName: "Sakīna",
   authors: [{ name: "Sakīna" }],
-  themeColor: "#0a0e1a",
   openGraph: {
     title: "Sakīna · سَكِينَة",
     description: DESCRIPTION,
@@ -53,6 +52,10 @@ export const metadata: Metadata = {
     title: "Sakīna · سَكِينَة",
     description: DESCRIPTION,
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0e1a",
 };
 
 export default function RootLayout({
