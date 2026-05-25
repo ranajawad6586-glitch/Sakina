@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sakīna · سَكِينَة
 
-## Getting Started
+> An Islamic reader for the Qur'an and the authentic Sunnah. Built for stillness, not engagement.
 
-First, run the development server:
+A static, dark-mode reader for all 114 surahs of the Qur'an (Uthmānī Arabic + Sahih International + transliteration) and a curated set of 100 authentic narrations from the canonical hadith collections. No accounts, no analytics, no notifications. Bookmarks live in `localStorage` and nowhere else.
+
+The full spec is in [CLAUDE.md](CLAUDE.md); the visual source-of-truth is [sakina.html](sakina.html).
+
+---
+
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev    # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Routes:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Path                  | What's there                                              |
+| --------------------- | --------------------------------------------------------- |
+| `/`                   | Hero, daily verse + daily hadith (day-of-year rotation)   |
+| `/quran`              | All 114 surahs · search by name/meaning/number · filter   |
+| `/quran/[1–114]`      | Surah reader: Arabic + transliteration + translation      |
+| `/hadith`             | Collection grid + all 100 narrations                      |
+| `/hadith/[id]`        | bukhari · muslim · nawawi40 · tirmidhi · abudawud · nasai · ibnmajah |
+| `/bookmarks`          | Saved verses + hadith (device-only, `localStorage`)       |
+| `/about`              | Authenticity · Typography · How to use                    |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Refreshing the data
 
-## Learn More
+The Qur'an and hadith data sit under `data/` and only need re-fetching if a source updates. Both scripts have acceptance checks that fail loud if the totals don't match.
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npx tsx scripts/fetch-quran.ts      # → data/quran/{001..114}.json + data/surahs.json
+npx tsx scripts/fetch-hadith.ts     # → data/hadiths/{collection}.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The Qur'an pipeline pulls Tanzil Uthmānī + Sahih International + transliteration from alquran.cloud, derives the canonical bismillah from the API itself (the Tanzil source uses shadda-before-fatha ordering that a freshly-typed bismillah doesn't match — CLAUDE.md §4.8 forbids normalising), and strips the bismillah from verse 1 of surahs 2–114 except At-Tawbah.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The hadith pipeline pulls from `fawazahmed0/hadith-api`. Bukhārī, Muslim, and Nawawī 40 are trusted by collection; the four sunan are filtered against Al-Albānī's gradings (anything ḍaʿīf or weaker is dropped). Records that fail narrator extraction are also dropped — we never ship an under-attributed hadith.
 
-## Deploy on Vercel
+## Building for production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build         # produces ./out/  (Next.js static export)
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Every route in the table above is prerendered to a static `index.html` — 129 HTML files in total, plus the hashed JS/CSS/woff2 bundles under `_next/static/`. The deployed site needs no server logic.
+
+## Deploy (Hetzner VPS · nginx)
+
+Expected layout on the VPS:
+
+```
+/opt/sakina/
+├── docker-compose.yml      ← from this repo
+├── deploy/
+│   └── nginx.conf          ← from this repo
+└── out/                    ← rsync target
+```
+
+Initial setup (one-off):
+
+```bash
+ssh root@<VPS_IP> 'mkdir -p /opt/sakina/deploy'
+rsync -avz docker-compose.yml deploy/ root@<VPS_IP>:/opt/sakina/
+ssh root@<VPS_IP> 'cd /opt/sakina && docker compose up -d'
+```
+
+Every subsequent deploy:
+
+```bash
+npm run build
+rsync -avz --delete out/ root@<VPS_IP>:/opt/sakina/out/
+ssh root@<VPS_IP> 'cd /opt/sakina && docker compose restart sakina'
+```
+
+The container listens on host port `8080`. Front it with a system-level nginx (or Caddy) reverse proxy that adds TLS for the public domain.
+
+### Local Docker test
+
+```bash
+npm run build
+docker compose up -d         # http://localhost:8080
+```
+
+## Project structure
+
+```
+sakina/
+├── app/                    Next.js App Router pages
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── quran/{page,[surah]/page}.tsx
+│   ├── hadith/{page,[collection]/page}.tsx
+│   ├── bookmarks/page.tsx
+│   └── about/page.tsx
+├── components/             Nav, Footer, Ornament, Surah/Verse/Hadith renderers, BookmarkButton, DailyCards, BookmarksList
+├── lib/                    quran.ts · hadith.ts · daily.ts (server) · bookmarks.ts (client) · types.ts
+├── data/                   Bundled JSON (Qur'an + hadith + daily verses)
+├── scripts/                fetch-quran.ts · fetch-hadith.ts
+├── deploy/nginx.conf       nginx config (mounted by docker-compose)
+├── docker-compose.yml
+├── Dockerfile              (optional bake-everything image)
+├── sakina.html             Visual source-of-truth prototype
+└── CLAUDE.md               Full spec
+```
+
+## Non-negotiable rules
+
+CLAUDE.md §4 is the operating contract. The short version:
+
+1. **No fabricated Arabic.** Every glyph comes from the fetched data.
+2. **No fabricated hadith attribution.** Every record has collection, number, narrator, and grade. Nothing ḍaʿīf or weaker is shown.
+3. **Translation source declared.** Qur'an translation is Sahih International, labelled on every verse.
+4. **No streaks, no notifications, no analytics.** Anywhere.

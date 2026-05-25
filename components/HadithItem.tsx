@@ -1,4 +1,4 @@
-import { BookmarkButton } from "@/components/BookmarkButton";
+import { BookmarkStar } from "@/components/BookmarkStar";
 import type { Hadith } from "@/lib/types";
 
 const GRADE_LABELS: Record<Hadith["grade"], string> = {
@@ -21,7 +21,7 @@ export function HadithItem({ hadith }: { hadith: Hadith }) {
   return (
     <article
       id={`hadith-${hadith.id}`}
-      className="mb-5 rounded-md border border-line border-l-[3px] border-l-gold bg-surface p-[32px_36px] transition-colors duration-300 hover:border-gold-deep hover:border-l-gold-bright scroll-mt-24"
+      className="hadith mb-5 rounded-md border border-line border-l-[3px] border-l-gold bg-surface p-[32px_36px] transition-colors duration-300 hover:border-gold-deep hover:border-l-gold-bright scroll-mt-24"
     >
       <header className="mb-6 flex items-center justify-between gap-4 border-b border-line pb-4">
         <span className="font-cinzel text-[12px] uppercase tracking-[0.2em] text-gold">
@@ -33,7 +33,7 @@ export function HadithItem({ hadith }: { hadith: Hadith }) {
           >
             {GRADE_LABELS[hadith.grade]}
           </span>
-          <BookmarkButton kind="hadith" id={hadith.id} />
+          <BookmarkStar kind="hadith" id={hadith.id} />
         </div>
       </header>
 

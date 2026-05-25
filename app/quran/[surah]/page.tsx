@@ -16,11 +16,11 @@ export async function generateMetadata({ params }: Params) {
   const { surah } = await params;
   const n = Number(surah);
   if (!Number.isInteger(n) || n < 1 || n > 114) {
-    return { title: "Surah · Sakīna" };
+    return { title: "Surah" };
   }
   const s = await getSurah(n);
   return {
-    title: `Sūrah ${s.name_en} · Sakīna`,
+    title: `Sūrah ${s.name_en}`,
     description: `${s.meaning} — ${s.verses} verses, ${
       s.type === "meccan" ? "revealed in Makkah" : "revealed in Madīnah"
     }. Arabic with Sahih International translation and transliteration.`,

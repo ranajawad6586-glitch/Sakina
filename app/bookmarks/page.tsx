@@ -6,7 +6,7 @@ import { getAllHadiths } from "@/lib/hadith";
 import { getAllSurahsMeta } from "@/lib/quran";
 
 export const metadata = {
-  title: "Bookmarks · Sakīna",
+  title: "Bookmarks",
   description:
     "Your saved verses and hadith — stored only on this device.",
 };

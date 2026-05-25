@@ -100,3 +100,36 @@ main {
 .page-enter {
   animation: sakina-fade-in 0.6s ease;
 }
+
+/* Defer layout + paint for verses and hadith cards that are off-screen.
+   The intrinsic-size hints keep the scrollbar honest before the
+   browser has measured each element. Massive win on Al-Baqarah
+   (286 ayahs) and the hadith index (100 cards). */
+.verse,
+.hadith {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 240px;
+}
+
+/* Bookmark star — driven entirely by a page-level click delegator,
+   no per-instance JS. The .is-active class is toggled in the DOM by
+   BookmarksClient based on localStorage. */
+.bookmark-star {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+.bookmark-star:hover { color: var(--gold); }
+.bookmark-star.is-active { color: var(--gold); }
+.bookmark-star svg { width: 18px; height: 18px; transition: transform 0.2s; }
+.bookmark-star:hover svg { transform: scale(1.1); }
+.bookmark-star .star-fill { fill: none; }
+.bookmark-star.is-active .star-fill { fill: currentColor; }

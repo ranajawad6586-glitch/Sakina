@@ -1,35 +1,58 @@
 import type { Metadata } from "next";
 import { Amiri, Cinzel, Cormorant_Garamond } from "next/font/google";
+import { BookmarksClient } from "@/components/BookmarksClient";
 import { Footer } from "@/components/Footer";
 import { Nav } from "@/components/Nav";
 import "./globals.css";
 
+// Only the weights/subsets/styles actually used in the codebase.
+// Each combination is its own woff2 — keeping this list tight is the
+// single biggest win for first paint.
 const amiri = Amiri({
   variable: "--font-amiri",
-  subsets: ["arabic", "latin"],
-  weight: ["400", "700"],
+  subsets: ["arabic"],
+  weight: ["400"],
   display: "swap",
 });
 
 const cinzel = Cinzel({
   variable: "--font-cinzel",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["500", "600"],
   display: "swap",
 });
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400"],
   style: ["normal", "italic"],
   display: "swap",
 });
 
+const DESCRIPTION =
+  "A quiet place to read the Qur'an and walk with the authentic Sunnah of the Messenger of Allah ﷺ.";
+
 export const metadata: Metadata = {
-  title: "Sakīna · سَكِينَة — Qur'an & Authentic Sunnah",
-  description:
-    "A quiet place to read the Qur'an and walk with the authentic Sunnah of the Messenger of Allah ﷺ.",
+  title: {
+    default: "Sakīna · سَكِينَة — Qur'an & Authentic Sunnah",
+    template: "%s · Sakīna",
+  },
+  description: DESCRIPTION,
+  applicationName: "Sakīna",
+  authors: [{ name: "Sakīna" }],
+  themeColor: "#0a0e1a",
+  openGraph: {
+    title: "Sakīna · سَكِينَة",
+    description: DESCRIPTION,
+    type: "website",
+    siteName: "Sakīna",
+  },
+  twitter: {
+    card: "summary",
+    title: "Sakīna · سَكِينَة",
+    description: DESCRIPTION,
+  },
 };
 
 export default function RootLayout({
@@ -46,6 +69,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <BookmarksClient />
       </body>
     </html>
   );

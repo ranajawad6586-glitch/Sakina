@@ -7,7 +7,7 @@ import { CollectionGrid } from "@/components/CollectionGrid";
 import { HadithItem } from "@/components/HadithItem";
 
 export const metadata = {
-  title: "Hadith · Sakīna",
+  title: "Hadith",
   description:
     "Curated authentic narrations from Ṣaḥīḥ al-Bukhārī, Ṣaḥīḥ Muslim, an-Nawawī's 40, and the four Sunan. Every record graded Ṣaḥīḥ or Ḥasan.",
 };

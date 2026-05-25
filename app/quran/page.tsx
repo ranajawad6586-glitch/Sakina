@@ -2,7 +2,7 @@ import { getAllSurahsMeta } from "@/lib/quran";
 import { SurahList } from "@/components/SurahList";
 
 export const metadata = {
-  title: "The Surahs · Sakīna",
+  title: "The Surahs",
   description:
     "All 114 surahs of the Qur'an. Search by name, meaning, or number; filter by Meccan or Medinan revelation.",
 };

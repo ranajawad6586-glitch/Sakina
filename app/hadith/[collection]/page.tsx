@@ -19,10 +19,10 @@ interface Params {
 
 export async function generateMetadata({ params }: Params) {
   const { collection } = await params;
-  if (!isCollectionId(collection)) return { title: "Hadith · Sakīna" };
+  if (!isCollectionId(collection)) return { title: "Hadith" };
   const meta = COLLECTIONS.find((c) => c.id === collection);
   return {
-    title: `${meta?.name_en} · Sakīna`,
+    title: meta?.name_en ?? "Hadith",
     description: `Curated narrations from ${meta?.name_en}. Every record graded Ṣaḥīḥ or Ḥasan.`,
   };
 }

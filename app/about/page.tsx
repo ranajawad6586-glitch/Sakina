@@ -1,7 +1,7 @@
 import { Ornament } from "@/components/Ornament";
 
 export const metadata = {
-  title: "About · Sakīna",
+  title: "About",
   description:
     "On the data sources, typography, and intentions behind Sakīna.",
 };
