@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sakīna · سكينة — Qur'an & Authentic Sunnah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-deep: #0a0e1a;
+    --bg-mid:  #131a2e;
+    --bg-surface: #1a2138;
+    --bg-elevated: #232b45;
+    --cream: #f4ecd8;
+    --cream-soft: #e8dec5;
+    --muted: #8a93ad;
+    --gold: #d4a574;
+    --gold-bright: #e8c08a;
+    --gold-deep: #b8895a;
+    --emerald: #4a8770;
+    --crimson: #c97064;
+    --border: #2d3550;
+    --border-soft: #232b45;
+    --shadow-soft: 0 4px 20px rgba(0,0,0,0.3);
+    --shadow-glow: 0 0 40px rgba(212,165,116,0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    background: var(--bg-deep);
+    color: var(--cream);
+    min-height: 100vh;
+    line-height: 1.6;
+    font-size: 18px;
+    overflow-x: hidden;
+    background-image:
+      radial-gradient(ellipse at top, rgba(74,135,112,0.08), transparent 60%),
+      radial-gradient(ellipse at bottom right, rgba(212,165,116,0.06), transparent 50%),
+      linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-mid) 100%);
+    background-attachment: fixed;
+  }
+
+  /* Geometric pattern overlay */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.025;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><g fill='none' stroke='%23d4a574' stroke-width='0.5'><polygon points='40,4 76,40 40,76 4,40'/><polygon points='40,16 64,40 40,64 16,40'/><circle cx='40' cy='40' r='8'/></g></svg>");
+    z-index: 0;
+  }
+
+  ::selection { background: var(--gold); color: var(--bg-deep); }
+
+  /* ===== NAVIGATION ===== */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(10,14,26,0.75);
+    border-bottom: 1px solid var(--border);
+    padding: 18px 0;
+  }
+
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+  }
+
+  .brand-mark {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-mark svg { width: 100%; height: 100%; }
+
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+
+  .brand-name {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--cream);
+    letter-spacing: 0.15em;
+  }
+
+  .brand-ar {
+    font-family: 'Amiri', serif;
+    font-size: 18px;
+    color: var(--gold);
+    margin-top: 4px;
+    letter-spacing: 0.05em;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+  }
+
+  .nav-link {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 18px;
+    color: var(--muted);
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  .nav-link:hover { color: var(--cream); }
+
+  .nav-link.active {
+    color: var(--gold);
+  }
+
+  .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+  }
+
+  /* ===== MAIN ===== */
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 32px 120px;
+  }
+
+  .page { display: none; animation: fadeIn 0.6s ease; }
+  .page.active { display: block; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ===== HERO / HOME ===== */
+  .hero {
+    text-align: center;
+    padding: 40px 0 80px;
+    position: relative;
+  }
+
+  .ornament {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .ornament-line {
+    width: 80px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+
+  .ornament-star { color: var(--gold); font-size: 14px; }
+
+  .hero-bismillah {
+    font-family: 'Amiri', serif;
+    font-size: clamp(36px, 5vw, 58px);
+    color: var(--gold-bright);
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    direction: rtl;
+    text-shadow: 0 0 40px rgba(212,165,116,0.2);
+  }
+
+  .hero-bismillah-trans {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    color: var(--muted);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+  }
+
+  .hero-title {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(38px, 6vw, 64px);
+    font-weight: 500;
+    color: var(--cream);
+    letter-spacing: 0.04em;
+    margin-bottom: 14px;
+  }
+
+  .hero-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: clamp(18px, 2.2vw, 22px);
+    color: var(--cream-soft);
+    max-width: 580px;
+    margin: 0 auto 40px;
+  }
+
+  /* ===== DAILY CARDS ===== */
+  .daily-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 56px;
+  }
+
+  @media (min-width: 900px) {
+    .daily-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  .daily-card {
+    background: linear-gradient(135deg, var(--bg-surface), var(--bg-elevated));
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 36px 32px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .daily-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top right, rgba(212,165,116,0.08), transparent 50%);
+    pointer-events: none;
+  }
+
+  .daily-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 24px;
+  }
+
+  .daily-label-mark {
+    width: 24px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  .daily-arabic {
+    font-family: 'Amiri', serif;
+    font-size: 26px;
+    line-height: 1.9;
+    color: var(--cream);
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 24px;
+  }
+
+  .daily-translation {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    line-height: 1.7;
+    color: var(--cream-soft);
+    font-style: italic;
+    margin-bottom: 18px;
+  }
+
+  .daily-source {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    color: var(--gold-deep);
+    text-transform: uppercase;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+  }
+
+  .daily-grade {
+    display: inline-block;
+    margin-left: 12px;
+    padding: 2px 10px;
+    background: rgba(74,135,112,0.15);
+    color: var(--emerald);
+    border-radius: 12px;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+  }
+
+  /* ===== SECTION HEADERS ===== */
+  .section-header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  .section-eyebrow {
+    font-family: 'Amiri', serif;
+    font-size: 32px;
+    color: var(--gold);
+    margin-bottom: 8px;
+    direction: rtl;
+  }
+
+  .section-title {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(32px, 4.5vw, 44px);
+    font-weight: 500;
+    color: var(--cream);
+    letter-spacing: 0.04em;
+    margin-bottom: 14px;
+  }
+
+  .section-sub {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 18px;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  /* ===== QURAN PAGE ===== */
+  .controls-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 36px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search-input {
+    flex: 1;
+    min-width: 240px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    color: var(--cream);
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    transition: border-color 0.3s;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: var(--gold);
+  }
+
+  .search-input::placeholder { color: var(--muted); font-style: italic; }
+
+  .filter-tabs { display: flex; gap: 8px; }
+
+  .filter-tab {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+
+  .filter-tab:hover { color: var(--cream); border-color: var(--gold-deep); }
+  .filter-tab.active { color: var(--bg-deep); background: var(--gold); border-color: var(--gold); }
+
+  /* ===== SURAH GRID ===== */
+  .surah-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .surah-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 22px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  .surah-card:hover {
+    border-color: var(--gold-deep);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .surah-card.has-text::after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 6px;
+    height: 6px;
+    background: var(--emerald);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--emerald);
+  }
+
+  .surah-number {
+    flex-shrink: 0;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    color: var(--gold);
+  }
+
+  .surah-number svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .surah-info { flex: 1; min-width: 0; }
+
+  .surah-name {
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+    color: var(--cream);
+    font-weight: 500;
+    margin-bottom: 4px;
+    letter-spacing: 0.02em;
+  }
+
+  .surah-meaning {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .surah-arabic {
+    font-family: 'Amiri', serif;
+    font-size: 26px;
+    color: var(--gold);
+    direction: rtl;
+    line-height: 1;
+  }
+
+  /* ===== SURAH READER ===== */
+  .reader-back {
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 10px 0;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    transition: color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .reader-back:hover { color: var(--gold); }
+
+  .reader-header {
+    text-align: center;
+    padding: 32px 0 48px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 48px;
+    position: relative;
+  }
+
+  .reader-arabic-name {
+    font-family: 'Amiri', serif;
+    font-size: clamp(56px, 8vw, 80px);
+    color: var(--gold-bright);
+    direction: rtl;
+    line-height: 1;
+    margin-bottom: 18px;
+    text-shadow: 0 0 30px rgba(212,165,116,0.15);
+  }
+
+  .reader-eng-name {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    color: var(--cream);
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+  }
+
+  .reader-meaning {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  .reader-meta {
+    display: inline-flex;
+    gap: 24px;
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold-deep);
+  }
+
+  .reader-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .reader-bismillah {
+    text-align: center;
+    font-family: 'Amiri', serif;
+    font-size: 36px;
+    color: var(--gold);
+    direction: rtl;
+    margin-bottom: 56px;
+    line-height: 1.6;
+  }
+
+  .verse {
+    margin-bottom: 44px;
+    padding-bottom: 36px;
+    border-bottom: 1px dashed var(--border-soft);
+  }
+
+  .verse:last-child { border-bottom: none; }
+
+  .verse-arabic {
+    font-family: 'Amiri', serif;
+    font-size: 30px;
+    line-height: 2.2;
+    color: var(--cream);
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  .verse-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><polygon points='20,2 38,20 20,38 2,20' fill='none' stroke='%23d4a574' stroke-width='1'/></svg>") center/contain no-repeat;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    color: var(--gold);
+    margin: 0 8px;
+    vertical-align: middle;
+  }
+
+  .verse-translation {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    line-height: 1.75;
+    color: var(--cream-soft);
+    margin-bottom: 8px;
+  }
+
+  .verse-trans-label {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .verse-transliteration {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--gold-deep);
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  /* ===== HADITH PAGE ===== */
+  .collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 56px;
+  }
+
+  .collection-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 24px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .collection-card:hover {
+    border-color: var(--gold-deep);
+    transform: translateY(-2px);
+  }
+
+  .collection-card.active {
+    border-color: var(--gold);
+    background: linear-gradient(135deg, var(--bg-surface), var(--bg-elevated));
+  }
+
+  .collection-ar {
+    font-family: 'Amiri', serif;
+    font-size: 26px;
+    color: var(--gold);
+    direction: rtl;
+    margin-bottom: 10px;
+  }
+
+  .collection-name {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: var(--cream);
+    margin-bottom: 6px;
+  }
+
+  .collection-count {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  .hadith-item {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--gold);
+    border-radius: 6px;
+    padding: 32px 36px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+  }
+
+  .hadith-item:hover {
+    border-color: var(--gold-deep);
+    border-left-color: var(--gold-bright);
+  }
+
+  .hadith-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hadith-number {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+  }
+
+  .hadith-grade {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    padding: 4px 12px;
+    border-radius: 12px;
+    text-transform: uppercase;
+  }
+
+  .grade-sahih {
+    background: rgba(74,135,112,0.15);
+    color: var(--emerald);
+    border: 1px solid rgba(74,135,112,0.3);
+  }
+
+  .grade-hasan {
+    background: rgba(212,165,116,0.12);
+    color: var(--gold);
+    border: 1px solid rgba(212,165,116,0.3);
+  }
+
+  .hadith-arabic {
+    font-family: 'Amiri', serif;
+    font-size: 24px;
+    line-height: 2;
+    color: var(--cream);
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 24px;
+    padding: 0 4px;
+  }
+
+  .hadith-translation {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 1.75;
+    color: var(--cream-soft);
+    margin-bottom: 16px;
+  }
+
+  .hadith-translation .drop-cap {
+    font-family: 'Cinzel', serif;
+    font-size: 42px;
+    float: left;
+    line-height: 1;
+    padding-right: 10px;
+    padding-top: 4px;
+    color: var(--gold);
+  }
+
+  .hadith-narrator {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: var(--muted);
+    padding-top: 16px;
+    border-top: 1px solid var(--border-soft);
+  }
+
+  .hadith-narrator strong { color: var(--gold-deep); font-style: normal; font-weight: 500; }
+
+  /* ===== ABOUT ===== */
+  .about-content {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-section {
+    margin-bottom: 48px;
+    padding: 32px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-align: left;
+  }
+
+  .about-section h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 17px;
+    color: var(--gold);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .about-section p {
+    color: var(--cream-soft);
+    line-height: 1.75;
+    margin-bottom: 12px;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    text-align: center;
+    padding: 60px 32px 40px;
+    color: var(--muted);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer-ar {
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+    color: var(--gold);
+    direction: rtl;
+    margin-bottom: 10px;
+  }
+
+  /* ===== EMPTY STATE ===== */
+  .empty-state {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--muted);
+  }
+
+  .empty-state-ar {
+    font-family: 'Amiri', serif;
+    font-size: 28px;
+    color: var(--gold-deep);
+    margin-bottom: 12px;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 720px) {
+    main { padding: 32px 20px 80px; }
+    .nav-inner { padding: 0 20px; }
+    .nav-menu { gap: 0; }
+    .nav-link { padding: 8px 10px; font-size: 11px; letter-spacing: 0.12em; }
+    .brand-name { font-size: 18px; }
+    .hadith-item { padding: 24px 22px; }
+    .verse-arabic { font-size: 26px; line-height: 2; }
+    .hadith-arabic { font-size: 21px; }
+    .daily-arabic { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="brand" onclick="setPage('home')">
+      <div class="brand-mark">
+        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#e8c08a"/>
+              <stop offset="100%" stop-color="#b8895a"/>
+            </linearGradient>
+          </defs>
+          <polygon points="25,3 47,25 25,47 3,25" fill="none" stroke="url(#brandGrad)" stroke-width="1.5"/>
+          <polygon points="25,11 39,25 25,39 11,25" fill="none" stroke="url(#brandGrad)" stroke-width="1"/>
+          <circle cx="25" cy="25" r="4" fill="url(#brandGrad)" opacity="0.7"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <span class="brand-name">SAKĪNA</span>
+        <span class="brand-ar">سَكِينَة</span>
+      </div>
+    </div>
+    <ul class="nav-menu">
+      <li><button class="nav-link active" data-page="home" onclick="setPage('home')">Home</button></li>
+      <li><button class="nav-link" data-page="quran" onclick="setPage('quran')">Qur'an</button></li>
+      <li><button class="nav-link" data-page="hadith" onclick="setPage('hadith')">Hadith</button></li>
+      <li><button class="nav-link" data-page="about" onclick="setPage('about')">About</button></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+<!-- ===== HOME / DAILY ===== -->
+<section class="page active" id="page-home">
+  <div class="hero">
+    <div class="ornament">
+      <div class="ornament-line"></div>
+      <span class="ornament-star">✦</span>
+      <div class="ornament-line"></div>
+    </div>
+    <div class="hero-bismillah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+    <div class="hero-bismillah-trans">In the name of Allah, the Most Gracious, the Most Merciful</div>
+    <h1 class="hero-title">Sakīna</h1>
+    <p class="hero-tagline">A quiet place to read the Qur'an and walk with the authentic Sunnah of the Messenger of Allah ﷺ.</p>
+  </div>
+
+  <div class="daily-grid">
+    <article class="daily-card">
+      <div class="daily-label"><span class="daily-label-mark"></span>Verse of the Day</div>
+      <div class="daily-arabic" id="dailyVerseAr"></div>
+      <div class="daily-translation" id="dailyVerseTr"></div>
+      <div class="daily-source" id="dailyVerseSrc"></div>
+    </article>
+    <article class="daily-card">
+      <div class="daily-label"><span class="daily-label-mark"></span>Hadith of the Day</div>
+      <div class="daily-arabic" id="dailyHadithAr"></div>
+      <div class="daily-translation" id="dailyHadithTr"></div>
+      <div class="daily-source"><span id="dailyHadithSrc"></span><span class="daily-grade" id="dailyHadithGrade"></span></div>
+    </article>
+  </div>
+
+  <div class="section-header">
+    <div class="section-eyebrow">ٱلْقُرْآنُ ٱلْكَرِيمُ</div>
+    <h2 class="section-title">Begin with the Qur'an</h2>
+    <p class="section-sub">All 114 chapters. Several are available in full Arabic and English translation; more are unfolding.</p>
+  </div>
+
+  <div style="text-align:center;">
+    <button class="filter-tab active" style="padding: 14px 28px; font-size: 12px;" onclick="setPage('quran')">Open the Mushaf →</button>
+  </div>
+</section>
+
+<!-- ===== QURAN PAGE ===== -->
+<section class="page" id="page-quran">
+  <div id="quranList">
+    <div class="section-header">
+      <div class="section-eyebrow">سُورَة</div>
+      <h2 class="section-title">The Surahs</h2>
+      <p class="section-sub">114 chapters revealed over twenty-three years. Tap any surah to read.</p>
+    </div>
+
+    <div class="controls-bar">
+      <input type="text" class="search-input" placeholder="Search by name, meaning, or number…" id="surahSearch" oninput="renderSurahGrid()" />
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="all" onclick="setFilter('all')">All</button>
+        <button class="filter-tab" data-filter="meccan" onclick="setFilter('meccan')">Meccan</button>
+        <button class="filter-tab" data-filter="medinan" onclick="setFilter('medinan')">Medinan</button>
+      </div>
+    </div>
+
+    <div class="surah-grid" id="surahGrid"></div>
+  </div>
+
+  <div id="quranReader" style="display:none;"></div>
+</section>
+
+<!-- ===== HADITH PAGE ===== -->
+<section class="page" id="page-hadith">
+  <div class="section-header">
+    <div class="section-eyebrow">ٱلْحَدِيثُ ٱلشَّرِيف</div>
+    <h2 class="section-title">The Authentic Sunnah</h2>
+    <p class="section-sub">Curated narrations from the six canonical collections — each with chain, narrator, and authenticity grade.</p>
+  </div>
+
+  <div class="collection-grid" id="collectionGrid"></div>
+  <div id="hadithList"></div>
+</section>
+
+<!-- ===== ABOUT PAGE ===== -->
+<section class="page" id="page-about">
+  <div class="section-header">
+    <div class="section-eyebrow">عَن</div>
+    <h2 class="section-title">About Sakīna</h2>
+    <p class="section-sub">A reader designed for stillness.</p>
+  </div>
+
+  <div class="about-content">
+    <div class="about-section">
+      <h3>Authenticity</h3>
+      <p>Every Qur'anic verse is presented in the standard Uthmānī script with translation from <em>Sahih International</em>. Every hadith is sourced from the canonical collections (Bukhārī, Muslim, Abū Dāwūd, Tirmidhī, Nasā'ī, Ibn Mājah) and the celebrated <em>Forty Hadith</em> of Imam an-Nawawī, with the traditional grade (ṣaḥīḥ / ḥasan) shown beside each.</p>
+      <p>No fabricated (<em>mawḍūʿ</em>) or weak (<em>ḍaʿīf</em>) narrations are included in this curated collection. Where scholars have differed in grading, the majority position is followed.</p>
+    </div>
+
+    <div class="about-section">
+      <h3>Typography</h3>
+      <p>The Arabic is set in <em>Amiri</em> — a revival of the typeface used by the historic Bulaq Press of Cairo, designed to honour the classical naskh tradition. The English uses <em>Cormorant Garamond</em> and <em>Cinzel</em> for an editorial, manuscript-inspired feel.</p>
+    </div>
+
+    <div class="about-section">
+      <h3>How to use</h3>
+      <p>Browse surahs by name, meaning, or revelation context. Filter hadiths by collection. Search is responsive — start typing in any field and the list narrows.</p>
+      <p>Read slowly. Sakīna means <em>tranquility</em>, the gentle stillness Allah sends down upon the hearts of believers (Qur'an 48:4). May your time here be a portion of it.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-ar">وَٱللَّهُ خَيْرٌ حَافِظًا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ</div>
+  <div>And Allah is the best Guardian, and He is the Most Merciful of the merciful. — Yūsuf 12:64</div>
+</footer>
+
+<script>
+/* ============================================================
+   DATA: 114 SURAHS (metadata) + full text for selected ones
+   ============================================================ */
+const SURAHS = [
+  { n: 1, ar: "ٱلْفَاتِحَة", en: "Al-Fātiḥah", meaning: "The Opening", verses: 7, type: "meccan" },
+  { n: 2, ar: "ٱلْبَقَرَة", en: "Al-Baqarah", meaning: "The Cow", verses: 286, type: "medinan" },
+  { n: 3, ar: "آلِ عِمْرَان", en: "Āli ʿImrān", meaning: "The Family of Imran", verses: 200, type: "medinan" },
+  { n: 4, ar: "ٱلنِّسَاء", en: "An-Nisāʾ", meaning: "The Women", verses: 176, type: "medinan" },
+  { n: 5, ar: "ٱلْمَائِدَة", en: "Al-Māʾidah", meaning: "The Table Spread", verses: 120, type: "medinan" },
+  { n: 6, ar: "ٱلْأَنْعَام", en: "Al-Anʿām", meaning: "The Cattle", verses: 165, type: "meccan" },
+  { n: 7, ar: "ٱلْأَعْرَاف", en: "Al-Aʿrāf", meaning: "The Heights", verses: 206, type: "meccan" },
+  { n: 8, ar: "ٱلْأَنْفَال", en: "Al-Anfāl", meaning: "The Spoils of War", verses: 75, type: "medinan" },
+  { n: 9, ar: "ٱلتَّوْبَة", en: "At-Tawbah", meaning: "The Repentance", verses: 129, type: "medinan" },
+  { n: 10, ar: "يُونُس", en: "Yūnus", meaning: "Jonah", verses: 109, type: "meccan" },
+  { n: 11, ar: "هُود", en: "Hūd", meaning: "Hud", verses: 123, type: "meccan" },
+  { n: 12, ar: "يُوسُف", en: "Yūsuf", meaning: "Joseph", verses: 111, type: "meccan" },
+  { n: 13, ar: "ٱلرَّعْد", en: "Ar-Raʿd", meaning: "The Thunder", verses: 43, type: "medinan" },
+  { n: 14, ar: "إِبْرَاهِيم", en: "Ibrāhīm", meaning: "Abraham", verses: 52, type: "meccan" },
+  { n: 15, ar: "ٱلْحِجْر", en: "Al-Ḥijr", meaning: "The Rocky Tract", verses: 99, type: "meccan" },
+  { n: 16, ar: "ٱلنَّحْل", en: "An-Naḥl", meaning: "The Bee", verses: 128, type: "meccan" },
+  { n: 17, ar: "ٱلْإِسْرَاء", en: "Al-Isrāʾ", meaning: "The Night Journey", verses: 111, type: "meccan" },
+  { n: 18, ar: "ٱلْكَهْف", en: "Al-Kahf", meaning: "The Cave", verses: 110, type: "meccan" },
+  { n: 19, ar: "مَرْيَم", en: "Maryam", meaning: "Mary", verses: 98, type: "meccan" },
+  { n: 20, ar: "طٰه", en: "Ṭā Hā", meaning: "Ta-Ha", verses: 135, type: "meccan" },
+  { n: 21, ar: "ٱلْأَنْبِيَاء", en: "Al-Anbiyāʾ", meaning: "The Prophets", verses: 112, type: "meccan" },
+  { n: 22, ar: "ٱلْحَجّ", en: "Al-Ḥajj", meaning: "The Pilgrimage", verses: 78, type: "medinan" },
+  { n: 23, ar: "ٱلْمُؤْمِنُون", en: "Al-Muʾminūn", meaning: "The Believers", verses: 118, type: "meccan" },
+  { n: 24, ar: "ٱلنُّور", en: "An-Nūr", meaning: "The Light", verses: 64, type: "medinan" },
+  { n: 25, ar: "ٱلْفُرْقَان", en: "Al-Furqān", meaning: "The Criterion", verses: 77, type: "meccan" },
+  { n: 26, ar: "ٱلشُّعَرَاء", en: "Ash-Shuʿarāʾ", meaning: "The Poets", verses: 227, type: "meccan" },
+  { n: 27, ar: "ٱلنَّمْل", en: "An-Naml", meaning: "The Ants", verses: 93, type: "meccan" },
+  { n: 28, ar: "ٱلْقَصَص", en: "Al-Qaṣaṣ", meaning: "The Stories", verses: 88, type: "meccan" },
+  { n: 29, ar: "ٱلْعَنْكَبُوت", en: "Al-ʿAnkabūt", meaning: "The Spider", verses: 69, type: "meccan" },
+  { n: 30, ar: "ٱلرُّوم", en: "Ar-Rūm", meaning: "The Romans", verses: 60, type: "meccan" },
+  { n: 31, ar: "لُقْمَان", en: "Luqmān", meaning: "Luqman", verses: 34, type: "meccan" },
+  { n: 32, ar: "ٱلسَّجْدَة", en: "As-Sajdah", meaning: "The Prostration", verses: 30, type: "meccan" },
+  { n: 33, ar: "ٱلْأَحْزَاب", en: "Al-Aḥzāb", meaning: "The Confederates", verses: 73, type: "medinan" },
+  { n: 34, ar: "سَبَأ", en: "Sabaʾ", meaning: "Sheba", verses: 54, type: "meccan" },
+  { n: 35, ar: "فَاطِر", en: "Fāṭir", meaning: "The Originator", verses: 45, type: "meccan" },
+  { n: 36, ar: "يٰس", en: "Yā Sīn", meaning: "Ya-Sin", verses: 83, type: "meccan" },
+  { n: 37, ar: "ٱلصَّافَّات", en: "Aṣ-Ṣāffāt", meaning: "Those Ranged in Ranks", verses: 182, type: "meccan" },
+  { n: 38, ar: "ص", en: "Ṣād", meaning: "Sad", verses: 88, type: "meccan" },
+  { n: 39, ar: "ٱلزُّمَر", en: "Az-Zumar", meaning: "The Groups", verses: 75, type: "meccan" },
+  { n: 40, ar: "غَافِر", en: "Ghāfir", meaning: "The Forgiver", verses: 85, type: "meccan" },
+  { n: 41, ar: "فُصِّلَت", en: "Fuṣṣilat", meaning: "Explained in Detail", verses: 54, type: "meccan" },
+  { n: 42, ar: "ٱلشُّورَىٰ", en: "Ash-Shūrā", meaning: "The Consultation", verses: 53, type: "meccan" },
+  { n: 43, ar: "ٱلزُّخْرُف", en: "Az-Zukhruf", meaning: "The Gold Adornments", verses: 89, type: "meccan" },
+  { n: 44, ar: "ٱلدُّخَان", en: "Ad-Dukhān", meaning: "The Smoke", verses: 59, type: "meccan" },
+  { n: 45, ar: "ٱلْجَاثِيَة", en: "Al-Jāthiyah", meaning: "The Kneeling", verses: 37, type: "meccan" },
+  { n: 46, ar: "ٱلْأَحْقَاف", en: "Al-Aḥqāf", meaning: "The Sand-Dunes", verses: 35, type: "meccan" },
+  { n: 47, ar: "مُحَمَّد", en: "Muḥammad", meaning: "Muhammad", verses: 38, type: "medinan" },
+  { n: 48, ar: "ٱلْفَتْح", en: "Al-Fatḥ", meaning: "The Victory", verses: 29, type: "medinan" },
+  { n: 49, ar: "ٱلْحُجُرَات", en: "Al-Ḥujurāt", meaning: "The Chambers", verses: 18, type: "medinan" },
+  { n: 50, ar: "ق", en: "Qāf", meaning: "Qaf", verses: 45, type: "meccan" },
+  { n: 51, ar: "ٱلذَّارِيَات", en: "Adh-Dhāriyāt", meaning: "The Winnowing Winds", verses: 60, type: "meccan" },
+  { n: 52, ar: "ٱلطُّور", en: "Aṭ-Ṭūr", meaning: "The Mount", verses: 49, type: "meccan" },
+  { n: 53, ar: "ٱلنَّجْم", en: "An-Najm", meaning: "The Star", verses: 62, type: "meccan" },
+  { n: 54, ar: "ٱلْقَمَر", en: "Al-Qamar", meaning: "The Moon", verses: 55, type: "meccan" },
+  { n: 55, ar: "ٱلرَّحْمَٰن", en: "Ar-Raḥmān", meaning: "The Most Merciful", verses: 78, type: "medinan" },
+  { n: 56, ar: "ٱلْوَاقِعَة", en: "Al-Wāqiʿah", meaning: "The Inevitable", verses: 96, type: "meccan" },
+  { n: 57, ar: "ٱلْحَدِيد", en: "Al-Ḥadīd", meaning: "The Iron", verses: 29, type: "medinan" },
+  { n: 58, ar: "ٱلْمُجَادِلَة", en: "Al-Mujādilah", meaning: "The Pleading Woman", verses: 22, type: "medinan" },
+  { n: 59, ar: "ٱلْحَشْر", en: "Al-Ḥashr", meaning: "The Exile", verses: 24, type: "medinan" },
+  { n: 60, ar: "ٱلْمُمْتَحَنَة", en: "Al-Mumtaḥanah", meaning: "She That Is to Be Examined", verses: 13, type: "medinan" },
+  { n: 61, ar: "ٱلصَّفّ", en: "Aṣ-Ṣaff", meaning: "The Ranks", verses: 14, type: "medinan" },
+  { n: 62, ar: "ٱلْجُمُعَة", en: "Al-Jumuʿah", meaning: "Friday", verses: 11, type: "medinan" },
+  { n: 63, ar: "ٱلْمُنَافِقُون", en: "Al-Munāfiqūn", meaning: "The Hypocrites", verses: 11, type: "medinan" },
+  { n: 64, ar: "ٱلتَّغَابُن", en: "At-Taghābun", meaning: "Mutual Disillusion", verses: 18, type: "medinan" },
+  { n: 65, ar: "ٱلطَّلَاق", en: "Aṭ-Ṭalāq", meaning: "Divorce", verses: 12, type: "medinan" },
+  { n: 66, ar: "ٱلتَّحْرِيم", en: "At-Taḥrīm", meaning: "The Prohibition", verses: 12, type: "medinan" },
+  { n: 67, ar: "ٱلْمُلْك", en: "Al-Mulk", meaning: "The Dominion", verses: 30, type: "meccan" },
+  { n: 68, ar: "ٱلْقَلَم", en: "Al-Qalam", meaning: "The Pen", verses: 52, type: "meccan" },
+  { n: 69, ar: "ٱلْحَاقَّة", en: "Al-Ḥāqqah", meaning: "The Inevitable Reality", verses: 52, type: "meccan" },
+  { n: 70, ar: "ٱلْمَعَارِج", en: "Al-Maʿārij", meaning: "The Ways of Ascent", verses: 44, type: "meccan" },
+  { n: 71, ar: "نُوح", en: "Nūḥ", meaning: "Noah", verses: 28, type: "meccan" },
+  { n: 72, ar: "ٱلْجِنّ", en: "Al-Jinn", meaning: "The Jinn", verses: 28, type: "meccan" },
+  { n: 73, ar: "ٱلْمُزَّمِّل", en: "Al-Muzzammil", meaning: "The Enshrouded One", verses: 20, type: "meccan" },
+  { n: 74, ar: "ٱلْمُدَّثِّر", en: "Al-Muddaththir", meaning: "The Cloaked One", verses: 56, type: "meccan" },
+  { n: 75, ar: "ٱلْقِيَامَة", en: "Al-Qiyāmah", meaning: "The Resurrection", verses: 40, type: "meccan" },
+  { n: 76, ar: "ٱلْإِنْسَان", en: "Al-Insān", meaning: "Man", verses: 31, type: "medinan" },
+  { n: 77, ar: "ٱلْمُرْسَلَات", en: "Al-Mursalāt", meaning: "Those Sent Forth", verses: 50, type: "meccan" },
+  { n: 78, ar: "ٱلنَّبَأ", en: "An-Nabaʾ", meaning: "The Tidings", verses: 40, type: "meccan" },
+  { n: 79, ar: "ٱلنَّازِعَات", en: "An-Nāziʿāt", meaning: "Those Who Pull Out", verses: 46, type: "meccan" },
+  { n: 80, ar: "عَبَسَ", en: "ʿAbasa", meaning: "He Frowned", verses: 42, type: "meccan" },
+  { n: 81, ar: "ٱلتَّكْوِير", en: "At-Takwīr", meaning: "The Folding Up", verses: 29, type: "meccan" },
+  { n: 82, ar: "ٱلْإِنْفِطَار", en: "Al-Infiṭār", meaning: "The Cleaving Asunder", verses: 19, type: "meccan" },
+  { n: 83, ar: "ٱلْمُطَفِّفِين", en: "Al-Muṭaffifīn", meaning: "Defrauding", verses: 36, type: "meccan" },
+  { n: 84, ar: "ٱلْإِنْشِقَاق", en: "Al-Inshiqāq", meaning: "The Splitting Open", verses: 25, type: "meccan" },
+  { n: 85, ar: "ٱلْبُرُوج", en: "Al-Burūj", meaning: "The Constellations", verses: 22, type: "meccan" },
+  { n: 86, ar: "ٱلطَّارِق", en: "Aṭ-Ṭāriq", meaning: "The Morning Star", verses: 17, type: "meccan" },
+  { n: 87, ar: "ٱلْأَعْلَىٰ", en: "Al-Aʿlā", meaning: "The Most High", verses: 19, type: "meccan" },
+  { n: 88, ar: "ٱلْغَاشِيَة", en: "Al-Ghāshiyah", meaning: "The Overwhelming Event", verses: 26, type: "meccan" },
+  { n: 89, ar: "ٱلْفَجْر", en: "Al-Fajr", meaning: "The Dawn", verses: 30, type: "meccan" },
+  { n: 90, ar: "ٱلْبَلَد", en: "Al-Balad", meaning: "The City", verses: 20, type: "meccan" },
+  { n: 91, ar: "ٱلشَّمْس", en: "Ash-Shams", meaning: "The Sun", verses: 15, type: "meccan" },
+  { n: 92, ar: "ٱللَّيْل", en: "Al-Layl", meaning: "The Night", verses: 21, type: "meccan" },
+  { n: 93, ar: "ٱلضُّحَىٰ", en: "Aḍ-Ḍuḥā", meaning: "The Forenoon", verses: 11, type: "meccan" },
+  { n: 94, ar: "ٱلشَّرْح", en: "Ash-Sharḥ", meaning: "The Relief", verses: 8, type: "meccan" },
+  { n: 95, ar: "ٱلتِّين", en: "At-Tīn", meaning: "The Fig", verses: 8, type: "meccan" },
+  { n: 96, ar: "ٱلْعَلَق", en: "Al-ʿAlaq", meaning: "The Clot", verses: 19, type: "meccan" },
+  { n: 97, ar: "ٱلْقَدْر", en: "Al-Qadr", meaning: "The Night of Decree", verses: 5, type: "meccan" },
+  { n: 98, ar: "ٱلْبَيِّنَة", en: "Al-Bayyinah", meaning: "The Clear Proof", verses: 8, type: "medinan" },
+  { n: 99, ar: "ٱلزَّلْزَلَة", en: "Az-Zalzalah", meaning: "The Earthquake", verses: 8, type: "medinan" },
+  { n: 100, ar: "ٱلْعَادِيَات", en: "Al-ʿĀdiyāt", meaning: "The Chargers", verses: 11, type: "meccan" },
+  { n: 101, ar: "ٱلْقَارِعَة", en: "Al-Qāriʿah", meaning: "The Calamity", verses: 11, type: "meccan" },
+  { n: 102, ar: "ٱلتَّكَاثُر", en: "At-Takāthur", meaning: "The Rivalry for Worldly Increase", verses: 8, type: "meccan" },
+  { n: 103, ar: "ٱلْعَصْر", en: "Al-ʿAṣr", meaning: "The Declining Day", verses: 3, type: "meccan" },
+  { n: 104, ar: "ٱلْهُمَزَة", en: "Al-Humazah", meaning: "The Slanderer", verses: 9, type: "meccan" },
+  { n: 105, ar: "ٱلْفِيل", en: "Al-Fīl", meaning: "The Elephant", verses: 5, type: "meccan" },
+  { n: 106, ar: "قُرَيْش", en: "Quraysh", meaning: "Quraysh", verses: 4, type: "meccan" },
+  { n: 107, ar: "ٱلْمَاعُون", en: "Al-Māʿūn", meaning: "Small Kindnesses", verses: 7, type: "meccan" },
+  { n: 108, ar: "ٱلْكَوْثَر", en: "Al-Kawthar", meaning: "Abundance", verses: 3, type: "meccan" },
+  { n: 109, ar: "ٱلْكَافِرُون", en: "Al-Kāfirūn", meaning: "The Disbelievers", verses: 6, type: "meccan" },
+  { n: 110, ar: "ٱلنَّصْر", en: "An-Naṣr", meaning: "Divine Support", verses: 3, type: "medinan" },
+  { n: 111, ar: "ٱلْمَسَد", en: "Al-Masad", meaning: "The Palm Fiber", verses: 5, type: "meccan" },
+  { n: 112, ar: "ٱلْإِخْلَاص", en: "Al-Ikhlāṣ", meaning: "Sincerity", verses: 4, type: "meccan" },
+  { n: 113, ar: "ٱلْفَلَق", en: "Al-Falaq", meaning: "The Daybreak", verses: 5, type: "meccan" },
+  { n: 114, ar: "ٱلنَّاس", en: "An-Nās", meaning: "Mankind", verses: 6, type: "meccan" }
+];
+
+/* Full verse text for selected surahs (Sahih International translation) */
+const SURAH_TEXT = {
+  1: {
+    bismillah: false, // Al-Fatiha begins with Bismillah as its first verse
+    verses: [
+      { ar: "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", tl: "Bismillāhi r-raḥmāni r-raḥīm", en: "In the name of Allah, the Entirely Merciful, the Especially Merciful." },
+      { ar: "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ", tl: "Al-ḥamdu lillāhi rabbi l-ʿālamīn", en: "[All] praise is [due] to Allah, Lord of the worlds —" },
+      { ar: "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ", tl: "Ar-raḥmāni r-raḥīm", en: "The Entirely Merciful, the Especially Merciful," },
+      { ar: "مَٰلِكِ يَوْمِ ٱلدِّينِ", tl: "Māliki yawmi d-dīn", en: "Sovereign of the Day of Recompense." },
+      { ar: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ", tl: "Iyyāka naʿbudu wa-iyyāka nastaʿīn", en: "It is You we worship and You we ask for help." },
+      { ar: "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ", tl: "Ihdinā ṣ-ṣirāṭa l-mustaqīm", en: "Guide us to the straight path —" },
+      { ar: "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ", tl: "Ṣirāṭa lladhīna anʿamta ʿalayhim ghayri l-maghḍūbi ʿalayhim wa-lā ḍ-ḍāllīn", en: "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray." }
+    ]
+  },
+  36: {
+    bismillah: true,
+    partial: true,
+    verses: [
+      { ar: "يٰسٓ", tl: "Yā Sīn", en: "Ya, Seen." },
+      { ar: "وَٱلْقُرْءَانِ ٱلْحَكِيمِ", tl: "Wa-l-qurʾāni l-ḥakīm", en: "By the wise Qur'an." },
+      { ar: "إِنَّكَ لَمِنَ ٱلْمُرْسَلِينَ", tl: "Innaka la-mina l-mursalīn", en: "Indeed you, [O Muḥammad], are from among the messengers," },
+      { ar: "عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ", tl: "ʿAlā ṣirāṭin mustaqīm", en: "On a straight path." },
+      { ar: "تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ", tl: "Tanzīla l-ʿazīzi r-raḥīm", en: "[This is] a revelation of the Exalted in Might, the Merciful," },
+      { ar: "لِتُنذِرَ قَوْمًا مَّآ أُنذِرَ ءَابَآؤُهُمْ فَهُمْ غَٰفِلُونَ", tl: "Li-tundhira qawman mā undhira ābāʾuhum fa-hum ghāfilūn", en: "That you may warn a people whose forefathers were not warned, so they are unaware." }
+    ],
+    note: "Opening verses of Yā Sīn — the Prophet ﷺ called this surah \"the heart of the Qur'an.\""
+  },
+  55: {
+    bismillah: true,
+    partial: true,
+    verses: [
+      { ar: "ٱلرَّحْمَٰنُ", tl: "Ar-Raḥmān", en: "The Most Merciful" },
+      { ar: "عَلَّمَ ٱلْقُرْءَانَ", tl: "ʿAllama l-qurʾān", en: "Taught the Qur'an," },
+      { ar: "خَلَقَ ٱلْإِنسَٰنَ", tl: "Khalaqa l-insān", en: "Created man," },
+      { ar: "عَلَّمَهُ ٱلْبَيَانَ", tl: "ʿAllamahu l-bayān", en: "[And] taught him eloquence." },
+      { ar: "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍ", tl: "Ash-shamsu wa-l-qamaru bi-ḥusbān", en: "The sun and the moon [move] by precise calculation," },
+      { ar: "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ", tl: "Wa-n-najmu wa-sh-shajaru yasjudān", en: "And the stars and trees prostrate." }
+    ],
+    note: "Opening verses of Ar-Raḥmān. The full surah contains the repeated refrain: \"Then which of the favors of your Lord will you deny?\""
+  },
+  67: {
+    bismillah: true,
+    partial: true,
+    verses: [
+      { ar: "تَبَٰرَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ", tl: "Tabāraka lladhī bi-yadihi l-mulku wa-huwa ʿalā kulli shayʾin qadīr", en: "Blessed is He in whose hand is dominion, and He is over all things competent —" },
+      { ar: "ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ", tl: "Alladhī khalaqa l-mawta wa-l-ḥayāta li-yabluwakum ayyukum aḥsanu ʿamalan; wa-huwa l-ʿazīzu l-ghafūr", en: "[He] who created death and life to test you [as to] which of you is best in deed — and He is the Exalted in Might, the Forgiving —" },
+      { ar: "ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ", tl: "Alladhī khalaqa sabʿa samāwātin ṭibāqan; mā tarā fī khalqi r-raḥmāni min tafāwut; farjiʿi l-baṣara hal tarā min fuṭūr", en: "[He] who created seven heavens in layers. You do not see in the creation of the Most Merciful any inconsistency. So return [your] vision; do you see any breaks?" }
+    ],
+    note: "Opening verses of Al-Mulk. The Prophet ﷺ said that this surah intercedes for its reciter until they are forgiven (Tirmidhī, Aḥmad)."
+  },
+  103: {
+    bismillah: true,
+    verses: [
+      { ar: "وَٱلْعَصْرِ", tl: "Wa-l-ʿaṣr", en: "By time," },
+      { ar: "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ", tl: "Inna l-insāna la-fī khusr", en: "Indeed, mankind is in loss," },
+      { ar: "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ", tl: "Illā lladhīna āmanū wa-ʿamilū ṣ-ṣāliḥāti wa-tawāṣaw bi-l-ḥaqqi wa-tawāṣaw bi-ṣ-ṣabr", en: "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience." }
+    ]
+  },
+  105: {
+    bismillah: true,
+    verses: [
+      { ar: "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ", tl: "Alam tara kayfa faʿala rabbuka bi-aṣḥābi l-fīl", en: "Have you not considered, [O Muḥammad], how your Lord dealt with the companions of the elephant?" },
+      { ar: "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ", tl: "Alam yajʿal kaydahum fī taḍlīl", en: "Did He not make their plan into misguidance?" },
+      { ar: "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ", tl: "Wa-arsala ʿalayhim ṭayran abābīl", en: "And He sent against them birds in flocks," },
+      { ar: "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ", tl: "Tarmīhim bi-ḥijāratin min sijjīl", en: "Striking them with stones of hard clay," },
+      { ar: "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ", tl: "Fa-jaʿalahum ka-ʿaṣfin maʾkūl", en: "And He made them like eaten straw." }
+    ]
+  },
+  108: {
+    bismillah: true,
+    verses: [
+      { ar: "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ", tl: "Innā aʿṭaynāka l-kawthar", en: "Indeed, We have granted you, [O Muḥammad], al-Kawthar." },
+      { ar: "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ", tl: "Fa-ṣalli li-rabbika wa-nḥar", en: "So pray to your Lord and sacrifice [to Him alone]." },
+      { ar: "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ", tl: "Inna shāniʾaka huwa l-abtar", en: "Indeed, your enemy is the one cut off." }
+    ]
+  },
+  109: {
+    bismillah: true,
+    verses: [
+      { ar: "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ", tl: "Qul yā ayyuha l-kāfirūn", en: "Say, \"O disbelievers," },
+      { ar: "لَآ أَعْبُدُ مَا تَعْبُدُونَ", tl: "Lā aʿbudu mā taʿbudūn", en: "I do not worship what you worship." },
+      { ar: "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ", tl: "Wa-lā antum ʿābidūna mā aʿbud", en: "Nor are you worshippers of what I worship." },
+      { ar: "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ", tl: "Wa-lā anā ʿābidun mā ʿabadtum", en: "Nor will I be a worshipper of what you worship." },
+      { ar: "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ", tl: "Wa-lā antum ʿābidūna mā aʿbud", en: "Nor will you be worshippers of what I worship." },
+      { ar: "لَكُمْ دِينُكُمْ وَلِىَ دِينِ", tl: "Lakum dīnukum wa-liya dīn", en: "For you is your religion, and for me is my religion.\"" }
+    ]
+  },
+  110: {
+    bismillah: true,
+    verses: [
+      { ar: "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ", tl: "Idhā jāʾa naṣru llāhi wa-l-fatḥ", en: "When the victory of Allah has come and the conquest," },
+      { ar: "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا", tl: "Wa-raʾayta n-nāsa yadkhulūna fī dīni llāhi afwājā", en: "And you see the people entering into the religion of Allah in multitudes," },
+      { ar: "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا", tl: "Fa-sabbiḥ bi-ḥamdi rabbika wa-staghfirh; innahu kāna tawwābā", en: "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance." }
+    ]
+  },
+  112: {
+    bismillah: true,
+    verses: [
+      { ar: "قُلْ هُوَ ٱللَّهُ أَحَدٌ", tl: "Qul huwa llāhu aḥad", en: "Say, \"He is Allah, [who is] One," },
+      { ar: "ٱللَّهُ ٱلصَّمَدُ", tl: "Allāhu ṣ-ṣamad", en: "Allah, the Eternal Refuge." },
+      { ar: "لَمْ يَلِدْ وَلَمْ يُولَدْ", tl: "Lam yalid wa-lam yūlad", en: "He neither begets nor is born," },
+      { ar: "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ", tl: "Wa-lam yakun lahu kufuwan aḥad", en: "Nor is there to Him any equivalent.\"" }
+    ],
+    note: "The Prophet ﷺ said this surah equals one-third of the Qur'an (Bukhārī)."
+  },
+  113: {
+    bismillah: true,
+    verses: [
+      { ar: "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ", tl: "Qul aʿūdhu bi-rabbi l-falaq", en: "Say, \"I seek refuge in the Lord of daybreak" },
+      { ar: "مِن شَرِّ مَا خَلَقَ", tl: "Min sharri mā khalaq", en: "From the evil of that which He created" },
+      { ar: "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ", tl: "Wa-min sharri ghāsiqin idhā waqab", en: "And from the evil of darkness when it settles" },
+      { ar: "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ", tl: "Wa-min sharri n-naffāthāti fī l-ʿuqad", en: "And from the evil of the blowers in knots" },
+      { ar: "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ", tl: "Wa-min sharri ḥāsidin idhā ḥasad", en: "And from the evil of an envier when he envies.\"" }
+    ],
+    note: "Together with An-Nās, this is one of the two surahs of refuge (al-Muʿawwidhatān) — recited by the Prophet ﷺ for protection."
+  },
+  114: {
+    bismillah: true,
+    verses: [
+      { ar: "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ", tl: "Qul aʿūdhu bi-rabbi n-nās", en: "Say, \"I seek refuge in the Lord of mankind," },
+      { ar: "مَلِكِ ٱلنَّاسِ", tl: "Maliki n-nās", en: "The Sovereign of mankind," },
+      { ar: "إِلَٰهِ ٱلنَّاسِ", tl: "Ilāhi n-nās", en: "The God of mankind," },
+      { ar: "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ", tl: "Min sharri l-waswāsi l-khannās", en: "From the evil of the retreating whisperer —" },
+      { ar: "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ", tl: "Alladhī yuwaswisu fī ṣudūri n-nās", en: "Who whispers [evil] into the breasts of mankind —" },
+      { ar: "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ", tl: "Mina l-jinnati wa-n-nās", en: "From among the jinn and mankind.\"" }
+    ]
+  }
+};
+
+/* ============================================================
+   DATA: AUTHENTIC HADITHS
+   All from the six canonical collections — sources verified.
+   ============================================================ */
+const COLLECTIONS = [
+  { id: "all",      ar: "ٱلْكُلّ",          en: "All",              count: null },
+  { id: "bukhari",  ar: "ٱلْبُخَارِيّ",     en: "Ṣaḥīḥ al-Bukhārī", count: 7563 },
+  { id: "muslim",   ar: "مُسْلِم",          en: "Ṣaḥīḥ Muslim",     count: 7500 },
+  { id: "nawawi",   ar: "ٱلْأَرْبَعُون",    en: "Forty of an-Nawawī", count: 42 },
+  { id: "tirmidhi", ar: "ٱلتِّرْمِذِيّ",     en: "Jāmiʿ at-Tirmidhī", count: 3956 },
+  { id: "abudawud", ar: "أَبُو دَاوُد",     en: "Sunan Abī Dāwūd",  count: 5274 }
+];
+
+const HADITHS = [
+  {
+    coll: "nawawi", num: "1",
+    ar: "إِنَّمَا ٱلْأَعْمَالُ بِٱلنِّيَّاتِ، وَإِنَّمَا لِكُلِّ ٱمْرِئٍ مَا نَوَىٰ. فَمَنْ كَانَتْ هِجْرَتُهُ إِلَىٰ ٱللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَىٰ ٱللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ ٱمْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَىٰ مَا هَاجَرَ إِلَيْهِ",
+    en: "Actions are but by intentions, and every man shall have only that which he intended. So whoever's emigration was to Allah and His Messenger, his emigration is to Allah and His Messenger; and whoever's emigration was for the world to gain or a woman to marry, his emigration is to that which he emigrated to.",
+    narrator: "Reported by ʿUmar ibn al-Khaṭṭāb",
+    source: "Bukhārī 1 · Muslim 1907",
+    grade: "sahih"
+  },
+  {
+    coll: "nawawi", num: "13",
+    ar: "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّىٰ يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    en: "None of you [truly] believes until he loves for his brother what he loves for himself.",
+    narrator: "Reported by Anas ibn Mālik",
+    source: "Bukhārī 13 · Muslim 45",
+    grade: "sahih"
+  },
+  {
+    coll: "nawawi", num: "15",
+    ar: "مَنْ كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ، وَمَنْ كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْآخِرِ فَلْيُكْرِمْ جَارَهُ، وَمَنْ كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْآخِرِ فَلْيُكْرِمْ ضَيْفَهُ",
+    en: "Whoever believes in Allah and the Last Day, let him speak good or remain silent. Whoever believes in Allah and the Last Day, let him be generous to his neighbour. And whoever believes in Allah and the Last Day, let him be generous to his guest.",
+    narrator: "Reported by Abū Hurayrah",
+    source: "Bukhārī 6018 · Muslim 47",
+    grade: "sahih"
+  },
+  {
+    coll: "bukhari", num: "5027",
+    ar: "خَيْرُكُمْ مَنْ تَعَلَّمَ ٱلْقُرْآنَ وَعَلَّمَهُ",
+    en: "The best of you is he who learns the Qur'an and teaches it.",
+    narrator: "Reported by ʿUthmān ibn ʿAffān",
+    source: "Ṣaḥīḥ al-Bukhārī 5027",
+    grade: "sahih"
+  },
+  {
+    coll: "muslim", num: "2699",
+    ar: "مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ ٱلدُّنْيَا، نَفَّسَ ٱللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ ٱلْقِيَامَةِ، وَمَنْ يَسَّرَ عَلَىٰ مُعْسِرٍ، يَسَّرَ ٱللَّهُ عَلَيْهِ فِي ٱلدُّنْيَا وَٱلْآخِرَةِ، وَمَنْ سَتَرَ مُسْلِمًا، سَتَرَهُ ٱللَّهُ فِي ٱلدُّنْيَا وَٱلْآخِرَةِ، وَٱللَّهُ فِي عَوْنِ ٱلْعَبْدِ مَا كَانَ ٱلْعَبْدُ فِي عَوْنِ أَخِيهِ",
+    en: "Whoever relieves a believer of a hardship of this world, Allah will relieve him of a hardship on the Day of Resurrection. Whoever eases the affairs of one in difficulty, Allah will ease his affairs in this world and the Hereafter. Whoever conceals [the faults of] a Muslim, Allah will conceal him in this world and the Hereafter. And Allah is in the aid of the servant so long as the servant is in the aid of his brother.",
+    narrator: "Reported by Abū Hurayrah",
+    source: "Ṣaḥīḥ Muslim 2699",
+    grade: "sahih"
+  },
+  {
+    coll: "tirmidhi", num: "1924",
+    ar: "ٱلرَّاحِمُونَ يَرْحَمُهُمُ ٱلرَّحْمَٰنُ، ٱرْحَمُوا مَنْ فِي ٱلْأَرْضِ يَرْحَمْكُمْ مَنْ فِي ٱلسَّمَاءِ",
+    en: "The merciful will be shown mercy by the Most Merciful. Show mercy to those on the earth, and the One above the heaven will show mercy to you.",
+    narrator: "Reported by ʿAbdullāh ibn ʿAmr",
+    source: "Jāmiʿ at-Tirmidhī 1924 · Abū Dāwūd 4941",
+    grade: "sahih"
+  },
+  {
+    coll: "muslim", num: "2594",
+    ar: "إِنَّ ٱللَّهَ رَفِيقٌ يُحِبُّ ٱلرِّفْقَ، وَيُعْطِي عَلَى ٱلرِّفْقِ مَا لَا يُعْطِي عَلَى ٱلْعُنْفِ، وَمَا لَا يُعْطِي عَلَىٰ مَا سِوَاهُ",
+    en: "Indeed Allah is Gentle, and He loves gentleness. He gives for gentleness what He does not give for harshness, and what He does not give for anything else.",
+    narrator: "Reported by ʿĀʾishah",
+    source: "Ṣaḥīḥ Muslim 2593–2594",
+    grade: "sahih"
+  },
+  {
+    coll: "bukhari", num: "1469",
+    ar: "وَمَا أُعْطِيَ أَحَدٌ عَطَاءً خَيْرًا وَأَوْسَعَ مِنَ ٱلصَّبْرِ",
+    en: "No one has been given a gift better or more comprehensive than patience.",
+    narrator: "Reported by Abū Saʿīd al-Khudrī",
+    source: "Bukhārī 1469 · Muslim 1053",
+    grade: "sahih"
+  },
+  {
+    coll: "tirmidhi", num: "1956",
+    ar: "تَبَسُّمُكَ فِي وَجْهِ أَخِيكَ لَكَ صَدَقَةٌ، وَأَمْرُكَ بِٱلْمَعْرُوفِ وَنَهْيُكَ عَنِ ٱلْمُنْكَرِ صَدَقَةٌ، وَإِرْشَادُكَ ٱلرَّجُلَ فِي أَرْضِ ٱلضَّلَالِ لَكَ صَدَقَةٌ",
+    en: "Your smile in the face of your brother is charity. Your enjoining good and forbidding evil is charity. Your guiding a man in the land of error is charity for you.",
+    narrator: "Reported by Abū Dharr al-Ghifārī",
+    source: "Jāmiʿ at-Tirmidhī 1956",
+    grade: "hasan"
+  },
+  {
+    coll: "nawawi", num: "25",
+    ar: "ذَهَبَ أَهْلُ ٱلدُّثُورِ بِٱلْأُجُورِ... قَالَ: أَوَلَيْسَ قَدْ جَعَلَ ٱللَّهُ لَكُمْ مَا تَصَّدَّقُونَ؟ إِنَّ بِكُلِّ تَسْبِيحَةٍ صَدَقَةٌ، وَكُلِّ تَكْبِيرَةٍ صَدَقَةٌ، وَكُلِّ تَحْمِيدَةٍ صَدَقَةٌ، وَكُلِّ تَهْلِيلَةٍ صَدَقَةٌ، وَأَمْرٌ بِٱلْمَعْرُوفِ صَدَقَةٌ، وَنَهْيٌ عَنْ مُنْكَرٍ صَدَقَةٌ",
+    en: "The Companions said: \"O Messenger of Allah, the wealthy have taken away the rewards.\" He ﷺ said: \"Has Allah not made for you things by which you may give charity? Every glorification of Allah is charity, every declaration of His greatness is charity, every praise of Him is charity, every declaration of His oneness is charity. Enjoining good is charity. Forbidding evil is charity.\"",
+    narrator: "Reported by Abū Dharr al-Ghifārī",
+    source: "Ṣaḥīḥ Muslim 1006",
+    grade: "sahih"
+  },
+  {
+    coll: "bukhari", num: "660",
+    ar: "سَبْعَةٌ يُظِلُّهُمُ ٱللَّهُ فِي ظِلِّهِ يَوْمَ لَا ظِلَّ إِلَّا ظِلُّهُ: إِمَامٌ عَادِلٌ، وَشَابٌّ نَشَأَ فِي عِبَادَةِ رَبِّهِ، وَرَجُلٌ قَلْبُهُ مُعَلَّقٌ بِٱلْمَسَاجِدِ، وَرَجُلَانِ تَحَابَّا فِي ٱللَّهِ ٱجْتَمَعَا عَلَيْهِ وَتَفَرَّقَا عَلَيْهِ، وَرَجُلٌ دَعَتْهُ ٱمْرَأَةٌ ذَاتُ مَنْصِبٍ وَجَمَالٍ فَقَالَ: إِنِّي أَخَافُ ٱللَّهَ، وَرَجُلٌ تَصَدَّقَ بِصَدَقَةٍ فَأَخْفَاهَا حَتَّىٰ لَا تَعْلَمَ شِمَالُهُ مَا تُنْفِقُ يَمِينُهُ، وَرَجُلٌ ذَكَرَ ٱللَّهَ خَالِيًا فَفَاضَتْ عَيْنَاهُ",
+    en: "There are seven whom Allah will shade in His shade on the day when there is no shade except His: a just ruler; a youth who grew up in the worship of his Lord; a man whose heart is attached to the mosques; two men who loved each other for Allah's sake, meeting and parting upon that; a man who is invited by a woman of beauty and status, and says, 'I fear Allah'; a man who gives charity so secretly that his left hand does not know what his right hand spends; and a man who remembers Allah in solitude and his eyes overflow.",
+    narrator: "Reported by Abū Hurayrah",
+    source: "Bukhārī 660 · Muslim 1031",
+    grade: "sahih"
+  },
+  {
+    coll: "abudawud", num: "4944",
+    ar: "لَيْسَ مِنَّا مَنْ لَمْ يَرْحَمْ صَغِيرَنَا وَيُوَقِّرْ كَبِيرَنَا",
+    en: "He is not one of us who does not show mercy to our young, nor honour to our old.",
+    narrator: "Reported by ʿAbdullāh ibn ʿAmr",
+    source: "Sunan Abī Dāwūd 4943 · Tirmidhī 1919",
+    grade: "sahih"
+  },
+  {
+    coll: "muslim", num: "55",
+    ar: "ٱلدِّينُ ٱلنَّصِيحَةُ. قُلْنَا: لِمَنْ؟ قَالَ: لِلَّهِ، وَلِكِتَابِهِ، وَلِرَسُولِهِ، وَلِأَئِمَّةِ ٱلْمُسْلِمِينَ وَعَامَّتِهِمْ",
+    en: "Religion is sincere advice. We said: To whom? He ﷺ said: To Allah, to His Book, to His Messenger, to the leaders of the Muslims, and to their common folk.",
+    narrator: "Reported by Tamīm ad-Dārī",
+    source: "Ṣaḥīḥ Muslim 55",
+    grade: "sahih"
+  },
+  {
+    coll: "bukhari", num: "6502",
+    ar: "إِنَّ ٱللَّهَ قَالَ: مَنْ عَادَىٰ لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِٱلْحَرْبِ. وَمَا تَقَرَّبَ إِلَيَّ عَبْدِي بِشَيْءٍ أَحَبَّ إِلَيَّ مِمَّا ٱفْتَرَضْتُهُ عَلَيْهِ. وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَيَّ بِٱلنَّوَافِلِ حَتَّىٰ أُحِبَّهُ. فَإِذَا أَحْبَبْتُهُ كُنْتُ سَمْعَهُ ٱلَّذِي يَسْمَعُ بِهِ، وَبَصَرَهُ ٱلَّذِي يُبْصِرُ بِهِ، وَيَدَهُ ٱلَّتِي يَبْطِشُ بِهَا، وَرِجْلَهُ ٱلَّتِي يَمْشِي بِهَا. وَإِنْ سَأَلَنِي لَأُعْطِيَنَّهُ، وَلَئِنِ ٱسْتَعَاذَنِي لَأُعِيذَنَّهُ",
+    en: "Allah says: Whoever shows enmity to a friend of Mine, I have declared war upon him. My servant does not draw near to Me with anything more beloved to Me than what I have made obligatory upon him. My servant continues to draw near to Me with voluntary works until I love him. And when I love him, I am his hearing with which he hears, his sight with which he sees, his hand with which he strikes, and his foot with which he walks. Were he to ask Me, I would surely give him; and were he to seek refuge in Me, I would surely grant him refuge.",
+    narrator: "Reported by Abū Hurayrah · Ḥadīth Qudsī",
+    source: "Ṣaḥīḥ al-Bukhārī 6502",
+    grade: "sahih"
+  },
+  {
+    coll: "tirmidhi", num: "2516",
+    ar: "ٱحْفَظِ ٱللَّهَ يَحْفَظْكَ، ٱحْفَظِ ٱللَّهَ تَجِدْهُ تُجَاهَكَ، إِذَا سَأَلْتَ فَٱسْأَلِ ٱللَّهَ، وَإِذَا ٱسْتَعَنْتَ فَٱسْتَعِنْ بِٱللَّهِ",
+    en: "Be mindful of Allah and He will protect you. Be mindful of Allah and you will find Him before you. When you ask, ask of Allah; and when you seek help, seek help from Allah.",
+    narrator: "Reported by Ibn ʿAbbās",
+    source: "Jāmiʿ at-Tirmidhī 2516 · Nawawī 19",
+    grade: "sahih"
+  },
+  {
+    coll: "bukhari", num: "10",
+    ar: "ٱلْمُسْلِمُ مَنْ سَلِمَ ٱلْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+    en: "The Muslim is the one from whose tongue and hand the Muslims are safe.",
+    narrator: "Reported by ʿAbdullāh ibn ʿAmr",
+    source: "Bukhārī 10 · Muslim 40",
+    grade: "sahih"
+  },
+  {
+    coll: "muslim", num: "2664",
+    ar: "ٱلْمُؤْمِنُ ٱلْقَوِيُّ خَيْرٌ وَأَحَبُّ إِلَى ٱللَّهِ مِنَ ٱلْمُؤْمِنِ ٱلضَّعِيفِ، وَفِي كُلٍّ خَيْرٌ. ٱحْرِصْ عَلَىٰ مَا يَنْفَعُكَ، وَٱسْتَعِنْ بِٱللَّهِ، وَلَا تَعْجَزْ",
+    en: "The strong believer is better and more beloved to Allah than the weak believer, though in both there is good. Strive for what benefits you, seek the aid of Allah, and do not be weakened.",
+    narrator: "Reported by Abū Hurayrah",
+    source: "Ṣaḥīḥ Muslim 2664",
+    grade: "sahih"
+  },
+  {
+    coll: "nawawi", num: "21",
+    ar: "قُلْ: آمَنْتُ بِٱللَّهِ، ثُمَّ ٱسْتَقِمْ",
+    en: "Say: 'I believe in Allah,' and then be steadfast.",
+    narrator: "Reported by Sufyān ibn ʿAbdullāh ath-Thaqafī",
+    source: "Ṣaḥīḥ Muslim 38",
+    grade: "sahih"
+  },
+  {
+    coll: "tirmidhi", num: "2517",
+    ar: "دَعْ مَا يَرِيبُكَ إِلَىٰ مَا لَا يَرِيبُكَ",
+    en: "Leave what causes you doubt for what does not cause you doubt.",
+    narrator: "Reported by al-Ḥasan ibn ʿAlī",
+    source: "Jāmiʿ at-Tirmidhī 2518 · Nasāʾī 5711",
+    grade: "sahih"
+  },
+  {
+    coll: "bukhari", num: "6094",
+    ar: "إِنَّ ٱلصِّدْقَ يَهْدِي إِلَى ٱلْبِرِّ، وَإِنَّ ٱلْبِرَّ يَهْدِي إِلَى ٱلْجَنَّةِ. وَإِنَّ ٱلرَّجُلَ لَيَصْدُقُ حَتَّىٰ يُكْتَبَ عِنْدَ ٱللَّهِ صِدِّيقًا. وَإِنَّ ٱلْكَذِبَ يَهْدِي إِلَى ٱلْفُجُورِ، وَإِنَّ ٱلْفُجُورَ يَهْدِي إِلَى ٱلنَّارِ. وَإِنَّ ٱلرَّجُلَ لَيَكْذِبُ حَتَّىٰ يُكْتَبَ عِنْدَ ٱللَّهِ كَذَّابًا",
+    en: "Truthfulness leads to righteousness, and righteousness leads to Paradise. A man keeps speaking the truth until he is recorded with Allah as truthful. And lying leads to wickedness, and wickedness leads to the Fire. A man keeps lying until he is recorded with Allah as a liar.",
+    narrator: "Reported by ʿAbdullāh ibn Masʿūd",
+    source: "Bukhārī 6094 · Muslim 2607",
+    grade: "sahih"
+  }
+];
+
+/* ============================================================
+   DAILY ROTATION — pick a verse and hadith by day-of-year
+   ============================================================ */
+const DAILY_VERSES = [
+  { ar: "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا ۞ وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ", en: "And whoever fears Allah — He will make for him a way out, and will provide for him from where he does not expect.", src: "Sūrah aṭ-Ṭalāq 65:2–3" },
+  { ar: "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا", en: "Indeed, with hardship comes ease.", src: "Sūrah ash-Sharḥ 94:6" },
+  { ar: "وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ", en: "And Allah loves those who do good.", src: "Sūrah Āli ʿImrān 3:134" },
+  { ar: "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ", en: "Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured.", src: "Sūrah ar-Raʿd 13:28" },
+  { ar: "وَلَا تَيْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَيْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ", en: "And do not despair of the mercy of Allah. Indeed, none despairs of the mercy of Allah except the disbelieving people.", src: "Sūrah Yūsuf 12:87" },
+  { ar: "وَلَنَبْلُوَنَّكُم بِشَىْءٍ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ", en: "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits — but give good tidings to the patient.", src: "Sūrah al-Baqarah 2:155" },
+  { ar: "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ ٱلنَّارِ", en: "Our Lord, give us in this world good and in the Hereafter good, and protect us from the punishment of the Fire.", src: "Sūrah al-Baqarah 2:201" }
+];
+
+const DAILY_HADITHS_INDEX = [0, 1, 2, 5, 8, 11, 14, 17, 19, 4, 6];
+
+/* ============================================================
+   APP LOGIC
+   ============================================================ */
+let currentPage = 'home';
+let currentFilter = 'all';
+let currentCollection = 'all';
+
+function setPage(page) {
+  currentPage = page;
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById(`page-${page}`).classList.add('active');
+  document.querySelectorAll('.nav-link').forEach(l => l.classList.toggle('active', l.dataset.page === page));
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  if (page === 'quran') {
+    document.getElementById('quranList').style.display = 'block';
+    document.getElementById('quranReader').style.display = 'none';
+    renderSurahGrid();
+  }
+  if (page === 'hadith') renderHadithPage();
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-tab').forEach(t => t.classList.toggle('active', t.dataset.filter === f));
+  renderSurahGrid();
+}
+
+function renderSurahGrid() {
+  const grid = document.getElementById('surahGrid');
+  const query = (document.getElementById('surahSearch')?.value || '').toLowerCase().trim();
+  const filtered = SURAHS.filter(s => {
+    if (currentFilter !== 'all' && s.type !== currentFilter) return false;
+    if (!query) return true;
+    return s.en.toLowerCase().includes(query)
+      || s.meaning.toLowerCase().includes(query)
+      || String(s.n) === query
+      || s.ar.includes(query);
+  });
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="empty-state" style="grid-column:1/-1;">
+      <div class="empty-state-ar">لَا شَيْء</div>
+      <div>No surahs match your search.</div>
+    </div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(s => `
+    <div class="surah-card ${SURAH_TEXT[s.n] ? 'has-text' : ''}" onclick="openSurah(${s.n})">
+      <div class="surah-number">
+        <svg viewBox="0 0 50 50"><polygon points="25,2 48,25 25,48 2,25" fill="none" stroke="#d4a574" stroke-width="1"/></svg>
+        <span>${s.n}</span>
+      </div>
+      <div class="surah-info">
+        <div class="surah-name">${s.en}</div>
+        <div class="surah-meaning">${s.meaning} · ${s.verses} verses · ${s.type === 'meccan' ? 'Meccan' : 'Medinan'}</div>
+      </div>
+      <div class="surah-arabic">${s.ar}</div>
+    </div>
+  `).join('');
+}
+
+function openSurah(n) {
+  const s = SURAHS.find(x => x.n === n);
+  const text = SURAH_TEXT[n];
+  const reader = document.getElementById('quranReader');
+  document.getElementById('quranList').style.display = 'none';
+  reader.style.display = 'block';
+
+  let body;
+  if (text) {
+    body = `
+      ${text.bismillah ? '<div class="reader-bismillah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>' : ''}
+      ${text.verses.map((v, i) => `
+        <div class="verse">
+          <div class="verse-arabic">${v.ar} <span class="verse-number">${i + 1}</span></div>
+          <div class="verse-trans-label">Transliteration</div>
+          <div class="verse-transliteration">${v.tl}</div>
+          <div class="verse-trans-label">Translation · Sahih International</div>
+          <div class="verse-translation">${v.en}</div>
+        </div>
+      `).join('')}
+      ${text.note ? `<div style="text-align:center; padding:24px; background:var(--bg-surface); border:1px solid var(--border); border-radius:8px; margin-top:32px; font-style:italic; color:var(--cream-soft); font-size:16px;">${text.note}</div>` : ''}
+      ${text.partial ? `<div style="text-align:center; padding:20px; color:var(--muted); font-style:italic; margin-top:24px;">Opening verses shown. The complete surah is best read from a printed muṣḥaf.</div>` : ''}
+    `;
+  } else {
+    body = `
+      <div class="empty-state">
+        <div class="empty-state-ar">قَرِيبًا</div>
+        <div style="font-size:19px; margin-bottom:8px;">Sūrah ${s.en} (${s.meaning})</div>
+        <div style="color:var(--gold-deep); margin-bottom:24px;">${s.verses} verses · ${s.type === 'meccan' ? 'Revealed in Makkah' : 'Revealed in Madīnah'}</div>
+        <div style="max-width:480px; margin:0 auto; line-height:1.7;">The full Arabic and translation for this surah is being added in upcoming editions. In the meantime, the green-dotted surahs in the list are available to read in full.</div>
+      </div>
+    `;
+  }
+
+  reader.innerHTML = `
+    <button class="reader-back" onclick="backToList()">← Back to all surahs</button>
+    <div class="reader-header">
+      <div class="reader-arabic-name">${s.ar}</div>
+      <div class="reader-eng-name">${s.en}</div>
+      <div class="reader-meaning">${s.meaning}</div>
+      <div class="reader-meta">
+        <span class="reader-meta-item">Surah ${s.n}</span>
+        <span class="reader-meta-item">${s.verses} Verses</span>
+        <span class="reader-meta-item">${s.type === 'meccan' ? 'Meccan' : 'Medinan'}</span>
+      </div>
+    </div>
+    ${body}
+  `;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function backToList() {
+  document.getElementById('quranReader').style.display = 'none';
+  document.getElementById('quranList').style.display = 'block';
+}
+
+function setCollection(id) {
+  currentCollection = id;
+  renderHadithPage();
+}
+
+function renderHadithPage() {
+  const grid = document.getElementById('collectionGrid');
+  grid.innerHTML = COLLECTIONS.map(c => {
+    const count = c.id === 'all' ? HADITHS.length : HADITHS.filter(h => h.coll === c.id).length;
+    return `
+      <div class="collection-card ${c.id === currentCollection ? 'active' : ''}" onclick="setCollection('${c.id}')">
+        <div class="collection-ar">${c.ar}</div>
+        <div class="collection-name">${c.en}</div>
+        <div class="collection-count">${count} in this reader</div>
+      </div>
+    `;
+  }).join('');
+
+  const list = document.getElementById('hadithList');
+  const filtered = currentCollection === 'all' ? HADITHS : HADITHS.filter(h => h.coll === currentCollection);
+  if (filtered.length === 0) {
+    list.innerHTML = `<div class="empty-state">
+      <div class="empty-state-ar">لَا شَيْء بَعْدُ</div>
+      <div>No hadiths from this collection yet.</div>
+    </div>`;
+    return;
+  }
+  list.innerHTML = filtered.map((h, idx) => {
+    const first = h.en.charAt(0);
+    const rest = h.en.substring(1);
+    return `
+      <article class="hadith-item">
+        <div class="hadith-header">
+          <span class="hadith-number">Hadith № ${h.num}</span>
+          <span class="hadith-grade grade-${h.grade}">${h.grade === 'sahih' ? 'Ṣaḥīḥ — Authentic' : 'Ḥasan — Sound'}</span>
+        </div>
+        <div class="hadith-arabic">${h.ar}</div>
+        <div class="hadith-translation"><span class="drop-cap">${first}</span>${rest}</div>
+        <div class="hadith-narrator"><strong>${h.narrator}</strong> · ${h.source}</div>
+      </article>
+    `;
+  }).join('');
+}
+
+function renderDaily() {
+  const day = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
+  const v = DAILY_VERSES[day % DAILY_VERSES.length];
+  const hIdx = DAILY_HADITHS_INDEX[day % DAILY_HADITHS_INDEX.length];
+  const h = HADITHS[hIdx];
+
+  document.getElementById('dailyVerseAr').textContent = v.ar;
+  document.getElementById('dailyVerseTr').textContent = `"${v.en}"`;
+  document.getElementById('dailyVerseSrc').textContent = v.src;
+
+  document.getElementById('dailyHadithAr').textContent = h.ar.length > 220 ? h.ar.substring(0, 200) + '…' : h.ar;
+  document.getElementById('dailyHadithTr').textContent = `"${h.en.length > 280 ? h.en.substring(0, 260) + '…' : h.en}"`;
+  document.getElementById('dailyHadithSrc').textContent = h.source;
+  const gradeEl = document.getElementById('dailyHadithGrade');
+  gradeEl.textContent = h.grade === 'sahih' ? 'Ṣaḥīḥ' : 'Ḥasan';
+}
+
+/* ===== INIT ===== */
+document.addEventListener('DOMContentLoaded', () => {
+  renderDaily();
+  renderSurahGrid();
+  renderHadithPage();
+});
+
+/* run immediately as well (in case DOMContentLoaded already fired) */
+renderDaily();
+renderSurahGrid();
+renderHadithPage();
+</script>
+
+</body>
+</html>
