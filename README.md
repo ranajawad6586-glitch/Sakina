@@ -48,9 +48,23 @@ npm run build         # produces ./out/  (Next.js static export)
 
 Every route in the table above is prerendered to a static `index.html` — 129 HTML files in total, plus the hashed JS/CSS/woff2 bundles under `_next/static/`. The deployed site needs no server logic.
 
-## Deploy (Hetzner VPS · nginx)
+## Deploy
 
-Expected layout on the VPS:
+### Render.com (recommended)
+
+A [`render.yaml`](render.yaml) blueprint is committed at the repo root, so deploying is three steps:
+
+1. Push this repo to GitHub.
+2. In Render → **New + → Blueprint** → connect the repo. Render reads `render.yaml` and auto-configures a static site (build command `npm ci && npm run build`, publish dir `out/`, Node 22).
+3. Click **Apply**.
+
+That's it. Subsequent pushes to the default branch auto-deploy. Render handles HTTPS, the global CDN, custom domains, and PR previews. The free tier covers a personal site comfortably; build takes about a minute.
+
+The blueprint mirrors the cache headers from [`deploy/nginx.conf`](deploy/nginx.conf) — hashed `_next/static/*` and woff2 fonts cached for a year, HTML revalidated on every request.
+
+### Hetzner VPS · nginx (alternate path)
+
+For self-hosted setups, the repo also ships a Docker config matching CLAUDE.md §10. Expected layout on the VPS:
 
 ```
 /opt/sakina/
@@ -78,7 +92,7 @@ ssh root@<VPS_IP> 'cd /opt/sakina && docker compose restart sakina'
 
 The container listens on host port `8080`. Front it with a system-level nginx (or Caddy) reverse proxy that adds TLS for the public domain.
 
-### Local Docker test
+#### Local Docker test
 
 ```bash
 npm run build

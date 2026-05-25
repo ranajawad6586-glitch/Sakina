@@ -1,0 +1,45 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+#
+# Drop this repo into Render via "New + → Blueprint" and Render will
+# build the Next.js static export and serve `out/` on a free static
+# site with HTTPS, custom-domain support, and a global CDN.
+#
+# Build cost: ~1 minute, no recurring charges on the free tier.
+
+services:
+  - type: web
+    name: sakina
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./out
+    # Push to your default branch auto-deploys. Disable if you'd
+    # rather click Deploy manually.
+    autoDeploy: true
+
+    envVars:
+      # Pin Node 22 so Render's build environment matches local dev.
+      - key: NODE_VERSION
+        value: 22.22.3
+
+    # Mirror the cache headers from deploy/nginx.conf so Render's CDN
+    # caches hashed assets aggressively and HTML conservatively.
+    headers:
+      - path: /_next/static/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /*.woff2
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /pattern.svg
+        name: Cache-Control
+        value: public, max-age=86400
+      - path: /icon.svg
+        name: Cache-Control
+        value: public, max-age=86400
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate
+
+    # next.config.ts uses trailingSlash: true, so every route lives
+    # at /path/index.html. Render's static-site server resolves these
+    # automatically; no rewrites needed.
