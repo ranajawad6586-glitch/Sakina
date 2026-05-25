@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Amiri, Cinzel, Cormorant_Garamond } from "next/font/google";
+import { Footer } from "@/components/Footer";
 import { Nav } from "@/components/Nav";
 import "./globals.css";
 
@@ -44,6 +45,7 @@ export default function RootLayout({
         <main className="relative mx-auto max-w-[1200px] px-5 pb-20 pt-8 sm:px-8 sm:pb-[120px] sm:pt-[60px]">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

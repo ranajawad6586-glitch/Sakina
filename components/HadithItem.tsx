@@ -1,3 +1,4 @@
+import { BookmarkButton } from "@/components/BookmarkButton";
 import type { Hadith } from "@/lib/types";
 
 const GRADE_LABELS: Record<Hadith["grade"], string> = {
@@ -18,16 +19,22 @@ export function HadithItem({ hadith }: { hadith: Hadith }) {
   const sourceLabel = `${hadith.collection_en} ${hadith.number}`;
 
   return (
-    <article className="mb-5 rounded-md border border-line border-l-[3px] border-l-gold bg-surface p-[32px_36px] transition-colors duration-300 hover:border-gold-deep hover:border-l-gold-bright">
-      <header className="mb-6 flex items-center justify-between border-b border-line pb-4">
+    <article
+      id={`hadith-${hadith.id}`}
+      className="mb-5 rounded-md border border-line border-l-[3px] border-l-gold bg-surface p-[32px_36px] transition-colors duration-300 hover:border-gold-deep hover:border-l-gold-bright scroll-mt-24"
+    >
+      <header className="mb-6 flex items-center justify-between gap-4 border-b border-line pb-4">
         <span className="font-cinzel text-[12px] uppercase tracking-[0.2em] text-gold">
           Hadith № {hadith.number}
         </span>
-        <span
-          className={`font-cinzel rounded-xl px-3 py-1 text-[10px] uppercase tracking-[0.25em] ${GRADE_PILL[hadith.grade]}`}
-        >
-          {GRADE_LABELS[hadith.grade]}
-        </span>
+        <div className="flex items-center gap-3">
+          <span
+            className={`font-cinzel rounded-xl px-3 py-1 text-[10px] uppercase tracking-[0.25em] ${GRADE_PILL[hadith.grade]}`}
+          >
+            {GRADE_LABELS[hadith.grade]}
+          </span>
+          <BookmarkButton kind="hadith" id={hadith.id} />
+        </div>
       </header>
 
       <div

@@ -45,3 +45,14 @@ export interface Hadith {
   narrator_ar?: string;
   grade: HadithGrade;
 }
+
+export interface DailyVerse {
+  ar: string;
+  en: string;
+  /** Surah number — used to deep-link the daily card back to the reader. */
+  surah: number;
+  /** Romanised surah name, for display in the source line. */
+  name_en: string;
+  /** Ayah designator (e.g. "6" or "2–3" for a multi-verse selection). */
+  ayah_label: string;
+}

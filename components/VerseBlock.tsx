@@ -1,8 +1,12 @@
+import { BookmarkButton } from "@/components/BookmarkButton";
 import type { Ayah } from "@/lib/types";
 
-export function VerseBlock({ ayah }: { ayah: Ayah }) {
+export function VerseBlock({ ayah, surah }: { ayah: Ayah; surah: number }) {
   return (
-    <article className="mb-11 border-b border-dashed border-line-soft pb-9 last:mb-0 last:border-b-0 last:pb-0">
+    <article
+      id={`ayah-${ayah.number}`}
+      className="mb-11 border-b border-dashed border-line-soft pb-9 last:mb-0 last:border-b-0 last:pb-0 scroll-mt-24"
+    >
       <div
         dir="rtl"
         className="font-amiri mb-5 text-right font-normal text-cream"
@@ -21,6 +25,10 @@ export function VerseBlock({ ayah }: { ayah: Ayah }) {
         >
           {ayah.number}
         </span>
+      </div>
+
+      <div className="mb-3 flex items-center justify-end">
+        <BookmarkButton kind="verse" surah={surah} ayah={ayah.number} />
       </div>
 
       <div className="font-cinzel mb-1.5 block text-[9px] uppercase tracking-[0.3em] text-muted">

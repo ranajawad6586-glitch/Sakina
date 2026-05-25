@@ -82,7 +82,7 @@ export default async function SurahReaderPage({ params }: Params) {
 
       <div>
         {s.ayahs.map((a) => (
-          <VerseBlock key={a.number} ayah={a} />
+          <VerseBlock key={a.number} ayah={a} surah={s.number} />
         ))}
       </div>
     </div>

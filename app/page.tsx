@@ -1,6 +1,14 @@
+import Link from "next/link";
+import { DailyCards } from "@/components/DailyCards";
 import { Ornament } from "@/components/Ornament";
+import { getDailyHadithPool, getDailyVerses } from "@/lib/daily";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const [verses, hadiths] = await Promise.all([
+    getDailyVerses(),
+    getDailyHadithPool(),
+  ]);
+
   return (
     <div className="page-enter">
       <section className="px-2 pb-20 pt-10 text-center">
@@ -36,6 +44,17 @@ export default function HomePage() {
           Sunnah of the Messenger of Allah ﷺ.
         </p>
       </section>
+
+      <DailyCards verses={verses} hadiths={hadiths} />
+
+      <div className="text-center">
+        <Link
+          href="/quran"
+          className="font-cinzel inline-block rounded-md border border-gold bg-gold px-7 py-3.5 text-[12px] uppercase tracking-[0.2em] text-ink transition-colors duration-300 hover:bg-gold-bright"
+        >
+          Open the Mushaf →
+        </Link>
+      </div>
     </div>
   );
 }

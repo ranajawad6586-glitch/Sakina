@@ -47,33 +47,60 @@ export function Nav() {
           </span>
         </Link>
 
-        <ul className="flex list-none items-center gap-0 sm:gap-2">
-          {NAV_ITEMS.map((item) => {
-            const active = isActive(pathname, item.href);
-            return (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className={`relative inline-block rounded font-cinzel font-medium uppercase transition-colors duration-300 ${
-                    active
-                      ? "text-gold"
-                      : "text-muted hover:text-cream"
-                  } px-[10px] py-2 text-[11px] tracking-[0.12em] sm:px-[18px] sm:text-[13px] sm:tracking-[0.18em]`}
-                  aria-current={active ? "page" : undefined}
-                >
-                  {item.label}
-                  {active && (
-                    <span
-                      className="absolute left-1/2 h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-gold"
-                      style={{ bottom: "-4px" }}
-                      aria-hidden="true"
-                    />
-                  )}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        <div className="flex items-center gap-1 sm:gap-2">
+          <ul className="flex list-none items-center gap-0 sm:gap-2">
+            {NAV_ITEMS.map((item) => {
+              const active = isActive(pathname, item.href);
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className={`relative inline-block rounded font-cinzel font-medium uppercase transition-colors duration-300 ${
+                      active
+                        ? "text-gold"
+                        : "text-muted hover:text-cream"
+                    } px-[10px] py-2 text-[11px] tracking-[0.12em] sm:px-[18px] sm:text-[13px] sm:tracking-[0.18em]`}
+                    aria-current={active ? "page" : undefined}
+                  >
+                    {item.label}
+                    {active && (
+                      <span
+                        className="absolute left-1/2 h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-gold"
+                        style={{ bottom: "-4px" }}
+                        aria-hidden="true"
+                      />
+                    )}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+          <Link
+            href="/bookmarks"
+            aria-label="Bookmarks"
+            aria-current={isActive(pathname, "/bookmarks") ? "page" : undefined}
+            className={`inline-flex h-9 w-9 items-center justify-center rounded transition-colors duration-300 ${
+              isActive(pathname, "/bookmarks")
+                ? "text-gold"
+                : "text-muted hover:text-gold"
+            }`}
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="18"
+              height="18"
+              aria-hidden="true"
+            >
+              <polygon
+                points="12,2.5 14.85,9.04 22,9.78 16.65,14.55 18.18,21.5 12,17.92 5.82,21.5 7.35,14.55 2,9.78 9.15,9.04"
+                fill={isActive(pathname, "/bookmarks") ? "currentColor" : "none"}
+                stroke="currentColor"
+                strokeWidth="1.3"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </Link>
+        </div>
       </div>
     </nav>
   );
