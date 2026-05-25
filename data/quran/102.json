@@ -1,0 +1,59 @@
+{
+  "number": 102,
+  "name_ar": "سُورَةُ التَّكَاثُرِ",
+  "name_en": "At-Takaathur",
+  "meaning": "Competition",
+  "verses": 8,
+  "type": "meccan",
+  "bismillah_inline": false,
+  "ayahs": [
+    {
+      "number": 1,
+      "ar": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "tl": "Al haaku mut takathur",
+      "en": "Competition in [worldly] increase diverts you"
+    },
+    {
+      "number": 2,
+      "ar": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+      "tl": "Hatta zurtumul-maqaabir",
+      "en": "Until you visit the graveyards."
+    },
+    {
+      "number": 3,
+      "ar": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "tl": "Kalla sawfa ta'lamoon",
+      "en": "No! You are going to know."
+    },
+    {
+      "number": 4,
+      "ar": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "tl": "Thumma kalla sawfa ta'lamoon",
+      "en": "Then no! You are going to know."
+    },
+    {
+      "number": 5,
+      "ar": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+      "tl": "Kalla law ta'lamoona 'ilmal yaqeen",
+      "en": "No! If you only knew with knowledge of certainty..."
+    },
+    {
+      "number": 6,
+      "ar": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+      "tl": "Latara-wun nal jaheem",
+      "en": "You will surely see the Hellfire."
+    },
+    {
+      "number": 7,
+      "ar": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+      "tl": "Thumma latara wunnaha 'ainal yaqeen",
+      "en": "Then you will surely see it with the eye of certainty."
+    },
+    {
+      "number": 8,
+      "ar": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "tl": "Thumma latus alunna yauma-izin 'anin na'eem",
+      "en": "Then you will surely be asked that Day about pleasure."
+    }
+  ]
+}

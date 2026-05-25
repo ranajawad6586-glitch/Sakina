@@ -1,0 +1,914 @@
+[
+  {
+    "number": 1,
+    "name_ar": "سُورَةُ ٱلْفَاتِحَةِ",
+    "name_en": "Al-Faatiha",
+    "meaning": "The Opening",
+    "verses": 7,
+    "type": "meccan"
+  },
+  {
+    "number": 2,
+    "name_ar": "سُورَةُ البَقَرَةِ",
+    "name_en": "Al-Baqara",
+    "meaning": "The Cow",
+    "verses": 286,
+    "type": "medinan"
+  },
+  {
+    "number": 3,
+    "name_ar": "سُورَةُ آلِ عِمۡرَانَ",
+    "name_en": "Aal-i-Imraan",
+    "meaning": "The Family of Imraan",
+    "verses": 200,
+    "type": "medinan"
+  },
+  {
+    "number": 4,
+    "name_ar": "سُورَةُ النِّسَاءِ",
+    "name_en": "An-Nisaa",
+    "meaning": "The Women",
+    "verses": 176,
+    "type": "medinan"
+  },
+  {
+    "number": 5,
+    "name_ar": "سُورَةُ المَائـِدَةِ",
+    "name_en": "Al-Maaida",
+    "meaning": "The Table",
+    "verses": 120,
+    "type": "medinan"
+  },
+  {
+    "number": 6,
+    "name_ar": "سُورَةُ الأَنۡعَامِ",
+    "name_en": "Al-An'aam",
+    "meaning": "The Cattle",
+    "verses": 165,
+    "type": "meccan"
+  },
+  {
+    "number": 7,
+    "name_ar": "سُورَةُ الأَعۡرَافِ",
+    "name_en": "Al-A'raaf",
+    "meaning": "The Heights",
+    "verses": 206,
+    "type": "meccan"
+  },
+  {
+    "number": 8,
+    "name_ar": "سُورَةُ الأَنفَالِ",
+    "name_en": "Al-Anfaal",
+    "meaning": "The Spoils of War",
+    "verses": 75,
+    "type": "medinan"
+  },
+  {
+    "number": 9,
+    "name_ar": "سُورَةُ التَّوۡبَةِ",
+    "name_en": "At-Tawba",
+    "meaning": "The Repentance",
+    "verses": 129,
+    "type": "medinan"
+  },
+  {
+    "number": 10,
+    "name_ar": "سُورَةُ يُونُسَ",
+    "name_en": "Yunus",
+    "meaning": "Jonas",
+    "verses": 109,
+    "type": "meccan"
+  },
+  {
+    "number": 11,
+    "name_ar": "سُورَةُ هُودٍ",
+    "name_en": "Hud",
+    "meaning": "Hud",
+    "verses": 123,
+    "type": "meccan"
+  },
+  {
+    "number": 12,
+    "name_ar": "سُورَةُ يُوسُفَ",
+    "name_en": "Yusuf",
+    "meaning": "Joseph",
+    "verses": 111,
+    "type": "meccan"
+  },
+  {
+    "number": 13,
+    "name_ar": "سُورَةُ الرَّعۡدِ",
+    "name_en": "Ar-Ra'd",
+    "meaning": "The Thunder",
+    "verses": 43,
+    "type": "medinan"
+  },
+  {
+    "number": 14,
+    "name_ar": "سُورَةُ إِبۡرَاهِيمَ",
+    "name_en": "Ibrahim",
+    "meaning": "Abraham",
+    "verses": 52,
+    "type": "meccan"
+  },
+  {
+    "number": 15,
+    "name_ar": "سُورَةُ الحِجۡرِ",
+    "name_en": "Al-Hijr",
+    "meaning": "The Rock",
+    "verses": 99,
+    "type": "meccan"
+  },
+  {
+    "number": 16,
+    "name_ar": "سُورَةُ النَّحۡلِ",
+    "name_en": "An-Nahl",
+    "meaning": "The Bee",
+    "verses": 128,
+    "type": "meccan"
+  },
+  {
+    "number": 17,
+    "name_ar": "سُورَةُ الإِسۡرَاءِ",
+    "name_en": "Al-Israa",
+    "meaning": "The Night Journey",
+    "verses": 111,
+    "type": "meccan"
+  },
+  {
+    "number": 18,
+    "name_ar": "سُورَةُ الكَهۡفِ",
+    "name_en": "Al-Kahf",
+    "meaning": "The Cave",
+    "verses": 110,
+    "type": "meccan"
+  },
+  {
+    "number": 19,
+    "name_ar": "سُورَةُ مَرۡيَمَ",
+    "name_en": "Maryam",
+    "meaning": "Mary",
+    "verses": 98,
+    "type": "meccan"
+  },
+  {
+    "number": 20,
+    "name_ar": "سُورَةُ طه",
+    "name_en": "Taa-Haa",
+    "meaning": "Taa-Haa",
+    "verses": 135,
+    "type": "meccan"
+  },
+  {
+    "number": 21,
+    "name_ar": "سُورَةُ الأَنبِيَاءِ",
+    "name_en": "Al-Anbiyaa",
+    "meaning": "The Prophets",
+    "verses": 112,
+    "type": "meccan"
+  },
+  {
+    "number": 22,
+    "name_ar": "سُورَةُ الحَجِّ",
+    "name_en": "Al-Hajj",
+    "meaning": "The Pilgrimage",
+    "verses": 78,
+    "type": "medinan"
+  },
+  {
+    "number": 23,
+    "name_ar": "سُورَةُ المُؤۡمِنُونَ",
+    "name_en": "Al-Muminoon",
+    "meaning": "The Believers",
+    "verses": 118,
+    "type": "meccan"
+  },
+  {
+    "number": 24,
+    "name_ar": "سُورَةُ النُّورِ",
+    "name_en": "An-Noor",
+    "meaning": "The Light",
+    "verses": 64,
+    "type": "medinan"
+  },
+  {
+    "number": 25,
+    "name_ar": "سُورَةُ الفُرۡقَانِ",
+    "name_en": "Al-Furqaan",
+    "meaning": "The Criterion",
+    "verses": 77,
+    "type": "meccan"
+  },
+  {
+    "number": 26,
+    "name_ar": "سُورَةُ الشُّعَرَاءِ",
+    "name_en": "Ash-Shu'araa",
+    "meaning": "The Poets",
+    "verses": 227,
+    "type": "meccan"
+  },
+  {
+    "number": 27,
+    "name_ar": "سُورَةُ النَّمۡلِ",
+    "name_en": "An-Naml",
+    "meaning": "The Ant",
+    "verses": 93,
+    "type": "meccan"
+  },
+  {
+    "number": 28,
+    "name_ar": "سُورَةُ القَصَصِ",
+    "name_en": "Al-Qasas",
+    "meaning": "The Stories",
+    "verses": 88,
+    "type": "meccan"
+  },
+  {
+    "number": 29,
+    "name_ar": "سُورَةُ العَنكَبُوتِ",
+    "name_en": "Al-Ankaboot",
+    "meaning": "The Spider",
+    "verses": 69,
+    "type": "meccan"
+  },
+  {
+    "number": 30,
+    "name_ar": "سُورَةُ الرُّومِ",
+    "name_en": "Ar-Room",
+    "meaning": "The Romans",
+    "verses": 60,
+    "type": "meccan"
+  },
+  {
+    "number": 31,
+    "name_ar": "سُورَةُ لُقۡمَانَ",
+    "name_en": "Luqman",
+    "meaning": "Luqman",
+    "verses": 34,
+    "type": "meccan"
+  },
+  {
+    "number": 32,
+    "name_ar": "سُورَةُ السَّجۡدَةِ",
+    "name_en": "As-Sajda",
+    "meaning": "The Prostration",
+    "verses": 30,
+    "type": "meccan"
+  },
+  {
+    "number": 33,
+    "name_ar": "سُورَةُ الأَحۡزَابِ",
+    "name_en": "Al-Ahzaab",
+    "meaning": "The Clans",
+    "verses": 73,
+    "type": "medinan"
+  },
+  {
+    "number": 34,
+    "name_ar": "سُورَةُ سَبَإٍ",
+    "name_en": "Saba",
+    "meaning": "Sheba",
+    "verses": 54,
+    "type": "meccan"
+  },
+  {
+    "number": 35,
+    "name_ar": "سُورَةُ فَاطِرٍ",
+    "name_en": "Faatir",
+    "meaning": "The Originator",
+    "verses": 45,
+    "type": "meccan"
+  },
+  {
+    "number": 36,
+    "name_ar": "سُورَةُ يسٓ",
+    "name_en": "Yaseen",
+    "meaning": "Yaseen",
+    "verses": 83,
+    "type": "meccan"
+  },
+  {
+    "number": 37,
+    "name_ar": "سُورَةُ الصَّافَّاتِ",
+    "name_en": "As-Saaffaat",
+    "meaning": "Those drawn up in Ranks",
+    "verses": 182,
+    "type": "meccan"
+  },
+  {
+    "number": 38,
+    "name_ar": "سُورَةُ صٓ",
+    "name_en": "Saad",
+    "meaning": "The letter Saad",
+    "verses": 88,
+    "type": "meccan"
+  },
+  {
+    "number": 39,
+    "name_ar": "سُورَةُ الزُّمَرِ",
+    "name_en": "Az-Zumar",
+    "meaning": "The Groups",
+    "verses": 75,
+    "type": "meccan"
+  },
+  {
+    "number": 40,
+    "name_ar": "سُورَةُ غَافِرٍ",
+    "name_en": "Ghafir",
+    "meaning": "The Forgiver",
+    "verses": 85,
+    "type": "meccan"
+  },
+  {
+    "number": 41,
+    "name_ar": "سُورَةُ فُصِّلَتۡ",
+    "name_en": "Fussilat",
+    "meaning": "Explained in detail",
+    "verses": 54,
+    "type": "meccan"
+  },
+  {
+    "number": 42,
+    "name_ar": "سُورَةُ الشُّورَىٰ",
+    "name_en": "Ash-Shura",
+    "meaning": "Consultation",
+    "verses": 53,
+    "type": "meccan"
+  },
+  {
+    "number": 43,
+    "name_ar": "سُورَةُ الزُّخۡرُفِ",
+    "name_en": "Az-Zukhruf",
+    "meaning": "Ornaments of gold",
+    "verses": 89,
+    "type": "meccan"
+  },
+  {
+    "number": 44,
+    "name_ar": "سُورَةُ الدُّخَانِ",
+    "name_en": "Ad-Dukhaan",
+    "meaning": "The Smoke",
+    "verses": 59,
+    "type": "meccan"
+  },
+  {
+    "number": 45,
+    "name_ar": "سُورَةُ الجَاثِيَةِ",
+    "name_en": "Al-Jaathiya",
+    "meaning": "Crouching",
+    "verses": 37,
+    "type": "meccan"
+  },
+  {
+    "number": 46,
+    "name_ar": "سُورَةُ الأَحۡقَافِ",
+    "name_en": "Al-Ahqaf",
+    "meaning": "The Dunes",
+    "verses": 35,
+    "type": "meccan"
+  },
+  {
+    "number": 47,
+    "name_ar": "سُورَةُ مُحَمَّدٍ",
+    "name_en": "Muhammad",
+    "meaning": "Muhammad",
+    "verses": 38,
+    "type": "medinan"
+  },
+  {
+    "number": 48,
+    "name_ar": "سُورَةُ الفَتۡحِ",
+    "name_en": "Al-Fath",
+    "meaning": "The Victory",
+    "verses": 29,
+    "type": "medinan"
+  },
+  {
+    "number": 49,
+    "name_ar": "سُورَةُ الحُجُرَاتِ",
+    "name_en": "Al-Hujuraat",
+    "meaning": "The Inner Apartments",
+    "verses": 18,
+    "type": "medinan"
+  },
+  {
+    "number": 50,
+    "name_ar": "سُورَةُ قٓ",
+    "name_en": "Qaaf",
+    "meaning": "The letter Qaaf",
+    "verses": 45,
+    "type": "meccan"
+  },
+  {
+    "number": 51,
+    "name_ar": "سُورَةُ الذَّارِيَاتِ",
+    "name_en": "Adh-Dhaariyat",
+    "meaning": "The Winnowing Winds",
+    "verses": 60,
+    "type": "meccan"
+  },
+  {
+    "number": 52,
+    "name_ar": "سُورَةُ الطُّورِ",
+    "name_en": "At-Tur",
+    "meaning": "The Mount",
+    "verses": 49,
+    "type": "meccan"
+  },
+  {
+    "number": 53,
+    "name_ar": "سُورَةُ النَّجۡمِ",
+    "name_en": "An-Najm",
+    "meaning": "The Star",
+    "verses": 62,
+    "type": "meccan"
+  },
+  {
+    "number": 54,
+    "name_ar": "سُورَةُ القَمَرِ",
+    "name_en": "Al-Qamar",
+    "meaning": "The Moon",
+    "verses": 55,
+    "type": "meccan"
+  },
+  {
+    "number": 55,
+    "name_ar": "سُورَةُ الرَّحۡمَٰن",
+    "name_en": "Ar-Rahmaan",
+    "meaning": "The Beneficent",
+    "verses": 78,
+    "type": "medinan"
+  },
+  {
+    "number": 56,
+    "name_ar": "سُورَةُ الوَاقِعَةِ",
+    "name_en": "Al-Waaqia",
+    "meaning": "The Inevitable",
+    "verses": 96,
+    "type": "meccan"
+  },
+  {
+    "number": 57,
+    "name_ar": "سُورَةُ الحَدِيدِ",
+    "name_en": "Al-Hadid",
+    "meaning": "The Iron",
+    "verses": 29,
+    "type": "medinan"
+  },
+  {
+    "number": 58,
+    "name_ar": "سُورَةُ المُجَادلَةِ",
+    "name_en": "Al-Mujaadila",
+    "meaning": "The Pleading Woman",
+    "verses": 22,
+    "type": "medinan"
+  },
+  {
+    "number": 59,
+    "name_ar": "سُورَةُ الحَشۡرِ",
+    "name_en": "Al-Hashr",
+    "meaning": "The Exile",
+    "verses": 24,
+    "type": "medinan"
+  },
+  {
+    "number": 60,
+    "name_ar": "سُورَةُ المُمۡتَحنَةِ",
+    "name_en": "Al-Mumtahana",
+    "meaning": "She that is to be examined",
+    "verses": 13,
+    "type": "medinan"
+  },
+  {
+    "number": 61,
+    "name_ar": "سُورَةُ الصَّفِّ",
+    "name_en": "As-Saff",
+    "meaning": "The Ranks",
+    "verses": 14,
+    "type": "medinan"
+  },
+  {
+    "number": 62,
+    "name_ar": "سُورَةُ الجُمُعَةِ",
+    "name_en": "Al-Jumu'a",
+    "meaning": "Friday",
+    "verses": 11,
+    "type": "medinan"
+  },
+  {
+    "number": 63,
+    "name_ar": "سُورَةُ المُنَافِقُونَ",
+    "name_en": "Al-Munaafiqoon",
+    "meaning": "The Hypocrites",
+    "verses": 11,
+    "type": "medinan"
+  },
+  {
+    "number": 64,
+    "name_ar": "سُورَةُ التَّغَابُنِ",
+    "name_en": "At-Taghaabun",
+    "meaning": "Mutual Disillusion",
+    "verses": 18,
+    "type": "medinan"
+  },
+  {
+    "number": 65,
+    "name_ar": "سُورَةُ الطَّلَاقِ",
+    "name_en": "At-Talaaq",
+    "meaning": "Divorce",
+    "verses": 12,
+    "type": "medinan"
+  },
+  {
+    "number": 66,
+    "name_ar": "سُورَةُ التَّحۡرِيمِ",
+    "name_en": "At-Tahrim",
+    "meaning": "The Prohibition",
+    "verses": 12,
+    "type": "medinan"
+  },
+  {
+    "number": 67,
+    "name_ar": "سُورَةُ المُلۡكِ",
+    "name_en": "Al-Mulk",
+    "meaning": "The Sovereignty",
+    "verses": 30,
+    "type": "meccan"
+  },
+  {
+    "number": 68,
+    "name_ar": "سُورَةُ القَلَمِ",
+    "name_en": "Al-Qalam",
+    "meaning": "The Pen",
+    "verses": 52,
+    "type": "meccan"
+  },
+  {
+    "number": 69,
+    "name_ar": "سُورَةُ الحَاقَّةِ",
+    "name_en": "Al-Haaqqa",
+    "meaning": "The Reality",
+    "verses": 52,
+    "type": "meccan"
+  },
+  {
+    "number": 70,
+    "name_ar": "سُورَةُ المَعَارِجِ",
+    "name_en": "Al-Ma'aarij",
+    "meaning": "The Ascending Stairways",
+    "verses": 44,
+    "type": "meccan"
+  },
+  {
+    "number": 71,
+    "name_ar": "سُورَةُ نُوحٍ",
+    "name_en": "Nooh",
+    "meaning": "Noah",
+    "verses": 28,
+    "type": "meccan"
+  },
+  {
+    "number": 72,
+    "name_ar": "سُورَةُ الجِنِّ",
+    "name_en": "Al-Jinn",
+    "meaning": "The Jinn",
+    "verses": 28,
+    "type": "meccan"
+  },
+  {
+    "number": 73,
+    "name_ar": "سُورَةُ المُزَّمِّلِ",
+    "name_en": "Al-Muzzammil",
+    "meaning": "The Enshrouded One",
+    "verses": 20,
+    "type": "meccan"
+  },
+  {
+    "number": 74,
+    "name_ar": "سُورَةُ المُدَّثِّرِ",
+    "name_en": "Al-Muddaththir",
+    "meaning": "The Cloaked One",
+    "verses": 56,
+    "type": "meccan"
+  },
+  {
+    "number": 75,
+    "name_ar": "سُورَةُ القِيَامَةِ",
+    "name_en": "Al-Qiyaama",
+    "meaning": "The Resurrection",
+    "verses": 40,
+    "type": "meccan"
+  },
+  {
+    "number": 76,
+    "name_ar": "سُورَةُ الإِنسَانِ",
+    "name_en": "Al-Insaan",
+    "meaning": "Man",
+    "verses": 31,
+    "type": "medinan"
+  },
+  {
+    "number": 77,
+    "name_ar": "سُورَةُ المُرۡسَلَاتِ",
+    "name_en": "Al-Mursalaat",
+    "meaning": "The Emissaries",
+    "verses": 50,
+    "type": "meccan"
+  },
+  {
+    "number": 78,
+    "name_ar": "سُورَةُ النَّبَإِ",
+    "name_en": "An-Naba",
+    "meaning": "The Announcement",
+    "verses": 40,
+    "type": "meccan"
+  },
+  {
+    "number": 79,
+    "name_ar": "سُورَةُ النَّازِعَاتِ",
+    "name_en": "An-Naazi'aat",
+    "meaning": "Those who drag forth",
+    "verses": 46,
+    "type": "meccan"
+  },
+  {
+    "number": 80,
+    "name_ar": "سُورَةُ عَبَسَ",
+    "name_en": "Abasa",
+    "meaning": "He frowned",
+    "verses": 42,
+    "type": "meccan"
+  },
+  {
+    "number": 81,
+    "name_ar": "سُورَةُ التَّكۡوِيرِ",
+    "name_en": "At-Takwir",
+    "meaning": "The Overthrowing",
+    "verses": 29,
+    "type": "meccan"
+  },
+  {
+    "number": 82,
+    "name_ar": "سُورَةُ الانفِطَارِ",
+    "name_en": "Al-Infitaar",
+    "meaning": "The Cleaving",
+    "verses": 19,
+    "type": "meccan"
+  },
+  {
+    "number": 83,
+    "name_ar": "سُورَةُ المُطَفِّفِينَ",
+    "name_en": "Al-Mutaffifin",
+    "meaning": "Defrauding",
+    "verses": 36,
+    "type": "meccan"
+  },
+  {
+    "number": 84,
+    "name_ar": "سُورَةُ الانشِقَاقِ",
+    "name_en": "Al-Inshiqaaq",
+    "meaning": "The Splitting Open",
+    "verses": 25,
+    "type": "meccan"
+  },
+  {
+    "number": 85,
+    "name_ar": "سُورَةُ البُرُوجِ",
+    "name_en": "Al-Burooj",
+    "meaning": "The Constellations",
+    "verses": 22,
+    "type": "meccan"
+  },
+  {
+    "number": 86,
+    "name_ar": "سُورَةُ الطَّارِقِ",
+    "name_en": "At-Taariq",
+    "meaning": "The Morning Star",
+    "verses": 17,
+    "type": "meccan"
+  },
+  {
+    "number": 87,
+    "name_ar": "سُورَةُ الأَعۡلَىٰ",
+    "name_en": "Al-A'laa",
+    "meaning": "The Most High",
+    "verses": 19,
+    "type": "meccan"
+  },
+  {
+    "number": 88,
+    "name_ar": "سُورَةُ الغَاشِيَةِ",
+    "name_en": "Al-Ghaashiya",
+    "meaning": "The Overwhelming",
+    "verses": 26,
+    "type": "meccan"
+  },
+  {
+    "number": 89,
+    "name_ar": "سُورَةُ الفَجۡرِ",
+    "name_en": "Al-Fajr",
+    "meaning": "The Dawn",
+    "verses": 30,
+    "type": "meccan"
+  },
+  {
+    "number": 90,
+    "name_ar": "سُورَةُ البَلَدِ",
+    "name_en": "Al-Balad",
+    "meaning": "The City",
+    "verses": 20,
+    "type": "meccan"
+  },
+  {
+    "number": 91,
+    "name_ar": "سُورَةُ الشَّمۡسِ",
+    "name_en": "Ash-Shams",
+    "meaning": "The Sun",
+    "verses": 15,
+    "type": "meccan"
+  },
+  {
+    "number": 92,
+    "name_ar": "سُورَةُ اللَّيۡلِ",
+    "name_en": "Al-Lail",
+    "meaning": "The Night",
+    "verses": 21,
+    "type": "meccan"
+  },
+  {
+    "number": 93,
+    "name_ar": "سُورَةُ الضُّحَىٰ",
+    "name_en": "Ad-Dhuhaa",
+    "meaning": "The Morning Hours",
+    "verses": 11,
+    "type": "meccan"
+  },
+  {
+    "number": 94,
+    "name_ar": "سُورَةُ الشَّرۡحِ",
+    "name_en": "Ash-Sharh",
+    "meaning": "The Consolation",
+    "verses": 8,
+    "type": "meccan"
+  },
+  {
+    "number": 95,
+    "name_ar": "سُورَةُ التِّينِ",
+    "name_en": "At-Tin",
+    "meaning": "The Fig",
+    "verses": 8,
+    "type": "meccan"
+  },
+  {
+    "number": 96,
+    "name_ar": "سُورَةُ العَلَقِ",
+    "name_en": "Al-Alaq",
+    "meaning": "The Clot",
+    "verses": 19,
+    "type": "meccan"
+  },
+  {
+    "number": 97,
+    "name_ar": "سُورَةُ القَدۡرِ",
+    "name_en": "Al-Qadr",
+    "meaning": "The Power, Fate",
+    "verses": 5,
+    "type": "meccan"
+  },
+  {
+    "number": 98,
+    "name_ar": "سُورَةُ البَيِّنَةِ",
+    "name_en": "Al-Bayyina",
+    "meaning": "The Evidence",
+    "verses": 8,
+    "type": "medinan"
+  },
+  {
+    "number": 99,
+    "name_ar": "سُورَةُ الزَّلۡزَلَةِ",
+    "name_en": "Az-Zalzala",
+    "meaning": "The Earthquake",
+    "verses": 8,
+    "type": "medinan"
+  },
+  {
+    "number": 100,
+    "name_ar": "سُورَةُ العَادِيَاتِ",
+    "name_en": "Al-Aadiyaat",
+    "meaning": "The Chargers",
+    "verses": 11,
+    "type": "meccan"
+  },
+  {
+    "number": 101,
+    "name_ar": "سُورَةُ القَارِعَةِ",
+    "name_en": "Al-Qaari'a",
+    "meaning": "The Calamity",
+    "verses": 11,
+    "type": "meccan"
+  },
+  {
+    "number": 102,
+    "name_ar": "سُورَةُ التَّكَاثُرِ",
+    "name_en": "At-Takaathur",
+    "meaning": "Competition",
+    "verses": 8,
+    "type": "meccan"
+  },
+  {
+    "number": 103,
+    "name_ar": "سُورَةُ العَصۡرِ",
+    "name_en": "Al-Asr",
+    "meaning": "The Declining Day, Epoch",
+    "verses": 3,
+    "type": "meccan"
+  },
+  {
+    "number": 104,
+    "name_ar": "سُورَةُ الهُمَزَةِ",
+    "name_en": "Al-Humaza",
+    "meaning": "The Traducer",
+    "verses": 9,
+    "type": "meccan"
+  },
+  {
+    "number": 105,
+    "name_ar": "سُورَةُ الفِيلِ",
+    "name_en": "Al-Fil",
+    "meaning": "The Elephant",
+    "verses": 5,
+    "type": "meccan"
+  },
+  {
+    "number": 106,
+    "name_ar": "سُورَةُ قُرَيۡشٍ",
+    "name_en": "Quraish",
+    "meaning": "Quraysh",
+    "verses": 4,
+    "type": "meccan"
+  },
+  {
+    "number": 107,
+    "name_ar": "سُورَةُ المَاعُونِ",
+    "name_en": "Al-Maa'un",
+    "meaning": "Almsgiving",
+    "verses": 7,
+    "type": "meccan"
+  },
+  {
+    "number": 108,
+    "name_ar": "سُورَةُ الكَوۡثَرِ",
+    "name_en": "Al-Kawthar",
+    "meaning": "Abundance",
+    "verses": 3,
+    "type": "meccan"
+  },
+  {
+    "number": 109,
+    "name_ar": "سُورَةُ الكَافِرُونَ",
+    "name_en": "Al-Kaafiroon",
+    "meaning": "The Disbelievers",
+    "verses": 6,
+    "type": "meccan"
+  },
+  {
+    "number": 110,
+    "name_ar": "سُورَةُ النَّصۡرِ",
+    "name_en": "An-Nasr",
+    "meaning": "Divine Support",
+    "verses": 3,
+    "type": "medinan"
+  },
+  {
+    "number": 111,
+    "name_ar": "سُورَةُ المَسَدِ",
+    "name_en": "Al-Masad",
+    "meaning": "The Palm Fibre",
+    "verses": 5,
+    "type": "meccan"
+  },
+  {
+    "number": 112,
+    "name_ar": "سُورَةُ الإِخۡلَاصِ",
+    "name_en": "Al-Ikhlaas",
+    "meaning": "Sincerity",
+    "verses": 4,
+    "type": "meccan"
+  },
+  {
+    "number": 113,
+    "name_ar": "سُورَةُ الفَلَقِ",
+    "name_en": "Al-Falaq",
+    "meaning": "The Dawn",
+    "verses": 5,
+    "type": "meccan"
+  },
+  {
+    "number": 114,
+    "name_ar": "سُورَةُ النَّاسِ",
+    "name_en": "An-Naas",
+    "meaning": "Mankind",
+    "verses": 6,
+    "type": "meccan"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "number": 96,
+  "name_ar": "سُورَةُ العَلَقِ",
+  "name_en": "Al-Alaq",
+  "meaning": "The Clot",
+  "verses": 19,
+  "type": "meccan",
+  "bismillah_inline": false,
+  "ayahs": [
+    {
+      "number": 1,
+      "ar": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+      "tl": "Iqra bismi rab bikal lazee khalaq",
+      "en": "Recite in the name of your Lord who created -"
+    },
+    {
+      "number": 2,
+      "ar": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+      "tl": "Khalaqal insaana min 'alaq",
+      "en": "Created man from a clinging substance."
+    },
+    {
+      "number": 3,
+      "ar": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+      "tl": "Iqra wa rab bukal akram",
+      "en": "Recite, and your Lord is the most Generous -"
+    },
+    {
+      "number": 4,
+      "ar": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+      "tl": "Al lazee 'allama bil qalam",
+      "en": "Who taught by the pen -"
+    },
+    {
+      "number": 5,
+      "ar": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+      "tl": "'Al lamal insaana ma lam y'alam",
+      "en": "Taught man that which he knew not."
+    },
+    {
+      "number": 6,
+      "ar": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
+      "tl": "Kallaa innal insaana layatghaa",
+      "en": "No! [But] indeed, man transgresses"
+    },
+    {
+      "number": 7,
+      "ar": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+      "tl": "Ar-ra aahus taghnaa",
+      "en": "Because he sees himself self-sufficient."
+    },
+    {
+      "number": 8,
+      "ar": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+      "tl": "Innna ilaa rabbikar ruj'aa",
+      "en": "Indeed, to your Lord is the return."
+    },
+    {
+      "number": 9,
+      "ar": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+      "tl": "Ara-aital lazee yanhaa",
+      "en": "Have you seen the one who forbids"
+    },
+    {
+      "number": 10,
+      "ar": "عَبْدًا إِذَا صَلَّىٰٓ",
+      "tl": "'Abdan iza sallaa",
+      "en": "A servant when he prays?"
+    },
+    {
+      "number": 11,
+      "ar": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+      "tl": "Ara-aita in kana 'alal hudaa",
+      "en": "Have you seen if he is upon guidance"
+    },
+    {
+      "number": 12,
+      "ar": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+      "tl": "Au amara bit taqwaa",
+      "en": "Or enjoins righteousness?"
+    },
+    {
+      "number": 13,
+      "ar": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+      "tl": "Ara-aita in kaz zaba wa ta walla",
+      "en": "Have you seen if he denies and turns away -"
+    },
+    {
+      "number": 14,
+      "ar": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+      "tl": "Alam y'alam bi-an nal lahaa yaraa",
+      "en": "Does he not know that Allah sees?"
+    },
+    {
+      "number": 15,
+      "ar": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+      "tl": "Kalla la illam yantahi la nasfa'am bin nasiyah",
+      "en": "No! If he does not desist, We will surely drag him by the forelock -"
+    },
+    {
+      "number": 16,
+      "ar": "نَاصِيَةٍۢ كَٰذِبَةٍ خَاطِئَةٍۢ",
+      "tl": "Nasiyatin kazi batin khaatiyah",
+      "en": "A lying, sinning forelock."
+    },
+    {
+      "number": 17,
+      "ar": "فَلْيَدْعُ نَادِيَهُۥ",
+      "tl": "Fal yad'u naadiyah",
+      "en": "Then let him call his associates;"
+    },
+    {
+      "number": 18,
+      "ar": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+      "tl": "Sanad 'uz zabaaniyah",
+      "en": "We will call the angels of Hell."
+    },
+    {
+      "number": 19,
+      "ar": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+      "tl": "Kalla; la tuti'hu wasjud waqtarib",
+      "en": "No! Do not obey him. But prostrate and draw near [to Allah]."
+    }
+  ]
+}

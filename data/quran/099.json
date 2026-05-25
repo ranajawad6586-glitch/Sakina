@@ -1,0 +1,59 @@
+{
+  "number": 99,
+  "name_ar": "سُورَةُ الزَّلۡزَلَةِ",
+  "name_en": "Az-Zalzala",
+  "meaning": "The Earthquake",
+  "verses": 8,
+  "type": "medinan",
+  "bismillah_inline": false,
+  "ayahs": [
+    {
+      "number": 1,
+      "ar": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+      "tl": "Izaa zul zilatil ardu zil zaalaha",
+      "en": "When the earth is shaken with its [final] earthquake"
+    },
+    {
+      "number": 2,
+      "ar": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+      "tl": "Wa akh rajatil ardu athqaalaha",
+      "en": "And the earth discharges its burdens"
+    },
+    {
+      "number": 3,
+      "ar": "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
+      "tl": "Wa qaalal insaanu ma laha",
+      "en": "And man says, \"What is [wrong] with it?\" -"
+    },
+    {
+      "number": 4,
+      "ar": "يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
+      "tl": "Yawmaa izin tuhad dithu akhbaaraha",
+      "en": "That Day, it will report its news"
+    },
+    {
+      "number": 5,
+      "ar": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+      "tl": "Bi-anna rabbaka awhaa laha",
+      "en": "Because your Lord has commanded it."
+    },
+    {
+      "number": 6,
+      "ar": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+      "tl": "Yawma iziy yas durun naasu ash tatal liyuraw a'maalahum",
+      "en": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds."
+    },
+    {
+      "number": 7,
+      "ar": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ",
+      "tl": "Famaiy ya'mal mithqala zarratin khai raiy-yarah",
+      "en": "So whoever does an atom's weight of good will see it,"
+    },
+    {
+      "number": 8,
+      "ar": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ",
+      "tl": "Wa maiy-y'amal mithqala zarratin sharraiy-yarah",
+      "en": "And whoever does an atom's weight of evil will see it."
+    }
+  ]
+}

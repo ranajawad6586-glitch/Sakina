@@ -1,0 +1,47 @@
+{
+  "number": 114,
+  "name_ar": "سُورَةُ النَّاسِ",
+  "name_en": "An-Naas",
+  "meaning": "Mankind",
+  "verses": 6,
+  "type": "meccan",
+  "bismillah_inline": false,
+  "ayahs": [
+    {
+      "number": 1,
+      "ar": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "tl": "Qul a'uzu birabbin naas",
+      "en": "Say, \"I seek refuge in the Lord of mankind,"
+    },
+    {
+      "number": 2,
+      "ar": "مَلِكِ ٱلنَّاسِ",
+      "tl": "Malikin naas",
+      "en": "The Sovereign of mankind."
+    },
+    {
+      "number": 3,
+      "ar": "إِلَٰهِ ٱلنَّاسِ",
+      "tl": "Ilaahin naas",
+      "en": "The God of mankind,"
+    },
+    {
+      "number": 4,
+      "ar": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+      "tl": "Min sharril was waasil khannaas",
+      "en": "From the evil of the retreating whisperer -"
+    },
+    {
+      "number": 5,
+      "ar": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+      "tl": "Al lazee yuwas wisu fee sudoorin naas",
+      "en": "Who whispers [evil] into the breasts of mankind -"
+    },
+    {
+      "number": 6,
+      "ar": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "tl": "Minal jinnati wan naas",
+      "en": "From among the jinn and mankind.\""
+    }
+  ]
+}

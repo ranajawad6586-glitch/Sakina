@@ -1,0 +1,35 @@
+{
+  "number": 112,
+  "name_ar": "سُورَةُ الإِخۡلَاصِ",
+  "name_en": "Al-Ikhlaas",
+  "meaning": "Sincerity",
+  "verses": 4,
+  "type": "meccan",
+  "bismillah_inline": false,
+  "ayahs": [
+    {
+      "number": 1,
+      "ar": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "tl": "Qul huwal laahu ahad",
+      "en": "Say, \"He is Allah, [who is] One,"
+    },
+    {
+      "number": 2,
+      "ar": "ٱللَّهُ ٱلصَّمَدُ",
+      "tl": "Allah hus-samad",
+      "en": "Allah, the Eternal Refuge."
+    },
+    {
+      "number": 3,
+      "ar": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "tl": "Lam yalid wa lam yoolad",
+      "en": "He neither begets nor is born,"
+    },
+    {
+      "number": 4,
+      "ar": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "tl": "Wa lam yakul-lahu kufuwan ahad",
+      "en": "Nor is there to Him any equivalent.\""
+    }
+  ]
+}
