@@ -1,0 +1,18 @@
+// Cloudflare Workers — static-assets configuration.
+//
+// Without this file, Cloudflare auto-detects Next.js in package.json
+// and tries to wire up OpenNext SSR, which fails because we ship a
+// pure static export (no .next/standalone, no pages-manifest.json).
+//
+// With this file, `wrangler deploy` skips the OpenNext migration and
+// just uploads ./out as static assets served from Cloudflare's edge.
+// Same result as Cloudflare Pages, no SSR runtime involved.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sakina",
+  "compatibility_date": "2026-05-26",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
