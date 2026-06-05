@@ -81,10 +81,25 @@ export function AudioController() {
         if (currentBtn === btn) setButtonState(btn, "playing");
       });
       audio.addEventListener("ended", () => {
-        if (currentBtn === btn) {
-          setButtonState(btn, "idle");
-          audio = null;
-          currentBtn = null;
+        if (currentBtn !== btn) return;
+        setButtonState(btn, "idle");
+        audio = null;
+        currentBtn = null;
+
+        // Auto-advance: find the next ayah on this page and play it,
+        // scrolling it gently into view. Stops at end of surah (no
+        // next button found). User can interrupt at any time by
+        // clicking pause or another verse.
+        const all = Array.from(
+          document.querySelectorAll<HTMLElement>("[data-verse-audio]"),
+        );
+        const idx = all.indexOf(btn);
+        const next = idx >= 0 ? all[idx + 1] : null;
+        if (next) {
+          next.scrollIntoView({ behavior: "smooth", block: "center" });
+          // Slight delay so the scroll starts before the browser
+          // commits to loading the next audio file.
+          setTimeout(() => next.click(), 120);
         }
       });
       audio.addEventListener("error", () => {
