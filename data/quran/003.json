@@ -9,1201 +9,1201 @@
   "ayahs": [
     {
       "number": 1,
-      "ar": "الٓمٓ",
+      "ar": "الٓمَّٓۚۙ‏",
       "tl": "Alif-Laam-Meeem",
       "en": "Alif, Lam, Meem."
     },
     {
       "number": 2,
-      "ar": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ",
+      "ar": "اللّٰهُ لَا٘ اِلٰهَ اِلَّا هُوَ الۡحَيُّ الۡقَيُّوۡمُؕ‏",
       "tl": "Allaahu laaa ilaaha illaa Huwal Haiyul Qaiyoom",
       "en": "Allah - there is no deity except Him, the Ever-Living, the Sustainer of existence."
     },
     {
       "number": 3,
-      "ar": "نَزَّلَ عَلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًۭا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ",
+      "ar": "نَزَّلَ عَلَيۡكَ الۡكِتٰبَ بِالۡحَقِّ مُصَدِّقًا لِّمَا بَيۡنَ يَدَيۡهِ وَاَنۡزَلَ التَّوۡرٰىةَ وَالۡاِنۡجِيۡلَۙ‏",
       "tl": "Nazzala 'alaikal Kitaaba bilhaqqi musaddiqal limaa baina yadaihi wa anzalat Tawraata wal Injeel",
       "en": "He has sent down upon you, [O Muhammad], the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel."
     },
     {
       "number": 4,
-      "ar": "مِن قَبْلُ هُدًۭى لِّلنَّاسِ وَأَنزَلَ ٱلْفُرْقَانَ ۗ إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ لَهُمْ عَذَابٌۭ شَدِيدٌۭ ۗ وَٱللَّهُ عَزِيزٌۭ ذُو ٱنتِقَامٍ",
+      "ar": "مِنۡ قَبۡلُ هُدًي لِّلنَّاسِ وَاَنۡزَلَ الۡفُرۡقَانَ ࣢ؕ اِنَّ الَّذِيۡنَ كَفَرُوۡا بِاٰيٰتِ اللّٰهِ لَهُمۡ عَذَابٌ شَدِيۡدٌؕ وَاللّٰهُ عَزِيۡزٌ ذُو انۡتِقَامٍؕ‏",
       "tl": "Min qablu hudal linnaasi wa anzalal Furqaan; innallazeena kafaroo bi Aayaatil laahi lahum 'azaabun shadeed; wallaahu 'azeezun zun tiqaam",
       "en": "Before, as guidance for the people. And He revealed the Qur'an. Indeed, those who disbelieve in the verses of Allah will have a severe punishment, and Allah is exalted in Might, the Owner of Retribution."
     },
     {
       "number": 5,
-      "ar": "إِنَّ ٱللَّهَ لَا يَخْفَىٰ عَلَيْهِ شَىْءٌۭ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
+      "ar": "اِنَّ اللّٰهَ لَا يَخۡفٰي عَلَيۡهِ شَيۡءٌ فِي الۡاَرۡضِ وَلَا فِي السَّمَآءِؕ‏",
       "tl": "Innal laaha laa yakhfaa 'alaihi shai'un fil ardi wa laa fis samaaa'",
       "en": "Indeed, from Allah nothing is hidden in the earth nor in the heaven."
     },
     {
       "number": 6,
-      "ar": "هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "ar": "هُوَ الَّذِيۡ يُصَوِّرُكُمۡ فِي الۡاَرۡحَامِ كَيۡفَ يَشَآءُؕ لَا٘ اِلٰهَ اِلَّا هُوَ الۡعَزِيۡزُ الۡحَكِيۡمُ",
       "tl": "Huwal lazee yusawwirukum fil arhaami kaifa yashaaa'; laa ilaaha illaa Huwal 'Azeezul Hakeem",
       "en": "It is He who forms you in the wombs however He wills. There is no deity except Him, the Exalted in Might, the Wise."
     },
     {
       "number": 7,
-      "ar": "هُوَ ٱلَّذِىٓ أَنزَلَ عَلَيْكَ ٱلْكِتَٰبَ مِنْهُ ءَايَٰتٌۭ مُّحْكَمَٰتٌ هُنَّ أُمُّ ٱلْكِتَٰبِ وَأُخَرُ مُتَشَٰبِهَٰتٌۭ ۖ فَأَمَّا ٱلَّذِينَ فِى قُلُوبِهِمْ زَيْغٌۭ فَيَتَّبِعُونَ مَا تَشَٰبَهَ مِنْهُ ٱبْتِغَآءَ ٱلْفِتْنَةِ وَٱبْتِغَآءَ تَأْوِيلِهِۦ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُۥٓ إِلَّا ٱللَّهُ ۗ وَٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ يَقُولُونَ ءَامَنَّا بِهِۦ كُلٌّۭ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّآ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "ar": "هُوَ الَّذِيۡ٘ اَنۡزَلَ عَلَيۡكَ الۡكِتٰبَ مِنۡهُ اٰيٰتٌ مُّحۡكَمٰتٌ هُنَّ اُمُّ الۡكِتٰبِ وَاُخَرُ مُتَشٰبِهٰتٌؕ فَاَمَّا الَّذِيۡنَ فِيۡ قُلُوۡبِهِمۡ زَيۡغٌ فَيَتَّبِعُوۡنَ مَا تَشَابَهَ مِنۡهُ ابۡتِغَآءَ الۡفِتۡنَةِ وَابۡتِغَآءَ تَاۡوِيۡلِهٖۚؔ وَمَا يَعۡلَمُ تَاۡوِيۡلَهٗ٘ اِلَّا اللّٰهُۘ࣡ وَالرّٰسِخُوۡنَ فِي الۡعِلۡمِ يَقُوۡلُوۡنَ اٰمَنَّا بِهٖۙ كُلٌّ مِّنۡ عِنۡدِ رَبِّنَاۚ وَمَا يَذَّكَّرُ اِلَّا٘ اُولُوا الۡاَلۡبَابِ",
       "tl": "Huwal lazeee anzala 'alaikal Kitaaba minhu Aayaatum Muh kamaatun hunna Ummul Kitaabi wa ukharu Mutashaabihaatun faammal lazeena fee quloobihim ziyghun fa yattabi'oona ma tashaabaha minhubtighaaa 'alfitnati wabtighaaa'a taaweelih; wa maa ya'lamu taaweelahooo illal laah; warraasikhoona fil 'ilmi yaqooloona aamannaa bihee kullum min 'indi Rabbinaa; wa maa yazzakkaru illaaa ulul albaab",
       "en": "It is He who has sent down to you, [O Muhammad], the Book; in it are verses [that are] precise - they are the foundation of the Book - and others unspecific. As for those in whose hearts is deviation [from truth], they will follow that of it which is unspecific, seeking discord and seeking an interpretation [suitable to them]. And no one knows its [true] interpretation except Allah. But those firm in knowledge say, \"We believe in it. All [of it] is from our Lord.\" And no one will be reminded except those of understanding."
     },
     {
       "number": 8,
-      "ar": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+      "ar": "رَبَّنَا لَا تُزِغۡ قُلُوۡبَنَا بَعۡدَ اِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا مِنۡ لَّدُنۡكَ رَحۡمَةًۚ اِنَّكَ اَنۡتَ الۡوَهَّابُ",
       "tl": "Rabbanaa laa tuzigh quloobanaa ba'da iz hadaitanaa wa hab lanaa mil ladunka rahmah; innaka antal Wahhaab",
       "en": "[Who say], \"Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower."
     },
     {
       "number": 9,
-      "ar": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+      "ar": "رَبَّنَا٘ اِنَّكَ جَامِعُ النَّاسِ لِيَوۡمٍ لَّا رَيۡبَ فِيۡهِؕ اِنَّ اللّٰهَ لَا يُخۡلِفُ الۡمِيۡعَادَࣖ‏",
       "tl": "Rabbanaaa innaka jaami 'un-naasi li Yawmil laa raibafeeh; innal laaha laa yukhliful mee'aad",
       "en": "Our Lord, surely You will gather the people for a Day about which there is no doubt. Indeed, Allah does not fail in His promise.\""
     },
     {
       "number": 10,
-      "ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُم مِّنَ ٱللَّهِ شَيْـًۭٔا ۖ وَأُو۟لَٰٓئِكَ هُمْ وَقُودُ ٱلنَّارِ",
+      "ar": "اِنَّ الَّذِيۡنَ كَفَرُوۡا لَنۡ تُغۡنِيَ عَنۡهُمۡ اَمۡوَالُهُمۡ وَلَا٘ اَوۡلَادُهُمۡ مِّنَ اللّٰهِ شَيۡـًٔاؕ وَاُولٰٓئِكَ هُمۡ وَقُوۡدُ النَّارِۙ‏",
       "tl": "Innal lazeena kafaroo lan tughniya 'anhum amwaaluhum wa laaa awlaaduhum minal laahi shai'anw wa ulaaa'ika hum waqoodun Naar",
       "en": "Indeed, those who disbelieve - never will their wealth or their children avail them against Allah at all. And it is they who are fuel for the Fire."
     },
     {
       "number": 11,
-      "ar": "كَدَأْبِ ءَالِ فِرْعَوْنَ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا۟ بِـَٔايَٰتِنَا فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ ۗ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ",
+      "ar": "كَدَاۡبِ اٰلِ فِرۡعَوۡنَۙ وَالَّذِيۡنَ مِنۡ قَبۡلِهِمۡؕ كَذَّبُوۡا بِاٰيٰتِنَاۚ فَاَخَذَهُمُ اللّٰهُ بِذُنُوۡبِهِمۡؕ وَاللّٰهُ شَدِيۡدُ الۡعِقَابِ",
       "tl": "Kadaabi Aali Fir'awna wallazeena min qablihim; kazzaboo bi Aayaatinaa fa akhazahumul laahu bizunoo bihim; wallaahu shadeedul 'iqaab",
       "en": "[Theirs is] like the custom of the people of Pharaoh and those before them. They denied Our signs, so Allah seized them for their sins. And Allah is severe in penalty."
     },
     {
       "number": 12,
-      "ar": "قُل لِّلَّذِينَ كَفَرُوا۟ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ ٱلْمِهَادُ",
+      "ar": "قُلۡ لِّلَّذِيۡنَ كَفَرُوۡا سَتُغۡلَبُوۡنَ وَتُحۡشَرُوۡنَ اِلٰي جَهَنَّمَؕ وَبِئۡسَ الۡمِهَادُ",
       "tl": "Qul lillazeena kafaroosatughlaboona wa tuhsharoona ilaa jahannam; wa bi'sal mihaad",
       "en": "Say to those who disbelieve, \"You will be overcome and gathered together to Hell, and wretched is the resting place.\""
     },
     {
       "number": 13,
-      "ar": "قَدْ كَانَ لَكُمْ ءَايَةٌۭ فِى فِئَتَيْنِ ٱلْتَقَتَا ۖ فِئَةٌۭ تُقَٰتِلُ فِى سَبِيلِ ٱللَّهِ وَأُخْرَىٰ كَافِرَةٌۭ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْىَ ٱلْعَيْنِ ۚ وَٱللَّهُ يُؤَيِّدُ بِنَصْرِهِۦ مَن يَشَآءُ ۗ إِنَّ فِى ذَٰلِكَ لَعِبْرَةًۭ لِّأُو۟لِى ٱلْأَبْصَٰرِ",
+      "ar": "قَدۡ كَانَ لَكُمۡ اٰيَةٌ فِيۡ فِئَتَيۡنِ الۡتَقَتَاؕ فِئَةٌ تُقَاتِلُ فِيۡ سَبِيۡلِ اللّٰهِ وَاُخۡرٰي كَافِرَةٌ يَّرَوۡنَهُمۡ مِّثۡلَيۡهِمۡ رَاۡيَ الۡعَيۡنِؕ وَاللّٰهُ يُؤَيِّدُ بِنَصۡرِهٖ مَنۡ يَّشَآءُؕ اِنَّ فِيۡ ذٰلِكَ لَعِبۡرَةً لِّاُولِي الۡاَبۡصَارِ",
       "tl": "Qad kaana lakum Aayatun fee fi'atainil taqataa fi'atun tuqaatilu fee sabeelil laahi wa ukhraa kaafiratuny yarawnahum mislaihim raayal 'ayn; wallaahu yu'ayyidu bi nasrihee mai yashaaa'; innaa fee zaalika la 'ibratal li ulil absaar",
       "en": "Already there has been for you a sign in the two armies which met - one fighting in the cause of Allah and another of disbelievers. They saw them [to be] twice their [own] number by [their] eyesight. But Allah supports with His victory whom He wills. Indeed in that is a lesson for those of vision."
     },
     {
       "number": 14,
-      "ar": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "ar": "زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوٰتِ مِنَ النِّسَآءِ وَالۡبَنِيۡنَ وَالۡقَنَاطِيۡرِ الۡمُقَنۡطَرَةِ مِنَ الذَّهَبِ وَالۡفِضَّةِ وَالۡخَيۡلِ الۡمُسَوَّمَةِ وَالۡاَنۡعَامِ وَالۡحَرۡثِؕ ذٰلِكَ مَتَاعُ الۡحَيٰوةِ الدُّنۡيَاۚ وَاللّٰهُ عِنۡدَهٗ حُسۡنُ الۡمَاٰبِ",
       "tl": "Zuyyina linnaasi hubbush shahawaati minannisaaa'i wal baneena walqanaateeril muqantarati minaz zahabi walfiddati walkhailil musawwamati wal an'aami walhars; zaalika mataa'ul hayaatid dunyaa wallaahu 'indahoo husnul ma-aab",
       "en": "Beautified for people is the love of that which they desire - of women and sons, heaped-up sums of gold and silver, fine branded horses, and cattle and tilled land. That is the enjoyment of worldly life, but Allah has with Him the best return."
     },
     {
       "number": 15,
-      "ar": "۞ قُلْ أَؤُنَبِّئُكُم بِخَيْرٍۢ مِّن ذَٰلِكُمْ ۚ لِلَّذِينَ ٱتَّقَوْا۟ عِندَ رَبِّهِمْ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا وَأَزْوَٰجٌۭ مُّطَهَّرَةٌۭ وَرِضْوَٰنٌۭ مِّنَ ٱللَّهِ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ",
+      "ar": "قُلۡ اَؤُنَبِّئُكُمۡ بِخَيۡرٍ مِّنۡ ذٰلِكُمۡؕ لِلَّذِيۡنَ اتَّقَوۡا عِنۡدَ رَبِّهِمۡ جَنّٰتٌ تَجۡرِيۡ مِنۡ تَحۡتِهَا الۡاَنۡهٰرُ خٰلِدِيۡنَ فِيۡهَا وَاَزۡوَاجٌ مُّطَهَّرَةٌ وَّرِضۡوَانٌ مِّنَ اللّٰهِؕ وَاللّٰهُ بَصِيۡرٌۭ بِالۡعِبَادِۚ‏",
       "tl": "Qul a'unabbi 'ukum bikhairim min zaalikum; lillazeenat taqaw 'inda Rabbihim jannaatun tajree min tahtihal anhaaru khaalideena feehaa wa azwaajum mutahharatunw wa ridwaanum minal laah; wallaahu baseerum bil'ibaad",
       "en": "Say, \"Shall I inform you of [something] better than that? For those who fear Allah will be gardens in the presence of their Lord beneath which rivers flow, wherein they abide eternally, and purified spouses and approval from Allah. And Allah is Seeing of [His] servants -"
     },
     {
       "number": 16,
-      "ar": "ٱلَّذِينَ يَقُولُونَ رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
+      "ar": "اَلَّذِيۡنَ يَقُوۡلُوۡنَ رَبَّنَا٘ اِنَّنَا٘ اٰمَنَّا فَاغۡفِرۡ لَنَا ذُنُوۡبَنَا وَقِنَا عَذَابَ النَّارِۚ‏",
       "tl": "Allazeena yaqooloona Rabbanaaa innanaaa aamannaa faghfir lanaa zunoobanaa wa qinaa 'azaaban Naar",
       "en": "Those who say, \"Our Lord, indeed we have believed, so forgive us our sins and protect us from the punishment of the Fire,\""
     },
     {
       "number": 17,
-      "ar": "ٱلصَّٰبِرِينَ وَٱلصَّٰدِقِينَ وَٱلْقَٰنِتِينَ وَٱلْمُنفِقِينَ وَٱلْمُسْتَغْفِرِينَ بِٱلْأَسْحَارِ",
+      "ar": "اَلصّٰبِرِيۡنَ وَالصّٰدِقِيۡنَ وَالۡقٰنِتِيۡنَ وَالۡمُنۡفِقِيۡنَ وَالۡمُسۡتَغۡفِرِيۡنَ بِالۡاَسۡحَارِ",
       "tl": "Assaabireena wassaa diqeena walqaaniteena walmunfiqeena walmus taghfireena bil ashaar",
       "en": "The patient, the true, the obedient, those who spend [in the way of Allah], and those who seek forgiveness before dawn."
     },
     {
       "number": 18,
-      "ar": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا هُوَ وَٱلْمَلَٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "ar": "شَهِدَ اللّٰهُ اَنَّهٗ لَا٘ اِلٰهَ اِلَّا هُوَۙ وَالۡمَلٰٓئِكَةُ وَاُولُوا الۡعِلۡمِ قَآئِمًاۭ بِالۡقِسۡطِؕ لَا٘ اِلٰهَ اِلَّا هُوَ الۡعَزِيۡزُ الۡحَكِيۡمُؕ‏",
       "tl": "Shahidal laahu annahoo laa ilaaha illaa Huwa walmalaaa'ikatu wa ulul 'ilmi qaaa'imam bilqist; laaa ilaaha illaa Huwal 'Azeezul Hakeem",
       "en": "Allah witnesses that there is no deity except Him, and [so do] the angels and those of knowledge - [that He is] maintaining [creation] in justice. There is no deity except Him, the Exalted in Might, the Wise."
     },
     {
       "number": 19,
-      "ar": "إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَٰمُ ۗ وَمَا ٱخْتَلَفَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِـَٔايَٰتِ ٱللَّهِ فَإِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
+      "ar": "اِنَّ الدِّيۡنَ عِنۡدَ اللّٰهِ الۡاِسۡلَامُࣞ وَمَا اخۡتَلَفَ الَّذِيۡنَ اُوۡتُوا الۡكِتٰبَ اِلَّا مِنۭۡ بَعۡدِ مَا جَآءَهُمُ الۡعِلۡمُ بَغۡيًاۭ بَيۡنَهُمۡؕ وَمَنۡ يَّكۡفُرۡ بِاٰيٰتِ اللّٰهِ فَاِنَّ اللّٰهَ سَرِيۡعُ الۡحِسَابِ",
       "tl": "Innad deena 'indal laahil Islaam; wa makhtalafal lazeena ootul Kitaaba illaa mim ba'di maa jaaa'ahumul 'ilmu baghyam bainahum; wa mai yakfur bi Aayaatil laahi fa innal laaha saree'ul hisaab",
       "en": "Indeed, the religion in the sight of Allah is Islam. And those who were given the Scripture did not differ except after knowledge had come to them - out of jealous animosity between themselves. And whoever disbelieves in the verses of Allah, then indeed, Allah is swift in [taking] account."
     },
     {
       "number": 20,
-      "ar": "فَإِنْ حَآجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِىَ لِلَّهِ وَمَنِ ٱتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْأُمِّيِّۦنَ ءَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا۟ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا عَلَيْكَ ٱلْبَلَٰغُ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ",
+      "ar": "فَاِنۡ حَآجُّوۡكَ فَقُلۡ اَسۡلَمۡتُ وَجۡهِيَ لِلّٰهِ وَمَنِ اتَّبَعَنِؕ وَقُلۡ لِّلَّذِيۡنَ اُوۡتُوا الۡكِتٰبَ وَالۡاُمِّيّٖنَ ءَاَسۡلَمۡتُمۡؕ فَاِنۡ اَسۡلَمُوۡا فَقَدِ اهۡتَدَوۡاۚ وَاِنۡ تَوَلَّوۡا فَاِنَّمَا عَلَيۡكَ الۡبَلٰغُؕ وَاللّٰهُ بَصِيۡرٌۭ بِالۡعِبَادِࣖ‏",
       "tl": "Fa in haaajjooka faqul aslamtu wajhiya lillaahi wa manit taba'an; wa qul lillazeena ootul Kitaaba wal ummiyyeena 'a-aslamtum; fa in aslamoo faqadih tadaw wa in tawallaw fa innamaa 'alaikal balaagh; wallaahu baseerum bil 'ibaad",
       "en": "So if they argue with you, say, \"I have submitted myself to Allah [in Islam], and [so have] those who follow me.\" And say to those who were given the Scripture and [to] the unlearned, \"Have you submitted yourselves?\" And if they submit [in Islam], they are rightly guided; but if they turn away - then upon you is only the [duty of] notification. And Allah is Seeing of [His] servants."
     },
     {
       "number": 21,
-      "ar": "إِنَّ ٱلَّذِينَ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ حَقٍّۢ وَيَقْتُلُونَ ٱلَّذِينَ يَأْمُرُونَ بِٱلْقِسْطِ مِنَ ٱلنَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "ar": "اِنَّ الَّذِيۡنَ يَكۡفُرُوۡنَ بِاٰيٰتِ اللّٰهِ وَيَقۡتُلُوۡنَ النَّبِيّٖنَ بِغَيۡرِ حَقٍّۙ وَّيَقۡتُلُوۡنَ الَّذِيۡنَ يَاۡمُرُوۡنَ بِالۡقِسۡطِ مِنَ النَّاسِۙ فَبَشِّرۡهُمۡ بِعَذَابٍ اَلِيۡمٍ",
       "tl": "Innal lazeena yakfuroona bi Aayaatil laahi wa yaqtuloonan Nabiyyeena bighairi haqqinw wa yaqtuloonal lazeena yaamuroona bilqisti minannaasi fabashirhum bi'azaabin aleem",
       "en": "Those who disbelieve in the signs of Allah and kill the prophets without right and kill those who order justice from among the people - give them tidings of a painful punishment."
     },
     {
       "number": 22,
-      "ar": "أُو۟لَٰٓئِكَ ٱلَّذِينَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ وَمَا لَهُم مِّن نَّٰصِرِينَ",
+      "ar": "اُولٰٓئِكَ الَّذِيۡنَ حَبِطَتۡ اَعۡمَالُهُمۡ فِي الدُّنۡيَا وَالۡاٰخِرَةِؗ وَمَا لَهُمۡ مِّنۡ نّٰصِرِيۡنَ",
       "tl": "Ulaaa'ikal lazeena habitat a'maaluhum fid dunyaa wal Aaakhirati wa maa lahum min naasireen",
       "en": "They are the ones whose deeds have become worthless in this world and the Hereafter, and for them there will be no helpers."
     },
     {
       "number": 23,
-      "ar": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًۭا مِّنَ ٱلْكِتَٰبِ يُدْعَوْنَ إِلَىٰ كِتَٰبِ ٱللَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّىٰ فَرِيقٌۭ مِّنْهُمْ وَهُم مُّعْرِضُونَ",
+      "ar": "اَلَمۡ تَرَ اِلَي الَّذِيۡنَ اُوۡتُوۡا نَصِيۡبًا مِّنَ الۡكِتٰبِ يُدۡعَوۡنَ اِلٰي كِتٰبِ اللّٰهِ لِيَحۡكُمَ بَيۡنَهُمۡ ثُمَّ يَتَوَلّٰي فَرِيۡقٌ مِّنۡهُمۡ وَهُمۡ مُّعۡرِضُوۡنَ",
       "tl": "Alam tara ilal lazeena ootoo naseebam minal Kitaabi yud'awna ilaa Kitaabil laahi liyahkuma bainahum summa yatawallaa fareequm minhum wa hum mu'ridoon",
       "en": "Do you not consider, [O Muhammad], those who were given a portion of the Scripture? They are invited to the Scripture of Allah that it should arbitrate between them; then a party of them turns away, and they are refusing."
     },
     {
       "number": 24,
-      "ar": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامًۭا مَّعْدُودَٰتٍۢ ۖ وَغَرَّهُمْ فِى دِينِهِم مَّا كَانُوا۟ يَفْتَرُونَ",
+      "ar": "ذٰلِكَ بِاَنَّهُمۡ قَالُوۡا لَنۡ تَمَسَّنَا النَّارُ اِلَّا٘ اَيَّامًا مَّعۡدُوۡدٰتٍࣕ وَّغَرَّهُمۡ فِيۡ دِيۡنِهِمۡ مَّا كَانُوۡا يَفۡتَرُوۡنَ",
       "tl": "Zaalika bi annahum qaaloo lan tamassanan naaru illaaa ayyaamam ma'doodaatinw wa gharrahum fee deenihim maa kaanoo yaftaroon",
       "en": "That is because they say, \"Never will the Fire touch us except for [a few] numbered days,\" and [because] they were deluded in their religion by what they were inventing."
     },
     {
       "number": 25,
-      "ar": "فَكَيْفَ إِذَا جَمَعْنَٰهُمْ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍۢ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
+      "ar": "فَكَيۡفَ اِذَا جَمَعۡنٰهُمۡ لِيَوۡمٍ لَّا رَيۡبَ فِيۡهِࣞ وَوُفِّيَتۡ كُلُّ نَفۡسٍ مَّا كَسَبَتۡ وَهُمۡ لَا يُظۡلَمُوۡنَ",
       "tl": "Fakaifa izaa jama'naahum li Yawmil laa raiba fee wa wuffiyat kullu nafsim maa kasabat wa hum laa yuzlamoon",
       "en": "So how will it be when We assemble them for a Day about which there is no doubt? And each soul will be compensated [in full for] what it earned, and they will not be wronged."
     },
     {
       "number": 26,
-      "ar": "قُلِ ٱللَّهُمَّ مَٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ",
+      "ar": "قُلِ اللّٰهُمَّ مٰلِكَ الۡمُلۡكِ تُؤۡتِي الۡمُلۡكَ مَنۡ تَشَآءُ وَتَنۡزِعُ الۡمُلۡكَ مِمَّنۡ تَشَآءُؗ وَتُعِزُّ مَنۡ تَشَآءُ وَتُذِلُّ مَنۡ تَشَآءُؕ بِيَدِكَ الۡخَيۡرُؕ اِنَّكَ عَلٰي كُلِّ شَيۡءٍ قَدِيۡرٌ",
       "tl": "Qulil laahumma Maalikal Mulki tu'til mulka man tashaaa'u wa tanzi'ulmulka mimman tashhaaa'u wa tu'izzu man tashaaa'u wa tuzillu man tashaaa'u biyadikal khairu innaka 'alaa kulli shai'in Qadeer",
       "en": "Say, \"O Allah, Owner of Sovereignty, You give sovereignty to whom You will and You take sovereignty away from whom You will. You honor whom You will and You humble whom You will. In Your hand is [all] good. Indeed, You are over all things competent."
     },
     {
       "number": 27,
-      "ar": "تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+      "ar": "تُوۡلِجُ الَّيۡلَ فِي النَّهَارِ وَتُوۡلِجُ النَّهَارَ فِي الَّيۡلِؗ وَتُخۡرِجُ الۡحَيَّ مِنَ الۡمَيِّتِ وَتُخۡرِجُ الۡمَيِّتَ مِنَ الۡحَيِّؗ وَتَرۡزُقُ مَنۡ تَشَآءُ بِغَيۡرِ حِسَابٍ",
       "tl": "Toolijul laila fin nahaari wa toolijun nahaara fil laili wa tukhrijul haiya minalmaiyiti wa tukhrijulo maiyita minal haiyi wa tarzuqu man tashaaa'u bighari hisab",
       "en": "You cause the night to enter the day, and You cause the day to enter the night; and You bring the living out of the dead, and You bring the dead out of the living. And You give provision to whom You will without account.\""
     },
     {
       "number": 28,
-      "ar": "لَّا يَتَّخِذِ ٱلْمُؤْمِنُونَ ٱلْكَٰفِرِينَ أَوْلِيَآءَ مِن دُونِ ٱلْمُؤْمِنِينَ ۖ وَمَن يَفْعَلْ ذَٰلِكَ فَلَيْسَ مِنَ ٱللَّهِ فِى شَىْءٍ إِلَّآ أَن تَتَّقُوا۟ مِنْهُمْ تُقَىٰةًۭ ۗ وَيُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُۥ ۗ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ",
+      "ar": "لَا يَتَّخِذِ الۡمُؤۡمِنُوۡنَ الۡكٰفِرِيۡنَ اَوۡلِيَآءَ مِنۡ دُوۡنِ الۡمُؤۡمِنِيۡنَۚ وَمَنۡ يَّفۡعَلۡ ذٰلِكَ فَلَيۡسَ مِنَ اللّٰهِ فِيۡ شَيۡءٍ اِلَّا٘ اَنۡ تَتَّقُوۡا مِنۡهُمۡ تُقٰىةًؕ وَيُحَذِّرُكُمُ اللّٰهُ نَفۡسَهٗؕ وَاِلَي اللّٰهِ الۡمَصِيۡرُ",
       "tl": "Laa yattakhizil mu'minoonal kaafireena awliyaaa'a min doonil mu'mineena wa mai yaf'al zaalika falaisa minal laahi fee shai'in illaaa an tattaqoo minhum tuqaah; wa yuhazzirukumul laahu nafsah; wa ilal laahil maseer",
       "en": "Let not believers take disbelievers as allies rather than believers. And whoever [of you] does that has nothing with Allah, except when taking precaution against them in prudence. And Allah warns you of Himself, and to Allah is the [final] destination."
     },
     {
       "number": 29,
-      "ar": "قُلْ إِن تُخْفُوا۟ مَا فِى صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ ٱللَّهُ ۗ وَيَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ",
+      "ar": "قُلۡ اِنۡ تُخۡفُوۡا مَا فِيۡ صُدُوۡرِكُمۡ اَوۡ تُبۡدُوۡهُ يَعۡلَمۡهُ اللّٰهُؕ وَيَعۡلَمُ مَا فِي السَّمٰوٰتِ وَمَا فِي الۡاَرۡضِؕ وَاللّٰهُ عَلٰي كُلِّ شَيۡءٍ قَدِيۡرٌ",
       "tl": "Qul in tukhfoo maa fee sudoorikum aw tubdoohu ya'lamhul laah; wa ya'lamu maa fis samaawaati wa maa fil ard; wallaahu 'alaa kulli shai'in Qadeer",
       "en": "Say, \"Whether you conceal what is in your breasts or reveal it, Allah knows it. And He knows that which is in the heavens and that which is on the earth. And Allah is over all things competent."
     },
     {
       "number": 30,
-      "ar": "يَوْمَ تَجِدُ كُلُّ نَفْسٍۢ مَّا عَمِلَتْ مِنْ خَيْرٍۢ مُّحْضَرًۭا وَمَا عَمِلَتْ مِن سُوٓءٍۢ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُۥٓ أَمَدًۢا بَعِيدًۭا ۗ وَيُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُۥ ۗ وَٱللَّهُ رَءُوفٌۢ بِٱلْعِبَادِ",
+      "ar": "يَوۡمَ تَجِدُ كُلُّ نَفۡسٍ مَّا عَمِلَتۡ مِنۡ خَيۡرٍ مُّحۡضَرًاۛۚۖ وَّمَا عَمِلَتۡ مِنۡ سُوۡٓءٍۛۚ تَوَدُّ لَوۡ اَنَّ بَيۡنَهَا وَبَيۡنَهٗ٘ اَمَدًاۭ بَعِيۡدًاؕ وَيُحَذِّرُكُمُ اللّٰهُ نَفۡسَهٗؕ وَاللّٰهُ رَءُوۡفٌۭ بِالۡعِبَادِࣖ‏",
       "tl": "Yawma tajidu kullu nafsim maa'amilat min khairim muhdaranw wa maa 'amilat min sooo'in tawaddu law anna bainahaa wa bainahooo amadam ba'eedaa; wa yuhazzirukumul laahu nafsah; wallaahu ra'oofum bil'ibaad",
       "en": "The Day every soul will find what it has done of good present [before it] and what it has done of evil, it will wish that between itself and that [evil] was a great distance. And Allah warns you of Himself, and Allah is Kind to [His] servants.\""
     },
     {
       "number": 31,
-      "ar": "قُلْ إِن كُنتُمْ تُحِبُّونَ ٱللَّهَ فَٱتَّبِعُونِى يُحْبِبْكُمُ ٱللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ",
+      "ar": "قُلۡ اِنۡ كُنۡتُمۡ تُحِبُّوۡنَ اللّٰهَ فَاتَّبِعُوۡنِيۡ يُحۡبِبۡكُمُ اللّٰهُ وَيَغۡفِرۡ لَكُمۡ ذُنُوۡبَكُمۡؕ وَاللّٰهُ غَفُوۡرٌ رَّحِيۡمٌ",
       "tl": "Qul in kuntum tuhibboonal laaha fattabi' oonee yuhbibkumul laahu wa yaghfir lakum zunoobakum; wallaahu Ghafoorur Raheem",
       "en": "Say, [O Muhammad], \"If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins. And Allah is Forgiving and Merciful.\""
     },
     {
       "number": 32,
-      "ar": "قُلْ أَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ ۖ فَإِن تَوَلَّوْا۟ فَإِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْكَٰفِرِينَ",
+      "ar": "قُلۡ اَطِيۡعُوا اللّٰهَ وَالرَّسُوۡلَۚ فَاِنۡ تَوَلَّوۡا فَاِنَّ اللّٰهَ لَا يُحِبُّ الۡكٰفِرِيۡنَ",
       "tl": "Qul atee'ul laaha war Rasoola fa in tawallaw fa innal laaha laa yuhibbul kaafireen",
       "en": "Say, \"Obey Allah and the Messenger.\" But if they turn away - then indeed, Allah does not like the disbelievers."
     },
     {
       "number": 33,
-      "ar": "۞ إِنَّ ٱللَّهَ ٱصْطَفَىٰٓ ءَادَمَ وَنُوحًۭا وَءَالَ إِبْرَٰهِيمَ وَءَالَ عِمْرَٰنَ عَلَى ٱلْعَٰلَمِينَ",
+      "ar": "اِنَّ اللّٰهَ اصۡطَفٰ٘ي اٰدَمَ وَنُوۡحًا وَّاٰلَ اِبۡرٰهِيۡمَ وَاٰلَ عِمۡرٰنَ عَلَي الۡعٰلَمِيۡنَۙ‏",
       "tl": "Innal laahas tafaaa Aadama wa Noohanw wa Aala Ibraaheema wa Aala Imraana 'alal 'aalameen",
       "en": "Indeed, Allah chose Adam and Noah and the family of Abraham and the family of 'Imran over the worlds -"
     },
     {
       "number": 34,
-      "ar": "ذُرِّيَّةًۢ بَعْضُهَا مِنۢ بَعْضٍۢ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "ar": "ذُرِّيَّةًۭ بَعۡضُهَا مِنۭۡ بَعۡضٍؕ وَاللّٰهُ سَمِيۡعٌ عَلِيۡمٌۚ‏",
       "tl": "Zurriyyatam ba'duhaa mim ba'd; wallaahu Samee'un 'Aleem",
       "en": "Descendants, some of them from others. And Allah is Hearing and Knowing."
     },
     {
       "number": 35,
-      "ar": "إِذْ قَالَتِ ٱمْرَأَتُ عِمْرَٰنَ رَبِّ إِنِّى نَذَرْتُ لَكَ مَا فِى بَطْنِى مُحَرَّرًۭا فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "ar": "اِذۡ قَالَتِ امۡرَاَتُ عِمۡرٰنَ رَبِّ اِنِّيۡ نَذَرۡتُ لَكَ مَا فِيۡ بَطۡنِيۡ مُحَرَّرًا فَتَقَبَّلۡ مِنِّيۡۚ اِنَّكَ اَنۡتَ السَّمِيۡعُ الۡعَلِيۡمُ",
       "tl": "Iz qaalatim ra atu 'Imraana Rabbi innee nazartu laka maa fee batnee muharraran fataqabbal minnee innaka Antas Samee'ul 'Aleem",
       "en": "[Mention, O Muhammad], when the wife of 'Imran said, \"My Lord, indeed I have pledged to You what is in my womb, consecrated [for Your service], so accept this from me. Indeed, You are the Hearing, the Knowing.\""
     },
     {
       "number": 36,
-      "ar": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّى وَضَعْتُهَآ أُنثَىٰ وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ ٱلذَّكَرُ كَٱلْأُنثَىٰ ۖ وَإِنِّى سَمَّيْتُهَا مَرْيَمَ وَإِنِّىٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ",
+      "ar": "فَلَمَّا وَضَعَتۡهَا قَالَتۡ رَبِّ اِنِّيۡ وَضَعۡتُهَا٘ اُنۡثٰيؕ وَاللّٰهُ اَعۡلَمُ بِمَا وَضَعَتۡؕ وَلَيۡسَ الذَّكَرُ كَالۡاُنۡثٰيۚ وَاِنِّيۡ سَمَّيۡتُهَا مَرۡيَمَ وَاِنِّيۡ٘ اُعِيۡذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيۡطٰنِ الرَّجِيۡمِ",
       "tl": "Falammaa waqa'athaa qaalat Rabbi innee wada'tuhaaa unsaa wallaahu a'lamu bimaa wada'at wa laisaz zakaru kalunsaa wa innee sammaituhaa Maryama wa innee u'eezuhaa bika wa zurriyyatahaa minash Shaitaanir Rajeem",
       "en": "But when she delivered her, she said, \"My Lord, I have delivered a female.\" And Allah was most knowing of what she delivered, \"And the male is not like the female. And I have named her Mary, and I seek refuge for her in You and [for] her descendants from Satan, the expelled [from the mercy of Allah].\""
     },
     {
       "number": 37,
-      "ar": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍۢ وَأَنۢبَتَهَا نَبَاتًا حَسَنًۭا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًۭا ۖ قَالَ يَٰمَرْيَمُ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
+      "ar": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُوۡلٍ حَسَنٍ وَّاَنۭۡ بَتَهَا نَبَاتًا حَسَنًاۙ وَّكَفَّلَهَا زَكَرِيَّاؕ كُلَّمَا دَخَلَ عَلَيۡهَا زَكَرِيَّا الۡمِحۡرَابَۙ وَجَدَ عِنۡدَهَا رِزۡقًاۚ قَالَ يٰمَرۡيَمُ اَنّٰي لَكِ هٰذَاؕ قَالَتۡ هُوَ مِنۡ عِنۡدِ اللّٰهِؕ اِنَّ اللّٰهَ يَرۡزُقُ مَنۡ يَّشَآءُ بِغَيۡرِ حِسَابٍ",
       "tl": "Fataqabbalahaa Rabbuhaa biqaboolin hasaninw wa ambatahaa nabaatan hasananw wa kaffalahaa Zakariyyaa kullamaa dakhala 'alaihaa Zakariyyal Mihraaba wajada 'indahaa rizqan qaala yaa Maryamu annaa laki haazaa qaalat huwa min 'indil laahi innal laaha yarzuqu mai yashaaa'u bighairi hisaab",
       "en": "So her Lord accepted her with good acceptance and caused her to grow in a good manner and put her in the care of Zechariah. Every time Zechariah entered upon her in the prayer chamber, he found with her provision. He said, \"O Mary, from where is this [coming] to you?\" She said, \"It is from Allah. Indeed, Allah provides for whom He wills without account.\""
     },
     {
       "number": 38,
-      "ar": "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُۥ ۖ قَالَ رَبِّ هَبْ لِى مِن لَّدُنكَ ذُرِّيَّةًۭ طَيِّبَةً ۖ إِنَّكَ سَمِيعُ ٱلدُّعَآءِ",
+      "ar": "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهٗۚ قَالَ رَبِّ هَبۡ لِيۡ مِنۡ لَّدُنۡكَ ذُرِّيَّةً طَيِّبَةًۚ اِنَّكَ سَمِيۡعُ الدُّعَآءِ",
       "tl": "Hunaaalika da'aa Zakariyyaa Rabbahoo qaala Rabbi hab lee mil ladunka zurriyyatan taiyibatan innaka samee'ud du'aaa'",
       "en": "At that, Zechariah called upon his Lord, saying, \"My Lord, grant me from Yourself a good offspring. Indeed, You are the Hearer of supplication.\""
     },
     {
       "number": 39,
-      "ar": "فَنَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٌۭ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍۢ مِّنَ ٱللَّهِ وَسَيِّدًۭا وَحَصُورًۭا وَنَبِيًّۭا مِّنَ ٱلصَّٰلِحِينَ",
+      "ar": "فَنَادَتۡهُ الۡمَلٰٓئِكَةُ وَهُوَ قَآئِمٌ يُّصَلِّيۡ فِي الۡمِحۡرَابِۙ اَنَّ اللّٰهَ يُبَشِّرُكَ بِيَحۡيٰي مُصَدِّقًاۭ بِكَلِمَةٍ مِّنَ اللّٰهِ وَسَيِّدًا وَّحَصُوۡرًا وَّنَبِيًّا مِّنَ الصّٰلِحِيۡنَ",
       "tl": "Fanaadat hul malaaa'ikatu wa huwa qaaa'imuny yusallee fil Mihraabi annal laaha yubashshiruka bi Yahyaa musaddiqam bi Kalimatim minal laahi wa saiyidanw wa hasooranw wa Nabiyyam minas saaliheen",
       "en": "So the angels called him while he was standing in prayer in the chamber, \"Indeed, Allah gives you good tidings of John, confirming a word from Allah and [who will be] honorable, abstaining [from women], and a prophet from among the righteous.\""
     },
     {
       "number": 40,
-      "ar": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌۭ وَقَدْ بَلَغَنِىَ ٱلْكِبَرُ وَٱمْرَأَتِى عَاقِرٌۭ ۖ قَالَ كَذَٰلِكَ ٱللَّهُ يَفْعَلُ مَا يَشَآءُ",
+      "ar": "قَالَ رَبِّ اَنّٰي يَكُوۡنُ لِيۡ غُلٰمٌ وَّقَدۡ بَلَغَنِيَ الۡكِبَرُ وَامۡرَاَتِيۡ عَاقِرٌؕ قَالَ كَذٰلِكَ اللّٰهُ يَفۡعَلُ مَا يَشَآءُ",
       "tl": "Qaala Rabbi annaa yakoonu lee ghulaamunw wa qad balaghaniyal kibaru wamraatee 'aaqirun qaala kazaalikal laahu yaf'alu maa yashaaa'",
       "en": "He said, \"My Lord, how will I have a boy when I have reached old age and my wife is barren?\" The angel said, \"Such is Allah; He does what He wills.\""
     },
     {
       "number": 41,
-      "ar": "قَالَ رَبِّ ٱجْعَل لِّىٓ ءَايَةًۭ ۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَٰثَةَ أَيَّامٍ إِلَّا رَمْزًۭا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًۭا وَسَبِّحْ بِٱلْعَشِىِّ وَٱلْإِبْكَٰرِ",
+      "ar": "قَالَ رَبِّ اجۡعَلۡ لِّيۡ٘ اٰيَةًؕ قَالَ اٰيَتُكَ اَلَّا تُكَلِّمَ النَّاسَ ثَلٰثَةَ اَيَّامٍ اِلَّا رَمۡزًاؕ وَاذۡكُرۡ رَّبَّكَ كَثِيۡرًا وَّسَبِّحۡ بِالۡعَشِيِّ وَالۡاِبۡكَارِࣖ‏",
       "tl": "Qaala Rabbij 'al leee Aayatan qaala Aaayatuka allaa tukalliman naasa salaasata ayyaamin illa ramzaa; wzkur Rabbaka kaseeranw wa sabbih bil'ashiyyi wal ibkaar",
       "en": "He said, \"My Lord, make for me a sign.\" He Said, \"Your sign is that you will not [be able to] speak to the people for three days except by gesture. And remember your Lord much and exalt [Him with praise] in the evening and the morning.\""
     },
     {
       "number": 42,
-      "ar": "وَإِذْ قَالَتِ ٱلْمَلَٰٓئِكَةُ يَٰمَرْيَمُ إِنَّ ٱللَّهَ ٱصْطَفَىٰكِ وَطَهَّرَكِ وَٱصْطَفَىٰكِ عَلَىٰ نِسَآءِ ٱلْعَٰلَمِينَ",
+      "ar": "وَاِذۡ قَالَتِ الۡمَلٰٓئِكَةُ يٰمَرۡيَمُ اِنَّ اللّٰهَ اصۡطَفٰىكِ وَطَهَّرَكِ وَاصۡطَفٰىكِ عَلٰي نِسَآءِ الۡعٰلَمِيۡنَ",
       "tl": "Wa iz qaalatil malaaa'ikatu yaa Ya Maryamu innal laahas tafaaki wa tahharaki wastafaaki 'alaa nisaaa'il 'aalameen",
       "en": "And [mention] when the angels said, \"O Mary, indeed Allah has chosen you and purified you and chosen you above the women of the worlds."
     },
     {
       "number": 43,
-      "ar": "يَٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى وَٱرْكَعِى مَعَ ٱلرَّٰكِعِينَ",
+      "ar": "يٰمَرۡيَمُ اقۡنُتِيۡ لِرَبِّكِ وَاسۡجُدِيۡ وَارۡكَعِيۡ مَعَ الرّٰكِعِيۡنَ",
       "tl": "Yaa Maryamuq nutee li Rabbiki wasjudee warka'ee ma'ar raaki'een",
       "en": "O Mary, be devoutly obedient to your Lord and prostrate and bow with those who bow [in prayer].\""
     },
     {
       "number": 44,
-      "ar": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَٰمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ",
+      "ar": "ذٰلِكَ مِنۡ اَنۭۡ بَآءِ الۡغَيۡبِ نُوۡحِيۡهِ اِلَيۡكَؕ وَمَا كُنۡتَ لَدَيۡهِمۡ اِذۡ يُلۡقُوۡنَ اَقۡلَامَهُمۡ اَيُّهُمۡ يَكۡفُلُ مَرۡيَمَࣕ وَمَا كُنۡتَ لَدَيۡهِمۡ اِذۡ يَخۡتَصِمُوۡنَ",
       "tl": "Zaalika min ambaaa'il ghaibi nooheehi ilaik; wa maa kunta ladaihim iz yulqoona aqlaamahum ayyuhum yakfulu Maryama wa maa kunta ladaihim iz yakhtasimoon",
       "en": "That is from the news of the unseen which We reveal to you, [O Muhammad]. And you were not with them when they cast their pens as to which of them should be responsible for Mary. Nor were you with them when they disputed."
     },
     {
       "number": 45,
-      "ar": "إِذْ قَالَتِ ٱلْمَلَٰٓئِكَةُ يَٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًۭا فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ",
+      "ar": "اِذۡ قَالَتِ الۡمَلٰٓئِكَةُ يٰمَرۡيَمُ اِنَّ اللّٰهَ يُبَشِّرُكِ بِكَلِمَةٍ مِّنۡهُࣗۙ اسۡمُهُ الۡمَسِيۡحُ عِيۡسَي ابۡنُ مَرۡيَمَ وَجِيۡهًا فِي الدُّنۡيَا وَالۡاٰخِرَةِ وَمِنَ الۡمُقَرَّبِيۡنَۙ‏",
       "tl": "Iz qaalatil malaaa'ikatu yaa Maryamu innal laaha yubashshiruki bi Kalimatim minhus muhul Maseeh u 'Eesab nu Maryama wajeehan fid dunyaa wal Aakhirati wa minal muqarrabeen",
       "en": "[And mention] when the angels said, \"O Mary, indeed Allah gives you good tidings of a word from Him, whose name will be the Messiah, Jesus, the son of Mary - distinguished in this world and the Hereafter and among those brought near [to Allah]."
     },
     {
       "number": 46,
-      "ar": "وَيُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًۭا وَمِنَ ٱلصَّٰلِحِينَ",
+      "ar": "وَيُكَلِّمُ النَّاسَ فِي الۡمَهۡدِ وَكَهۡلًا وَّمِنَ الصّٰلِحِيۡنَ",
       "tl": "Wa yukallimun naasa filmahdi wa kahlanw wa minassaaliheen",
       "en": "He will speak to the people in the cradle and in maturity and will be of the righteous.\""
     },
     {
       "number": 47,
-      "ar": "قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِى وَلَدٌۭ وَلَمْ يَمْسَسْنِى بَشَرٌۭ ۖ قَالَ كَذَٰلِكِ ٱللَّهُ يَخْلُقُ مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
+      "ar": "قَالَتۡ رَبِّ اَنّٰي يَكُوۡنُ لِيۡ وَلَدٌ وَّلَمۡ يَمۡسَسۡنِيۡ بَشَرٌؕ قَالَ كَذٰلِكِ اللّٰهُ يَخۡلُقُ مَا يَشَآءُؕ اِذَا قَضٰ٘ي اَمۡرًا فَاِنَّمَا يَقُوۡلُ لَهٗ كُنۡ فَيَكُوۡنُ",
       "tl": "Qaalat Rabbi annaa yakoonu ee waladunw wa lam yamsasnee basharun qaala kazaalikil laahu yakhluqu maa yashaaa'; izaa qadaaa amran fa innamaa yaqoolu lahoo kun fayakoon",
       "en": "She said, \"My Lord, how will I have a child when no man has touched me?\" [The angel] said, \"Such is Allah; He creates what He wills. When He decrees a matter, He only says to it, 'Be,' and it is."
     },
     {
       "number": 48,
-      "ar": "وَيُعَلِّمُهُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ",
+      "ar": "وَيُعَلِّمُهُ الۡكِتٰبَ وَالۡحِكۡمَةَ وَالتَّوۡرٰىةَ وَالۡاِنۡجِيۡلَۚ‏",
       "tl": "Wa yu'allimuhul Kitaaba wal Hikmata wat Tawraata wal Injeel",
       "en": "And He will teach him writing and wisdom and the Torah and the Gospel"
     },
     {
       "number": 49,
-      "ar": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍۢ مِّن رَّبِّكُمْ ۖ أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "ar": "وَرَسُوۡلًا اِلٰي بَنِيۡ٘ اِسۡرَآءِيۡلَ ࣢ۙ اَنِّيۡ قَدۡ جِئۡتُكُمۡ بِاٰيَةٍ مِّنۡ رَّبِّكُمۡۚۙ اَنِّيۡ٘ اَخۡلُقُ لَكُمۡ مِّنَ الطِّيۡنِ كَهَيۡـَٔةِ الطَّيۡرِ فَاَنۡفُخُ فِيۡهِ فَيَكُوۡنُ طَيۡرًاۭ بِاِذۡنِ اللّٰهِۚ وَاُبۡرِئُ الۡاَكۡمَهَ وَالۡاَبۡرَصَ وَاُحۡيِ الۡمَوۡتٰي بِاِذۡنِ اللّٰهِۚ وَاُنَبِّئُكُمۡ بِمَا تَاۡكُلُوۡنَ وَمَا تَدَّخِرُوۡنَۙ فِيۡ بُيُوۡتِكُمۡؕ اِنَّ فِيۡ ذٰلِكَ لَاٰيَةً لَّكُمۡ اِنۡ كُنۡتُمۡ مُّؤۡمِنِيۡنَۚ‏",
       "tl": "Wa Rasoolan ilaa Baneee Israaa'eela annee qad ji'tukum bi Aayatim mir Rabbikum annee akhluqu lakum minatteeni kahai 'atittairi fa anfukhu feehi fayakoonu tairam bi iznil laahi wa ubri'ul akmaha wal abrasa wa uhyil mawtaa bi iznil laahi wa unabbi'ukum bimaa taakuloona wa maa taddakhiroona fee buyootikum; inna fee zaalika la Aayatal lakum in kuntum mu'mineen",
       "en": "And [make him] a messenger to the Children of Israel, [who will say], 'Indeed I have come to you with a sign from your Lord in that I design for you from clay [that which is] like the form of a bird, then I breathe into it and it becomes a bird by permission of Allah. And I cure the blind and the leper, and I give life to the dead - by permission of Allah. And I inform you of what you eat and what you store in your houses. Indeed in that is a sign for you, if you are believers."
     },
     {
       "number": 50,
-      "ar": "وَمُصَدِّقًۭا لِّمَا بَيْنَ يَدَىَّ مِنَ ٱلتَّوْرَىٰةِ وَلِأُحِلَّ لَكُم بَعْضَ ٱلَّذِى حُرِّمَ عَلَيْكُمْ ۚ وَجِئْتُكُم بِـَٔايَةٍۢ مِّن رَّبِّكُمْ فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
+      "ar": "وَمُصَدِّقًا لِّمَا بَيۡنَ يَدَيَّ مِنَ التَّوۡرٰىةِ وَلِاُحِلَّ لَكُمۡ بَعۡضَ الَّذِيۡ حُرِّمَ عَلَيۡكُمۡ وَجِئۡتُكُمۡ بِاٰيَةٍ مِّنۡ رَّبِّكُمۡࣞ فَاتَّقُوا اللّٰهَ وَاَطِيۡعُوۡنِ",
       "tl": "Wa musaddiqal limaa baina yadaiya minat Tawraati wa liuhilla lakum ba'dal lazee hurrima 'alaikum; wa ji'tukum bi Aayatim mir Rabbikum fattaqul laaha wa atee'oon",
       "en": "And [I have come] confirming what was before me of the Torah and to make lawful for you some of what was forbidden to you. And I have come to you with a sign from your Lord, so fear Allah and obey me."
     },
     {
       "number": 51,
-      "ar": "إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ",
+      "ar": "اِنَّ اللّٰهَ رَبِّيۡ وَرَبُّكُمۡ فَاعۡبُدُوۡهُؕ هٰذَا صِرَاطٌ مُّسۡتَقِيۡمٌ",
       "tl": "Innal laaha Rabbee wa Rabbukum fa'budooh; haazaa Siraatum Mustaqeem",
       "en": "Indeed, Allah is my Lord and your Lord, so worship Him. That is the straight path.\""
     },
     {
       "number": 52,
-      "ar": "۞ فَلَمَّآ أَحَسَّ عِيسَىٰ مِنْهُمُ ٱلْكُفْرَ قَالَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ ءَامَنَّا بِٱللَّهِ وَٱشْهَدْ بِأَنَّا مُسْلِمُونَ",
+      "ar": "فَلَمَّا٘ اَحَسَّ عِيۡسٰي مِنۡهُمُ الۡكُفۡرَ قَالَ مَنۡ اَنۡصَارِيۡ٘ اِلَي اللّٰهِؕ قَالَ الۡحَوَارِيُّوۡنَ نَحۡنُ اَنۡصَارُ اللّٰهِۚ اٰمَنَّا بِاللّٰهِۚ وَاشۡهَدۡ بِاَنَّا مُسۡلِمُوۡنَ",
       "tl": "Falammaaa ahassa 'Eesaa minhumul kufra qaala man ansaaree ilal laahi qaalal Hawaariyyoona nahnu ansaarul laahi aamannaa billaahi washhad bi annaa muslimoon",
       "en": "But when Jesus felt [persistence in] disbelief from them, he said, \"Who are my supporters for [the cause of] Allah?\" The disciples said, \"We are supporters for Allah. We have believed in Allah and testify that we are Muslims [submitting to Him]."
     },
     {
       "number": 53,
-      "ar": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّٰهِدِينَ",
+      "ar": "رَبَّنَا٘ اٰمَنَّا بِمَا٘ اَنۡزَلۡتَ وَاتَّبَعۡنَا الرَّسُوۡلَ فَاكۡتُبۡنَا مَعَ الشّٰهِدِيۡنَ",
       "tl": "Rabbanaaa aamannaa bimaaa anzalta wattaba'nar Rasoola faktubnaa ma'ash shaahideen",
       "en": "Our Lord, we have believed in what You revealed and have followed the messenger Jesus, so register us among the witnesses [to truth].\""
     },
     {
       "number": 54,
-      "ar": "وَمَكَرُوا۟ وَمَكَرَ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَٰكِرِينَ",
+      "ar": "وَمَكَرُوۡا وَمَكَرَ اللّٰهُؕ وَاللّٰهُ خَيۡرُ الۡمٰكِرِيۡنَࣖ‏",
       "tl": "Wa makaroo wa makaral laahu wallaahu khairul maakireen",
       "en": "And the disbelievers planned, but Allah planned. And Allah is the best of planners."
     },
     {
       "number": 55,
-      "ar": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَىٰٓ إِنِّى مُتَوَفِّيكَ وَرَافِعُكَ إِلَىَّ وَمُطَهِّرُكَ مِنَ ٱلَّذِينَ كَفَرُوا۟ وَجَاعِلُ ٱلَّذِينَ ٱتَّبَعُوكَ فَوْقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۖ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "ar": "اِذۡ قَالَ اللّٰهُ يٰعِيۡسٰ٘ي اِنِّيۡ مُتَوَفِّيۡكَ وَرَافِعُكَ اِلَيَّ وَمُطَهِّرُكَ مِنَ الَّذِيۡنَ كَفَرُوۡا وَجَاعِلُ الَّذِيۡنَ اتَّبَعُوۡكَ فَوۡقَ الَّذِيۡنَ كَفَرُوۡ٘ا اِلٰي يَوۡمِ الۡقِيٰمَةِۚ ثُمَّ اِلَيَّ مَرۡجِعُكُمۡ فَاَحۡكُمُ بَيۡنَكُمۡ فِيۡمَا كُنۡتُمۡ فِيۡهِ تَخۡتَلِفُوۡنَ",
       "tl": "Iz qaalal laahu yaa 'Eesaaa innee mutawaffeeka wa raafi'uka ilaiya wa mutah hiruka minal lazeena kafaroo wa jaa'ilul lazeenattaba ooka fawqal lazeena kafarooo ilaa Yawmil Qiyaamati summa ilaiya marji'ukum fa ahkumu bainakum feemaa kuntum feehi takhtaliifoon",
       "en": "[Mention] when Allah said, \"O Jesus, indeed I will take you and raise you to Myself and purify you from those who disbelieve and make those who follow you [in submission to Allah alone] superior to those who disbelieve until the Day of Resurrection. Then to Me is your return, and I will judge between you concerning that in which you used to differ."
     },
     {
       "number": 56,
-      "ar": "فَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَأُعَذِّبُهُمْ عَذَابًۭا شَدِيدًۭا فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ وَمَا لَهُم مِّن نَّٰصِرِينَ",
+      "ar": "فَاَمَّا الَّذِيۡنَ كَفَرُوۡا فَاُعَذِّبُهُمۡ عَذَابًا شَدِيۡدًا فِي الدُّنۡيَا وَالۡاٰخِرَةِؗ وَمَا لَهُمۡ مِّنۡ نّٰصِرِيۡنَ",
       "tl": "Fa ammal lazeena kafaroo fa u'az zibuhum 'azaaban shadeedan fiddunyaa wal Aakhirati wa maa lahum min naasireen",
       "en": "And as for those who disbelieved, I will punish them with a severe punishment in this world and the Hereafter, and they will have no helpers.\""
     },
     {
       "number": 57,
-      "ar": "وَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّٰلِمِينَ",
+      "ar": "وَاَمَّا الَّذِيۡنَ اٰمَنُوۡا وَعَمِلُوا الصّٰلِحٰتِ فَيُوَفِّيۡهِمۡ اُجُوۡرَهُمۡؕ وَاللّٰهُ لَا يُحِبُّ الظّٰلِمِيۡنَ",
       "tl": "Wa ammal lazeena aamanoo wa 'amilus saalihaati fa yuwaffeehim ujoorahum; wallaahu laa yuhibbuz zaalimeen",
       "en": "But as for those who believed and did righteous deeds, He will give them in full their rewards, and Allah does not like the wrongdoers."
     },
     {
       "number": 58,
-      "ar": "ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ ٱلْءَايَٰتِ وَٱلذِّكْرِ ٱلْحَكِيمِ",
+      "ar": "ذٰلِكَ نَتۡلُوۡهُ عَلَيۡكَ مِنَ الۡاٰيٰتِ وَالذِّكۡرِ الۡحَكِيۡمِ",
       "tl": "Zaalika natloohu 'alaika minal Aayaati wa Zikril Hakeem",
       "en": "This is what We recite to you, [O Muhammad], of [Our] verses and the precise [and wise] message."
     },
     {
       "number": 59,
-      "ar": "إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ كَمَثَلِ ءَادَمَ ۖ خَلَقَهُۥ مِن تُرَابٍۢ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ",
+      "ar": "اِنَّ مَثَلَ عِيۡسٰي عِنۡدَ اللّٰهِ كَمَثَلِ اٰدَمَؕ خَلَقَهٗ مِنۡ تُرَابٍ ثُمَّ قَالَ لَهٗ كُنۡ فَيَكُوۡنُ",
       "tl": "Inna masala 'Eesaa 'indal laahi kamasali Aadama khalaqahoo min turaabin summa qaala lahoo kun fayakoon",
       "en": "Indeed, the example of Jesus to Allah is like that of Adam. He created Him from dust; then He said to him, \"Be,\" and he was."
     },
     {
       "number": 60,
-      "ar": "ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ ٱلْمُمْتَرِينَ",
+      "ar": "اَلۡحَقُّ مِنۡ رَّبِّكَ فَلَا تَكُنۡ مِّنَ الۡمُمۡتَرِيۡنَ",
       "tl": "Alhaqqu mir Rabbika falaa takum minal mumtareen",
       "en": "The truth is from your Lord, so do not be among the doubters."
     },
     {
       "number": 61,
-      "ar": "فَمَنْ حَآجَّكَ فِيهِ مِنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ فَقُلْ تَعَالَوْا۟ نَدْعُ أَبْنَآءَنَا وَأَبْنَآءَكُمْ وَنِسَآءَنَا وَنِسَآءَكُمْ وَأَنفُسَنَا وَأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ ٱللَّهِ عَلَى ٱلْكَٰذِبِينَ",
+      "ar": "فَمَنۡ حَآجَّكَ فِيۡهِ مِنۭۡ بَعۡدِ مَا جَآءَكَ مِنَ الۡعِلۡمِ فَقُلۡ تَعَالَوۡا نَدۡعُ اَبۡنَآءَنَا وَاَبۡنَآءَكُمۡ وَنِسَآءَنَا وَنِسَآءَكُمۡ وَاَنۡفُسَنَا وَاَنۡفُسَكُمۡࣞ ثُمَّ نَبۡتَهِلۡ فَنَجۡعَلۡ لَّعۡنَتَ اللّٰهِ عَلَي الۡكٰذِبِيۡنَ",
       "tl": "Faman haaajjaka feehi mim ba'di maa jaaa'aka minal 'ilmi faqul ta'aalaw nad'u abnaaa'anaa wa abnaaa'akum wa nisaaa'anaa wa nisaaa'akum wa anfusanaa wa anfusakum summa nabtahil fanaj'al la'natal laahi 'alal kaazibeen",
       "en": "Then whoever argues with you about it after [this] knowledge has come to you - say, \"Come, let us call our sons and your sons, our women and your women, ourselves and yourselves, then supplicate earnestly [together] and invoke the curse of Allah upon the liars [among us].\""
     },
     {
       "number": 62,
-      "ar": "إِنَّ هَٰذَا لَهُوَ ٱلْقَصَصُ ٱلْحَقُّ ۚ وَمَا مِنْ إِلَٰهٍ إِلَّا ٱللَّهُ ۚ وَإِنَّ ٱللَّهَ لَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "ar": "اِنَّ هٰذَا لَهُوَ الۡقَصَصُ الۡحَقُّۚ وَمَا مِنۡ اِلٰهٍ اِلَّا اللّٰهُؕ وَاِنَّ اللّٰهَ لَهُوَ الۡعَزِيۡزُ الۡحَكِيۡمُ",
       "tl": "Innaa haazaa lahuwal qasasul haqq; wa maa min ilaahin illal laah; wa innal laahaa la Huwal 'Azeezul Hakeem",
       "en": "Indeed, this is the true narration. And there is no deity except Allah. And indeed, Allah is the Exalted in Might, the Wise."
     },
     {
       "number": 63,
-      "ar": "فَإِن تَوَلَّوْا۟ فَإِنَّ ٱللَّهَ عَلِيمٌۢ بِٱلْمُفْسِدِينَ",
+      "ar": "فَاِنۡ تَوَلَّوۡا فَاِنَّ اللّٰهَ عَلِيۡمٌۭ بِالۡمُفۡسِدِيۡنَࣖ‏",
       "tl": "Fa in tawallaw fa innal laaha'aleemun bil mufsideen",
       "en": "But if they turn away, then indeed - Allah is Knowing of the corrupters."
     },
     {
       "number": 64,
-      "ar": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ تَعَالَوْا۟ إِلَىٰ كَلِمَةٍۢ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا ٱللَّهَ وَلَا نُشْرِكَ بِهِۦ شَيْـًۭٔا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًۭا مِّن دُونِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَقُولُوا۟ ٱشْهَدُوا۟ بِأَنَّا مُسْلِمُونَ",
+      "ar": "قُلۡ يٰ٘اَهۡلَ الۡكِتٰبِ تَعَالَوۡا اِلٰي كَلِمَةٍ سَوَآءٍۭ بَيۡنَنَا وَبَيۡنَكُمۡ اَلَّا نَعۡبُدَ اِلَّا اللّٰهَ وَلَا نُشۡرِكَ بِهٖ شَيۡـًٔا وَّلَا يَتَّخِذَ بَعۡضُنَا بَعۡضًا اَرۡبَابًا مِّنۡ دُوۡنِ اللّٰهِؕ فَاِنۡ تَوَلَّوۡا فَقُوۡلُوا اشۡهَدُوۡا بِاَنَّا مُسۡلِمُوۡنَ",
       "tl": "Qul yaa Ahlal Kitaabi ta'aalaw ilaa Kalimatin sawaaa'im bainanaa wa bainakum allaa na'buda illal laaha wa laa nushrika bihee shai'anw wa laa yattakhiza ba'dunaa ba'dan arbaabam min doonil laah; fa in tawallaw faqoolush hadoo bi annaa muslimoon",
       "en": "Say, \"O People of the Scripture, come to a word that is equitable between us and you - that we will not worship except Allah and not associate anything with Him and not take one another as lords instead of Allah.\" But if they turn away, then say, \"Bear witness that we are Muslims [submitting to Him].\""
     },
     {
       "number": 65,
-      "ar": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تُحَآجُّونَ فِىٓ إِبْرَٰهِيمَ وَمَآ أُنزِلَتِ ٱلتَّوْرَىٰةُ وَٱلْإِنجِيلُ إِلَّا مِنۢ بَعْدِهِۦٓ ۚ أَفَلَا تَعْقِلُونَ",
+      "ar": "يٰ٘اَهۡلَ الۡكِتٰبِ لِمَ تُحَآجُّوۡنَ فِيۡ٘ اِبۡرٰهِيۡمَ وَمَا٘ اُنۡزِلَتِ التَّوۡرٰىةُ وَالۡاِنۡجِيۡلُ اِلَّا مِنۭۡ بَعۡدِهٖؕ اَفَلَا تَعۡقِلُوۡنَ",
       "tl": "Yaaa Ahlal Kitaabi limaa tuhaaajjoona feee Ibraaheema wa maaa unzilatit Tawraatu wal Injeelu illaa mim ba'dih; afala ta'qiloon",
       "en": "O People of the Scripture, why do you argue about Abraham while the Torah and the Gospel were not revealed until after him? Then will you not reason?"
     },
     {
       "number": 66,
-      "ar": "هَٰٓأَنتُمْ هَٰٓؤُلَآءِ حَٰجَجْتُمْ فِيمَا لَكُم بِهِۦ عِلْمٌۭ فَلِمَ تُحَآجُّونَ فِيمَا لَيْسَ لَكُم بِهِۦ عِلْمٌۭ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
+      "ar": "هٰ٘اَنۡتُمۡ هٰ٘ؤُلَآءِ حَاجَجۡتُمۡ فِيۡمَا لَكُمۡ بِهٖ عِلۡمٌ فَلِمَ تُحَآجُّوۡنَ فِيۡمَا لَيۡسَ لَكُمۡ بِهٖ عِلۡمٌؕ وَاللّٰهُ يَعۡلَمُ وَاَنۡتُمۡ لَا تَعۡلَمُوۡنَ",
       "tl": "Haaa antum haaa'ulaaa'i baajajtum feemaa lakum bihee 'ilmun falima tuhaaajjoonaa feemaa laisa lakum bihee 'ilm; wallaahu ya'lamu wa antum laa ta'lamoon",
       "en": "Here you are - those who have argued about that of which you have [some] knowledge, but why do you argue about that of which you have no knowledge? And Allah knows, while you know not."
     },
     {
       "number": 67,
-      "ar": "مَا كَانَ إِبْرَٰهِيمُ يَهُودِيًّۭا وَلَا نَصْرَانِيًّۭا وَلَٰكِن كَانَ حَنِيفًۭا مُّسْلِمًۭا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
+      "ar": "مَا كَانَ اِبۡرٰهِيۡمُ يَهُوۡدِيًّا وَّلَا نَصۡرَانِيًّا وَّلٰكِنۡ كَانَ حَنِيۡفًا مُّسۡلِمًاؕ وَمَا كَانَ مِنَ الۡمُشۡرِكِيۡنَ",
       "tl": "Maa kaana Ibraaheemu Yahoodiyyanw wa laa Nasraa niyyanw wa laakin kaana Haneefam Muslimanw wa maa kaana minal mushrikeen",
       "en": "Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim [submitting to Allah]. And he was not of the polytheists."
     },
     {
       "number": 68,
-      "ar": "إِنَّ أَوْلَى ٱلنَّاسِ بِإِبْرَٰهِيمَ لَلَّذِينَ ٱتَّبَعُوهُ وَهَٰذَا ٱلنَّبِىُّ وَٱلَّذِينَ ءَامَنُوا۟ ۗ وَٱللَّهُ وَلِىُّ ٱلْمُؤْمِنِينَ",
+      "ar": "اِنَّ اَوۡلَي النَّاسِ بِاِبۡرٰهِيۡمَ لَلَّذِيۡنَ اتَّبَعُوۡهُ وَهٰذَا النَّبِيُّ وَالَّذِيۡنَ اٰمَنُوۡاؕ وَاللّٰهُ وَلِيُّ الۡمُؤۡمِنِيۡنَ",
       "tl": "Innaa awlan naasi bi Ibraaheema lallazeenat taba 'oohu wa haazan nabiyyu wallazeena aamanoo; wallaahu waliyyul mu'mineen",
       "en": "Indeed, the most worthy of Abraham among the people are those who followed him [in submission to Allah] and this prophet, and those who believe [in his message]. And Allah is the ally of the believers."
     },
     {
       "number": 69,
-      "ar": "وَدَّت طَّآئِفَةٌۭ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
+      "ar": "وَدَّتۡ طَّآئِفَةٌ مِّنۡ اَهۡلِ الۡكِتٰبِ لَوۡ يُضِلُّوۡنَكُمۡؕ وَمَا يُضِلُّوۡنَ اِلَّا٘ اَنۡفُسَهُمۡ وَمَا يَشۡعُرُوۡنَ",
       "tl": "Waddat taaa'ifatum min Ahlil Kitaabi law yudil loonakum wa maa yudilloona illaaa anfusahum wa maa yash'uroon",
       "en": "A faction of the people of the Scripture wish they could mislead you. But they do not mislead except themselves, and they perceive [it] not."
     },
     {
       "number": 70,
-      "ar": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَأَنتُمْ تَشْهَدُونَ",
+      "ar": "يٰ٘اَهۡلَ الۡكِتٰبِ لِمَ تَكۡفُرُوۡنَ بِاٰيٰتِ اللّٰهِ وَاَنۡتُمۡ تَشۡهَدُوۡنَ",
       "tl": "Yaaa Ahlal Kitaabi lima takfuroona bi Aayaatil laahi wan antum tashadoon",
       "en": "O People of the Scripture, why do you disbelieve in the verses of Allah while you witness [to their truth]?"
     },
     {
       "number": 71,
-      "ar": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تَلْبِسُونَ ٱلْحَقَّ بِٱلْبَٰطِلِ وَتَكْتُمُونَ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
+      "ar": "يٰ٘اَهۡلَ الۡكِتٰبِ لِمَ تَلۡبِسُوۡنَ الۡحَقَّ بِالۡبَاطِلِ وَتَكۡتُمُوۡنَ الۡحَقَّ وَاَنۡتُمۡ تَعۡلَمُوۡنَࣖ‏",
       "tl": "Yaaa Ahalal Kitaabi lima talbisoonal haqqa bilbaatili wa taktumoonal haqqa wa antum ta'lamoon",
       "en": "O People of the Scripture, why do you confuse the truth with falsehood and conceal the truth while you know [it]?"
     },
     {
       "number": 72,
-      "ar": "وَقَالَت طَّآئِفَةٌۭ مِّنْ أَهْلِ ٱلْكِتَٰبِ ءَامِنُوا۟ بِٱلَّذِىٓ أُنزِلَ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَجْهَ ٱلنَّهَارِ وَٱكْفُرُوٓا۟ ءَاخِرَهُۥ لَعَلَّهُمْ يَرْجِعُونَ",
+      "ar": "وَقَالَتۡ طَّآئِفَةٌ مِّنۡ اَهۡلِ الۡكِتٰبِ اٰمِنُوۡا بِالَّذِيۡ٘ اُنۡزِلَ عَلَي الَّذِيۡنَ اٰمَنُوۡا وَجۡهَ النَّهَارِ وَاكۡفُرُوۡ٘ا اٰخِرَهٗ لَعَلَّهُمۡ يَرۡجِعُوۡنَۚۖ‏",
       "tl": "Wa qaalat taaa'ifatum min Ahlil Kitaabi aaminoo billazeee unzila 'alal lazeena aamanoo wajhan nahaari wakfurooo aakhirahoo la'alla hum yarji'oon",
       "en": "And a faction of the People of the Scripture say [to each other], \"Believe in that which was revealed to the believers at the beginning of the day and reject it at its end that perhaps they will abandon their religion,"
     },
     {
       "number": 73,
-      "ar": "وَلَا تُؤْمِنُوٓا۟ إِلَّا لِمَن تَبِعَ دِينَكُمْ قُلْ إِنَّ ٱلْهُدَىٰ هُدَى ٱللَّهِ أَن يُؤْتَىٰٓ أَحَدٌۭ مِّثْلَ مَآ أُوتِيتُمْ أَوْ يُحَآجُّوكُمْ عِندَ رَبِّكُمْ ۗ قُلْ إِنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌۭ",
+      "ar": "وَلَا تُؤۡمِنُوۡ٘ا اِلَّا لِمَنۡ تَبِعَ دِيۡنَكُمۡؕ قُلۡ اِنَّ الۡهُدٰي هُدَي اللّٰهِۙ اَنۡ يُّؤۡتٰ٘ي اَحَدٌ مِّثۡلَ مَا٘ اُوۡتِيۡتُمۡ اَوۡ يُحَآجُّوۡكُمۡ عِنۡدَ رَبِّكُمۡؕ قُلۡ اِنَّ الۡفَضۡلَ بِيَدِ اللّٰهِۚ يُؤۡتِيۡهِ مَنۡ يَّشَآءُؕ وَاللّٰهُ وَاسِعٌ عَلِيۡمٌۚۙ‏",
       "tl": "Wa laa tu'minooo illaa liman tabi'a deenakum qul innal hudaa hudal laahi ai yu'taaa ahadum misla maaa ooteetum aw yuhaaajjookum 'inda Rabbikum, qul innal fadla biyadil laah; yu'teehi mai yashaaa'; wallaahu Waasi'un 'Aleem",
       "en": "And do not trust except those who follow your religion.\" Say, \"Indeed, the [true] guidance is the guidance of Allah. [Do you fear] lest someone be given [knowledge] like you were given or that they would [thereby] argue with you before your Lord?\" Say, \"Indeed, [all] bounty is in the hand of Allah - He grants it to whom He wills. And Allah is all-Encompassing and Wise.\""
     },
     {
       "number": 74,
-      "ar": "يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "ar": "يَّخۡتَصُّ بِرَحۡمَتِهٖ مَنۡ يَّشَآءُؕ وَاللّٰهُ ذُو الۡفَضۡلِ الۡعَظِيۡمِ",
       "tl": "Yakhtassu birahmatihee mai yashaaa'; wallaahu zulfadil 'azeem",
       "en": "He selects for His mercy whom He wills. And Allah is the possessor of great bounty."
     },
     {
       "number": 75,
-      "ar": "۞ وَمِنْ أَهْلِ ٱلْكِتَٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍۢ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍۢ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًۭا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّۦنَ سَبِيلٌۭ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
+      "ar": "وَمِنۡ اَهۡلِ الۡكِتٰبِ مَنۡ اِنۡ تَاۡمَنۡهُ بِقِنۡطَارٍ يُّؤَدِّهٖ٘ اِلَيۡكَۚ وَمِنۡهُمۡ مَّنۡ اِنۡ تَاۡمَنۡهُ بِدِيۡنَارٍ لَّا يُؤَدِّهٖ٘ اِلَيۡكَ اِلَّا مَا دُمۡتَ عَلَيۡهِ قَآئِمًاؕ ذٰلِكَ بِاَنَّهُمۡ قَالُوۡا لَيۡسَ عَلَيۡنَا فِي الۡاُمِّيّٖنَ سَبِيۡلٌۚ وَيَقُوۡلُوۡنَ عَلَي اللّٰهِ الۡكَذِبَ وَهُمۡ يَعۡلَمُوۡنَ",
       "tl": "Wa min Ahlil Kitaabi man in taamanhu biqintaariny yu'addihee ilaika wa minhum man in taamanhu bideenaaril laa yu'addiheee ilaika illaa maa dumta 'alaihi qaaa' imaa; zaalika biannahum qaaloo laisa 'alainaa fil ummiyyeena sabeelunw wa yaqooloona 'alal laahil kaziba wa hum ya'lamoon",
       "en": "And among the People of the Scripture is he who, if you entrust him with a great amount [of wealth], he will return it to you. And among them is he who, if you entrust him with a [single] silver coin, he will not return it to you unless you are constantly standing over him [demanding it]. That is because they say, \"There is no blame upon us concerning the unlearned.\" And they speak untruth about Allah while they know [it]."
     },
     {
       "number": 76,
-      "ar": "بَلَىٰ مَنْ أَوْفَىٰ بِعَهْدِهِۦ وَٱتَّقَىٰ فَإِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ",
+      "ar": "بَلٰي مَنۡ اَوۡفٰي بِعَهۡدِهٖ وَاتَّقٰي فَاِنَّ اللّٰهَ يُحِبُّ الۡمُتَّقِيۡنَ",
       "tl": "Balaa man awfaa bi'ahdihee wattaqaa fainnal laaha yuhibbul muttaqeen",
       "en": "But yes, whoever fulfills his commitment and fears Allah - then indeed, Allah loves those who fear Him."
     },
     {
       "number": 77,
-      "ar": "إِنَّ ٱلَّذِينَ يَشْتَرُونَ بِعَهْدِ ٱللَّهِ وَأَيْمَٰنِهِمْ ثَمَنًۭا قَلِيلًا أُو۟لَٰٓئِكَ لَا خَلَٰقَ لَهُمْ فِى ٱلْءَاخِرَةِ وَلَا يُكَلِّمُهُمُ ٱللَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ ٱلْقِيَٰمَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌۭ",
+      "ar": "اِنَّ الَّذِيۡنَ يَشۡتَرُوۡنَ بِعَهۡدِ اللّٰهِ وَاَيۡمَانِهِمۡ ثَمَنًا قَلِيۡلًا اُولٰٓئِكَ لَا خَلَاقَ لَهُمۡ فِي الۡاٰخِرَةِ وَلَا يُكَلِّمُهُمُ اللّٰهُ وَلَا يَنۡظُرُ اِلَيۡهِمۡ يَوۡمَ الۡقِيٰمَةِ وَلَا يُزَكِّيۡهِمۡࣕ وَلَهُمۡ عَذَابٌ اَلِيۡمٌ",
       "tl": "Innal lazeena yashtaroona bi'ahdil laahi wa aymaanihim samanan qaleelan ulaaa'ika laa khalaaqa lahum fil Aakhirati wa laa yukallimuhumul laahu wa laa yanzuru ilaihim Yawmal Qiyaamati wa laa yuzakkeehim wa lahum 'azabun 'aleem",
       "en": "Indeed, those who exchange the covenant of Allah and their [own] oaths for a small price will have no share in the Hereafter, and Allah will not speak to them or look at them on the Day of Resurrection, nor will He purify them; and they will have a painful punishment."
     },
     {
       "number": 78,
-      "ar": "وَإِنَّ مِنْهُمْ لَفَرِيقًۭا يَلْوُۥنَ أَلْسِنَتَهُم بِٱلْكِتَٰبِ لِتَحْسَبُوهُ مِنَ ٱلْكِتَٰبِ وَمَا هُوَ مِنَ ٱلْكِتَٰبِ وَيَقُولُونَ هُوَ مِنْ عِندِ ٱللَّهِ وَمَا هُوَ مِنْ عِندِ ٱللَّهِ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
+      "ar": "وَاِنَّ مِنۡهُمۡ لَفَرِيۡقًا يَّلۡوٗنَ اَلۡسِنَتَهُمۡ بِالۡكِتٰبِ لِتَحۡسَبُوۡهُ مِنَ الۡكِتٰبِ وَمَا هُوَ مِنَ الۡكِتٰبِۚ وَيَقُوۡلُوۡنَ هُوَ مِنۡ عِنۡدِ اللّٰهِ وَمَا هُوَ مِنۡ عِنۡدِ اللّٰهِۚ وَيَقُوۡلُوۡنَ عَلَي اللّٰهِ الۡكَذِبَ وَهُمۡ يَعۡلَمُوۡنَ",
       "tl": "Wa inna minhum lafaree qany yalwoona alsinatahum bil Kitaabi litahsaboohu minal Kitaab, wa maa huwa minal Kitaabi wa yaqooloon huwa min 'indillaahi wa maa huwa min 'indillaahi wa yaqooloona 'alal laahil kaziba wa hum ya'lamoon",
       "en": "And indeed, there is among them a party who alter the Scripture with their tongues so you may think it is from the Scripture, but it is not from the Scripture. And they say, \"This is from Allah,\" but it is not from Allah. And they speak untruth about Allah while they know."
     },
     {
       "number": 79,
-      "ar": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ",
+      "ar": "مَا كَانَ لِبَشَرٍ اَنۡ يُّؤۡتِيَهُ اللّٰهُ الۡكِتٰبَ وَالۡحُكۡمَ وَالنُّبُوَّةَ ثُمَّ يَقُوۡلَ لِلنَّاسِ كُوۡنُوۡا عِبَادًا لِّيۡ مِنۡ دُوۡنِ اللّٰهِ وَلٰكِنۡ كُوۡنُوۡا رَبّٰنِيّٖنَ بِمَا كُنۡتُمۡ تُعَلِّمُوۡنَ الۡكِتٰبَ وَبِمَا كُنۡتُمۡ تَدۡرُسُوۡنَۙ‏",
       "tl": "Maa kaana libasharin ai yu'tiyahul laahul Kitaaba walhukma wan Nubuwwata summa yaqoola linnaasi koonoo 'ibaadal lee min doonil laahi wa laakin koonoo rabbaaniy yeena bimaa kuntum tu'allimoonal Kitaaba wa bimaa kuntum tadrusoon",
       "en": "It is not for a human [prophet] that Allah should give him the Scripture and authority and prophethood and then he would say to the people, \"Be servants to me rather than Allah,\" but [instead, he would say], \"Be pious scholars of the Lord because of what you have taught of the Scripture and because of what you have studied.\""
     },
     {
       "number": 80,
-      "ar": "وَلَا يَأْمُرَكُمْ أَن تَتَّخِذُوا۟ ٱلْمَلَٰٓئِكَةَ وَٱلنَّبِيِّۦنَ أَرْبَابًا ۗ أَيَأْمُرُكُم بِٱلْكُفْرِ بَعْدَ إِذْ أَنتُم مُّسْلِمُونَ",
+      "ar": "وَلَا يَاۡمُرَكُمۡ اَنۡ تَتَّخِذُوا الۡمَلٰٓئِكَةَ وَالنَّبِيّٖنَ اَرۡبَابًاؕ اَيَاۡمُرُكُمۡ بِالۡكُفۡرِ بَعۡدَ اِذۡ اَنۡتُمۡ مُّسۡلِمُوۡنَࣖ‏",
       "tl": "Wa laa yaamurakum an tattakhizul malaaa 'ikata wan Nabiyyeena arbaabaa; a yaamurukum bilkufri ba'da iz antum muslimoon",
       "en": "Nor could he order you to take the angels and prophets as lords. Would he order you to disbelief after you had been Muslims?"
     },
     {
       "number": 81,
-      "ar": "وَإِذْ أَخَذَ ٱللَّهُ مِيثَٰقَ ٱلنَّبِيِّۦنَ لَمَآ ءَاتَيْتُكُم مِّن كِتَٰبٍۢ وَحِكْمَةٍۢ ثُمَّ جَآءَكُمْ رَسُولٌۭ مُّصَدِّقٌۭ لِّمَا مَعَكُمْ لَتُؤْمِنُنَّ بِهِۦ وَلَتَنصُرُنَّهُۥ ۚ قَالَ ءَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِى ۖ قَالُوٓا۟ أَقْرَرْنَا ۚ قَالَ فَٱشْهَدُوا۟ وَأَنَا۠ مَعَكُم مِّنَ ٱلشَّٰهِدِينَ",
+      "ar": "وَاِذۡ اَخَذَ اللّٰهُ مِيۡثَاقَ النَّبِيّٖنَ لَمَا٘ اٰتَيۡتُكُمۡ مِّنۡ كِتٰبٍ وَّحِكۡمَةٍ ثُمَّ جَآءَكُمۡ رَسُوۡلٌ مُّصَدِّقٌ لِّمَا مَعَكُمۡ لَتُؤۡمِنُنَّ بِهٖ وَلَتَنۡصُرُنَّهٗؕ قَالَ ءَاَقۡرَرۡتُمۡ وَاَخَذۡتُمۡ عَلٰي ذٰلِكُمۡ اِصۡرِيۡؕ قَالُوۡ٘ا اَقۡرَرۡنَاؕ قَالَ فَاشۡهَدُوۡا وَاَنَا مَعَكُمۡ مِّنَ الشّٰهِدِيۡنَ",
       "tl": "Wa iz akhazal laahu meesaaqan Nabiyyeena lamaaa aataitukum min Kitaabinw wa Hikmatin summa jaaa'akum Rasoolum musaddiqul limaa ma'akum latu'minunna bihee wa latansurunnah; qaala 'aaqrartum wa akhaztum alaa zaalikum isree qaalooo aqrarnaa; qaala fashhadoo wa ana ma'akum minash shaahideen",
       "en": "And [recall, O People of the Scripture], when Allah took the covenant of the prophets, [saying], \"Whatever I give you of the Scripture and wisdom and then there comes to you a messenger confirming what is with you, you [must] believe in him and support him.\" [Allah] said, \"Have you acknowledged and taken upon that My commitment?\" They said, \"We have acknowledged it.\" He said, \"Then bear witness, and I am with you among the witnesses.\""
     },
     {
       "number": 82,
-      "ar": "فَمَن تَوَلَّىٰ بَعْدَ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْفَٰسِقُونَ",
+      "ar": "فَمَنۡ تَوَلّٰي بَعۡدَ ذٰلِكَ فَاُولٰٓئِكَ هُمُ الۡفٰسِقُوۡنَ",
       "tl": "Faman tawallaa ba'da zaalika fa ulaaa'ika humul faasiqoon",
       "en": "And whoever turned away after that - they were the defiantly disobedient."
     },
     {
       "number": 83,
-      "ar": "أَفَغَيْرَ دِينِ ٱللَّهِ يَبْغُونَ وَلَهُۥٓ أَسْلَمَ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًۭا وَكَرْهًۭا وَإِلَيْهِ يُرْجَعُونَ",
+      "ar": "اَفَغَيۡرَ دِيۡنِ اللّٰهِ يَبۡغُوۡنَ وَلَهٗ٘ اَسۡلَمَ مَنۡ فِي السَّمٰوٰتِ وَالۡاَرۡضِ طَوۡعًا وَّكَرۡهًا وَّاِلَيۡهِ يُرۡجَعُوۡنَ",
       "tl": "Afaghaira deenil laahi yabghoona wa lahooo aslama man fis samaawaati wal ardi taw'anw wa karhanw wa ilaihi yurja'oon",
       "en": "So is it other than the religion of Allah they desire, while to Him have submitted [all] those within the heavens and earth, willingly or by compulsion, and to Him they will be returned?"
     },
     {
       "number": 84,
-      "ar": "قُلْ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ عَلَيْنَا وَمَآ أُنزِلَ عَلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
+      "ar": "قُلۡ اٰمَنَّا بِاللّٰهِ وَمَا٘ اُنۡزِلَ عَلَيۡنَا وَمَا٘ اُنۡزِلَ عَلٰ٘ي اِبۡرٰهِيۡمَ وَاِسۡمٰعِيۡلَ وَاِسۡحٰقَ وَيَعۡقُوۡبَ وَالۡاَسۡبَاطِ وَمَا٘ اُوۡتِيَ مُوۡسٰي وَعِيۡسٰي وَالنَّبِيُّوۡنَ مِنۡ رَّبِّهِمۡࣕ لَا نُفَرِّقُ بَيۡنَ اَحَدٍ مِّنۡهُمۡؗ وَنَحۡنُ لَهٗ مُسۡلِمُوۡنَ",
       "tl": "Qul aamannaa billaahi wa maaa unzila 'alainaa wa maaa unzila 'alaaa Ibraaheema wa Ismaa'eela wa Ishaaqa wa Ya'qooba wal Asbaati wa maaa ootiya Moosaa wa 'Eesaa wan Nabiyyoona mir Rabbihim laa nufarriqu baina ahadim minhum wa nahnu lahoo muslimoon",
       "en": "Say, \"We have believed in Allah and in what was revealed to us and what was revealed to Abraham, Ishmael, Isaac, Jacob, and the Descendants, and in what was given to Moses and Jesus and to the prophets from their Lord. We make no distinction between any of them, and we are Muslims [submitting] to Him.\""
     },
     {
       "number": 85,
-      "ar": "وَمَن يَبْتَغِ غَيْرَ ٱلْإِسْلَٰمِ دِينًۭا فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِى ٱلْءَاخِرَةِ مِنَ ٱلْخَٰسِرِينَ",
+      "ar": "وَمَنۡ يَّبۡتَغِ غَيۡرَ الۡاِسۡلَامِ دِيۡنًا فَلَنۡ يُّقۡبَلَ مِنۡهُۚ وَهُوَ فِي الۡاٰخِرَةِ مِنَ الۡخٰسِرِيۡنَ",
       "tl": "Wa mai yabtaghi ghairal Islaami deenan falany yuqbala minhu wa huwa fil Aakhirati minal khaasireen",
       "en": "And whoever desires other than Islam as religion - never will it be accepted from him, and he, in the Hereafter, will be among the losers."
     },
     {
       "number": 86,
-      "ar": "كَيْفَ يَهْدِى ٱللَّهُ قَوْمًۭا كَفَرُوا۟ بَعْدَ إِيمَٰنِهِمْ وَشَهِدُوٓا۟ أَنَّ ٱلرَّسُولَ حَقٌّۭ وَجَآءَهُمُ ٱلْبَيِّنَٰتُ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "ar": "كَيۡفَ يَهۡدِي اللّٰهُ قَوۡمًا كَفَرُوۡا بَعۡدَ اِيۡمَانِهِمۡ وَشَهِدُوۡ٘ا اَنَّ الرَّسُوۡلَ حَقٌّ وَّجَآءَهُمُ الۡبَيِّنٰتُؕ وَاللّٰهُ لَا يَهۡدِي الۡقَوۡمَ الظّٰلِمِيۡنَ",
       "tl": "Kaifa yahdil laahu qawman kafaroo ba'da eemaanihim wa shahidooo annar Rasoola haqqunw wa jaaa'ahumul baiyinaat; wallaahu laa yahdil qawmaz zaalimeen",
       "en": "How shall Allah guide a people who disbelieved after their belief and had witnessed that the Messenger is true and clear signs had come to them? And Allah does not guide the wrongdoing people."
     },
     {
       "number": 87,
-      "ar": "أُو۟لَٰٓئِكَ جَزَآؤُهُمْ أَنَّ عَلَيْهِمْ لَعْنَةَ ٱللَّهِ وَٱلْمَلَٰٓئِكَةِ وَٱلنَّاسِ أَجْمَعِينَ",
+      "ar": "اُولٰٓئِكَ جَزَآؤُهُمۡ اَنَّ عَلَيۡهِمۡ لَعۡنَةَ اللّٰهِ وَالۡمَلٰٓئِكَةِ وَالنَّاسِ اَجۡمَعِيۡنَۙ‏",
       "tl": "Ulaaa'ika jazaaa'uhum anna 'alaihim la'natal laahi walmalaaa'ikati wannaasi ajma'een",
       "en": "Those - their recompense will be that upon them is the curse of Allah and the angels and the people, all together,"
     },
     {
       "number": 88,
-      "ar": "خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ",
+      "ar": "خٰلِدِيۡنَ فِيۡهَاۚ لَا يُخَفَّفُ عَنۡهُمُ الۡعَذَابُ وَلَا هُمۡ يُنۡظَرُوۡنَۙ‏",
       "tl": "Khaalideena feehaa laa yukhaffafu 'anhumul 'azaabu wa laa hum yunzaroon",
       "en": "Abiding eternally therein. The punishment will not be lightened for them, nor will they be reprieved."
     },
     {
       "number": 89,
-      "ar": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ",
+      "ar": "اِلَّا الَّذِيۡنَ تَابُوۡا مِنۭۡ بَعۡدِ ذٰلِكَ وَاَصۡلَحُوۡاࣞ فَاِنَّ اللّٰهَ غَفُوۡرٌ رَّحِيۡمٌ",
       "tl": "Illal lazeena taaboo mim ba'di zaalika wa aslahoo fa innal laaha Ghafoorur Raheem",
       "en": "Except for those who repent after that and correct themselves. For indeed, Allah is Forgiving and Merciful."
     },
     {
       "number": 90,
-      "ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بَعْدَ إِيمَٰنِهِمْ ثُمَّ ٱزْدَادُوا۟ كُفْرًۭا لَّن تُقْبَلَ تَوْبَتُهُمْ وَأُو۟لَٰٓئِكَ هُمُ ٱلضَّآلُّونَ",
+      "ar": "اِنَّ الَّذِيۡنَ كَفَرُوۡا بَعۡدَ اِيۡمَانِهِمۡ ثُمَّ ازۡدَادُوۡا كُفۡرًا لَّنۡ تُقۡبَلَ تَوۡبَتُهُمۡۚ وَاُولٰٓئِكَ هُمُ الضَّآلُّوۡنَ",
       "tl": "Innal lazeena kafaroo ba'da eemaanihim summaz daadoo kufral lan tuqbala tawbatuhum wa ulaaa'ika humud daaalloon",
       "en": "Indeed, those who reject the message after their belief and then increase in disbelief - never will their [claimed] repentance be accepted, and they are the ones astray."
     },
     {
       "number": 91,
-      "ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَمَاتُوا۟ وَهُمْ كُفَّارٌۭ فَلَن يُقْبَلَ مِنْ أَحَدِهِم مِّلْءُ ٱلْأَرْضِ ذَهَبًۭا وَلَوِ ٱفْتَدَىٰ بِهِۦٓ ۗ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌۭ وَمَا لَهُم مِّن نَّٰصِرِينَ",
+      "ar": "اِنَّ الَّذِيۡنَ كَفَرُوۡا وَمَاتُوۡا وَهُمۡ كُفَّارٌ فَلَنۡ يُّقۡبَلَ مِنۡ اَحَدِهِمۡ مِّلۡءُ الۡاَرۡضِ ذَهَبًا وَّلَوِ افۡتَدٰي بِهٖؕ اُولٰٓئِكَ لَهُمۡ عَذَابٌ اَلِيۡمٌۙ وَّمَا لَهُمۡ مِّنۡ نّٰصِرِيۡنَࣖ‏",
       "tl": "Innal lazeena kafaroo wa maatoo wa hum kuffaarun falany yuqbala min ahadihim mil'ul ardi zahabanw wa lawiftadaa bih; ulaaa 'ika lahum 'azaabun aleemunw wa maa lahum min naasireen",
       "en": "Indeed, those who disbelieve and die while they are disbelievers - never would the [whole] capacity of the earth in gold be accepted from one of them if he would [seek to] ransom himself with it. For those there will be a painful punishment, and they will have no helpers."
     },
     {
       "number": 92,
-      "ar": "لَن تَنَالُوا۟ ٱلْبِرَّ حَتَّىٰ تُنفِقُوا۟ مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍۢ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌۭ",
+      "ar": "لَنۡ تَنَالُوا الۡبِرَّ حَتّٰي تُنۡفِقُوۡا مِمَّا تُحِبُّوۡنَ ࣢ؕ وَمَا تُنۡفِقُوۡا مِنۡ شَيۡءٍ فَاِنَّ اللّٰهَ بِهٖ عَلِيۡمٌ",
       "tl": "Lan tanaalul birra hattaa tunfiqoo mimmaa tuhibboon; wa maa tunfiqoo min shai'in fa innal laaha bihee 'Aleem",
       "en": "Never will you attain the good [reward] until you spend [in the way of Allah] from that which you love. And whatever you spend - indeed, Allah is Knowing of it."
     },
     {
       "number": 93,
-      "ar": "۞ كُلُّ ٱلطَّعَامِ كَانَ حِلًّۭا لِّبَنِىٓ إِسْرَٰٓءِيلَ إِلَّا مَا حَرَّمَ إِسْرَٰٓءِيلُ عَلَىٰ نَفْسِهِۦ مِن قَبْلِ أَن تُنَزَّلَ ٱلتَّوْرَىٰةُ ۗ قُلْ فَأْتُوا۟ بِٱلتَّوْرَىٰةِ فَٱتْلُوهَآ إِن كُنتُمْ صَٰدِقِينَ",
+      "ar": "كُلُّ الطَّعَامِ كَانَ حِلًّا لِّبَنِيۡ٘ اِسۡرَآءِيۡلَ اِلَّا مَا حَرَّمَ اِسۡرَآءِيۡلُ عَلٰي نَفۡسِهٖ مِنۡ قَبۡلِ اَنۡ تُنَزَّلَ التَّوۡرٰىةُؕ قُلۡ فَاۡتُوۡا بِالتَّوۡرٰىةِ فَاتۡلُوۡهَا٘ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ",
       "tl": "Kullut ta'aami kaana hillal li Baneee Israaa'eela illaa maa harrama Israaa'eelu 'alaa nafsihee min qabli an tunzzalat Tawraah; qul faatoo bit Tawraati fatloohaaa in kuntum saadiqeen",
       "en": "All food was lawful to the Children of Israel except what Israel had made unlawful to himself before the Torah was revealed. Say, [O Muhammad], \"So bring the Torah and recite it, if you should be truthful.\""
     },
     {
       "number": 94,
-      "ar": "فَمَنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ ٱلْكَذِبَ مِنۢ بَعْدِ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "ar": "فَمَنِ افۡتَرٰي عَلَي اللّٰهِ الۡكَذِبَ مِنۭۡ بَعۡدِ ذٰلِكَ فَاُولٰٓئِكَ هُمُ الظّٰلِمُوۡنَؔ‏",
       "tl": "Famanif taraa 'alal laahilkaziba mim ba'di zaalika fa ulaaa'ika humuz zaalimoon",
       "en": "And whoever invents about Allah untruth after that - then those are [truly] the wrongdoers."
     },
     {
       "number": 95,
-      "ar": "قُلْ صَدَقَ ٱللَّهُ ۗ فَٱتَّبِعُوا۟ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًۭا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
+      "ar": "قُلۡ صَدَقَ اللّٰهُࣞ فَاتَّبِعُوۡا مِلَّةَ اِبۡرٰهِيۡمَ حَنِيۡفًاؕ وَمَا كَانَ مِنَ الۡمُشۡرِكِيۡنَ",
       "tl": "Qul sadaqal laah; fattabi'oo Millata Ibraaheema Haneefanw wa maa kaana minal mush rikeen",
       "en": "Say, \"Allah has told the truth. So follow the religion of Abraham, inclining toward truth; and he was not of the polytheists.\""
     },
     {
       "number": 96,
-      "ar": "إِنَّ أَوَّلَ بَيْتٍۢ وُضِعَ لِلنَّاسِ لَلَّذِى بِبَكَّةَ مُبَارَكًۭا وَهُدًۭى لِّلْعَٰلَمِينَ",
+      "ar": "اِنَّ اَوَّلَ بَيۡتٍ وُّضِعَ لِلنَّاسِ لَلَّذِيۡ بِبَكَّةَ مُبٰرَكًا وَّهُدًي لِّلۡعٰلَمِيۡنَۚ‏",
       "tl": "Inna awwala Baitinw wudi'a linnaasi lallazee bi Bakkata mubaarakanw wa hudal lil 'aalameen",
       "en": "Indeed, the first House [of worship] established for mankind was that at Makkah - blessed and a guidance for the worlds."
     },
     {
       "number": 97,
-      "ar": "فِيهِ ءَايَٰتٌۢ بَيِّنَٰتٌۭ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًۭا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًۭا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَٰلَمِينَ",
+      "ar": "فِيۡهِ اٰيٰتٌۭ بَيِّنٰتٌ مَّقَامُ اِبۡرٰهِيۡمَ ࣢ۚ وَمَنۡ دَخَلَهٗ كَانَ اٰمِنًاؕ وَلِلّٰهِ عَلَي النَّاسِ حِجُّ الۡبَيۡتِ مَنِ اسۡتَطَاعَ اِلَيۡهِ سَبِيۡلًاؕ وَمَنۡ كَفَرَ فَاِنَّ اللّٰهَ غَنِيٌّ عَنِ الۡعٰلَمِيۡنَ",
       "tl": "Feehi Aayaatum baiyinaatum Maqaamu Ibraaheema wa man dakhalahoo kaana aaminaa; wa lillaahi 'alan naasi Hijjul Baiti manis tataa'a ilaihi sabeelaa; wa man kafara fa innal laaha ghaniyyun 'anil 'aalameen",
       "en": "In it are clear signs [such as] the standing place of Abraham. And whoever enters it shall be safe. And [due] to Allah from the people is a pilgrimage to the House - for whoever is able to find thereto a way. But whoever disbelieves - then indeed, Allah is free from need of the worlds."
     },
     {
       "number": 98,
-      "ar": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَٱللَّهُ شَهِيدٌ عَلَىٰ مَا تَعْمَلُونَ",
+      "ar": "قُلۡ يٰ٘اَهۡلَ الۡكِتٰبِ لِمَ تَكۡفُرُوۡنَ بِاٰيٰتِ اللّٰهِࣗۖ وَاللّٰهُ شَهِيۡدٌ عَلٰي مَا تَعۡمَلُوۡنَ",
       "tl": "Qul yaaa Ahlal Kitaabi lima takfuroona bi Aayaatillaahi wallaahu shaheedun 'alaa maa ta'maloon",
       "en": "Say, \"O People of the Scripture, why do you disbelieve in the verses of Allah while Allah is Witness over what you do?\""
     },
     {
       "number": 99,
-      "ar": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًۭا وَأَنتُمْ شُهَدَآءُ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "ar": "قُلۡ يٰ٘اَهۡلَ الۡكِتٰبِ لِمَ تَصُدُّوۡنَ عَنۡ سَبِيۡلِ اللّٰهِ مَنۡ اٰمَنَ تَبۡغُوۡنَهَا عِوَجًا وَّاَنۡتُمۡ شُهَدَآءُؕ وَمَا اللّٰهُ بِغَافِلٍ عَمَّا تَعۡمَلُوۡنَ",
       "tl": "Qul yaaa Ahlal Kitaabi lima tusuddoona 'an sabeelil laahi man aamana tabghoonahaa 'iwajanw wa antum shuhadaaa'; wa mallaahu bighaafilin 'ammaa ta'maloon",
       "en": "Say, \"O People of the Scripture, why do you avert from the way of Allah those who believe, seeking to make it [seem] deviant, while you are witnesses [to the truth]? And Allah is not unaware of what you do.\""
     },
     {
       "number": 100,
-      "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ فَرِيقًۭا مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ يَرُدُّوكُم بَعْدَ إِيمَٰنِكُمْ كَٰفِرِينَ",
+      "ar": "يٰ٘اَيُّهَا الَّذِيۡنَ اٰمَنُوۡ٘ا اِنۡ تُطِيۡعُوۡا فَرِيۡقًا مِّنَ الَّذِيۡنَ اُوۡتُوا الۡكِتٰبَ يَرُدُّوۡكُمۡ بَعۡدَ اِيۡمَانِكُمۡ كٰفِرِيۡنَ",
       "tl": "Yaaa ayyuhal lazeena aamanoo in tutee'oo fareeqam minal lazeena ootul Kitaaba yaruddookum ba'da eemaanikum kaafireen",
       "en": "O you who have believed, if you obey a party of those who were given the Scripture, they would turn you back, after your belief, [to being] unbelievers."
     },
     {
       "number": 101,
-      "ar": "وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَٰتُ ٱللَّهِ وَفِيكُمْ رَسُولُهُۥ ۗ وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
+      "ar": "وَكَيۡفَ تَكۡفُرُوۡنَ وَاَنۡتُمۡ تُتۡلٰي عَلَيۡكُمۡ اٰيٰتُ اللّٰهِ وَفِيۡكُمۡ رَسُوۡلُهٗؕ وَمَنۡ يَّعۡتَصِمۡ بِاللّٰهِ فَقَدۡ هُدِيَ اِلٰي صِرَاطٍ مُّسۡتَقِيۡمٍࣖ‏",
       "tl": "Wa kaifa takfuroona wa antum tutlaa 'alaikum Aayaatul laahi wa feekum Rasooluh; wa mai ya'tasim baillaahi faqad hudiya ilaa Siraatim Mustaqeem",
       "en": "And how could you disbelieve while to you are being recited the verses of Allah and among you is His Messenger? And whoever holds firmly to Allah has [indeed] been guided to a straight path."
     },
     {
       "number": 102,
-      "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ حَقَّ تُقَاتِهِۦ وَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ",
+      "ar": "يٰ٘اَيُّهَا الَّذِيۡنَ اٰمَنُوا اتَّقُوا اللّٰهَ حَقَّ تُقٰتِهٖ وَلَا تَمُوۡتُنَّ اِلَّا وَاَنۡتُمۡ مُّسۡلِمُوۡنَ",
       "tl": "Yaaa ayyuhal lazeena aamanut taqul laaha haqqa tuqaatihee wa laa tamoontunna illaa wa antum muslimoon",
       "en": "O you who have believed, fear Allah as He should be feared and do not die except as Muslims [in submission to Him]."
     },
     {
       "number": 103,
-      "ar": "وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًۭا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءًۭ فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًۭا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍۢ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَٰتِهِۦ لَعَلَّكُمْ تَهْتَدُونَ",
+      "ar": "وَاعۡتَصِمُوۡا بِحَبۡلِ اللّٰهِ جَمِيۡعًا وَّلَا تَفَرَّقُوۡاࣕ وَاذۡكُرُوۡا نِعۡمَتَ اللّٰهِ عَلَيۡكُمۡ اِذۡ كُنۡتُمۡ اَعۡدَآءً فَاَلَّفَ بَيۡنَ قُلُوۡبِكُمۡ فَاَصۡبَحۡتُمۡ بِنِعۡمَتِهٖ٘ اِخۡوَانًاۚ وَكُنۡتُمۡ عَلٰي شَفَا حُفۡرَةٍ مِّنَ النَّارِ فَاَنۡقَذَكُمۡ مِّنۡهَاؕ كَذٰلِكَ يُبَيِّنُ اللّٰهُ لَكُمۡ اٰيٰتِهٖ لَعَلَّكُمۡ تَهۡتَدُوۡنَ",
       "tl": "Wa'tasimoo bi Hablil laahi jamee'anw wa laa tafarraqoo; wazkuroo ni'matal laahi alaikum iz kuntum a'daaa'an fa allafa baina quloobikum fa asbah tum bini'matiheee ikhwaananw wa kuntum 'alaa shafaa hufratim minan Naari fa anqazakum minhaa; kazaalika yubaiyinul laahu lakum aayaatihee la'allakum tahtadoon",
       "en": "And hold firmly to the rope of Allah all together and do not become divided. And remember the favor of Allah upon you - when you were enemies and He brought your hearts together and you became, by His favor, brothers. And you were on the edge of a pit of the Fire, and He saved you from it. Thus does Allah make clear to you His verses that you may be guided."
     },
     {
       "number": 104,
-      "ar": "وَلْتَكُن مِّنكُمْ أُمَّةٌۭ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ ۚ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "ar": "وَلۡتَكُنۡ مِّنۡكُمۡ اُمَّةٌ يَّدۡعُوۡنَ اِلَي الۡخَيۡرِ وَيَاۡمُرُوۡنَ بِالۡمَعۡرُوۡفِ وَيَنۡهَوۡنَ عَنِ الۡمُنۡكَرِؕ وَاُولٰٓئِكَ هُمُ الۡمُفۡلِحُوۡنَ",
       "tl": "Waltakum minkum ummatuny yad'oona ilal khairi wa yaamuroona bilma 'roofi wa yanhawna 'anil munkar; wa ulaaa'ika humul muflihoon",
       "en": "And let there be [arising] from you a nation inviting to [all that is] good, enjoining what is right and forbidding what is wrong, and those will be the successful."
     },
     {
       "number": 105,
-      "ar": "وَلَا تَكُونُوا۟ كَٱلَّذِينَ تَفَرَّقُوا۟ وَٱخْتَلَفُوا۟ مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْبَيِّنَٰتُ ۚ وَأُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ عَظِيمٌۭ",
+      "ar": "وَلَا تَكُوۡنُوۡا كَالَّذِيۡنَ تَفَرَّقُوۡا وَاخۡتَلَفُوۡا مِنۭۡ بَعۡدِ مَا جَآءَهُمُ الۡبَيِّنٰتُؕ وَاُولٰٓئِكَ لَهُمۡ عَذَابٌ عَظِيۡمٌۙ‏",
       "tl": "Wa laa takoonoo kallazeena tafarraqoo wakhtalafoo mim ba'di maa jaaa'ahumul baiyinaat; wa ulaaa'ika lahum 'azaabun 'azeem",
       "en": "And do not be like the ones who became divided and differed after the clear proofs had come to them. And those will have a great punishment."
     },
     {
       "number": 106,
-      "ar": "يَوْمَ تَبْيَضُّ وُجُوهٌۭ وَتَسْوَدُّ وُجُوهٌۭ ۚ فَأَمَّا ٱلَّذِينَ ٱسْوَدَّتْ وُجُوهُهُمْ أَكَفَرْتُم بَعْدَ إِيمَٰنِكُمْ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "ar": "يَّوۡمَ تَبۡيَضُّ وُجُوۡهٌ وَّتَسۡوَدُّ وُجُوۡهٌۚ فَاَمَّا الَّذِيۡنَ اسۡوَدَّتۡ وُجُوۡهُهُمۡࣞ اَكَفَرۡتُمۡ بَعۡدَ اِيۡمَانِكُمۡ فَذُوۡقُوا الۡعَذَابَ بِمَا كُنۡتُمۡ تَكۡفُرُوۡنَ",
       "tl": "Yawma tabyaddu wujoohunw wa taswaddu wujooh; faammal lazeenas waddat wujoohum akafartum ba'da eemaanikum fazooqul 'azaaba bimaa kuntum takfuroon",
       "en": "On the Day [some] faces will turn white and [some] faces will turn black. As for those whose faces turn black, [to them it will be said], \"Did you disbelieve after your belief? Then taste the punishment for what you used to reject.\""
     },
     {
       "number": 107,
-      "ar": "وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى رَحْمَةِ ٱللَّهِ هُمْ فِيهَا خَٰلِدُونَ",
+      "ar": "وَاَمَّا الَّذِيۡنَ ابۡيَضَّتۡ وُجُوۡهُهُمۡ فَفِيۡ رَحۡمَةِ اللّٰهِؕ هُمۡ فِيۡهَا خٰلِدُوۡنَ",
       "tl": "Wa ammal lazeenabyadd at wujoohuhum fafee rahmatil laahi hum feehaa khaalidoon",
       "en": "But as for those whose faces will turn white, [they will be] within the mercy of Allah. They will abide therein eternally."
     },
     {
       "number": 108,
-      "ar": "تِلْكَ ءَايَٰتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ ۗ وَمَا ٱللَّهُ يُرِيدُ ظُلْمًۭا لِّلْعَٰلَمِينَ",
+      "ar": "تِلۡكَ اٰيٰتُ اللّٰهِ نَتۡلُوۡهَا عَلَيۡكَ بِالۡحَقِّؕ وَمَا اللّٰهُ يُرِيۡدُ ظُلۡمًا لِّلۡعٰلَمِيۡنَ",
       "tl": "Tilka Aayaatul laahi natloohaa 'alaika bilhaqq; wa mal laahu yureedu zulmallil 'aalameen",
       "en": "These are the verses of Allah. We recite them to you, [O Muhammad], in truth; and Allah wants no injustice to the worlds."
     },
     {
       "number": 109,
-      "ar": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
+      "ar": "وَلِلّٰهِ مَا فِي السَّمٰوٰتِ وَمَا فِي الۡاَرۡضِؕ وَاِلَي اللّٰهِ تُرۡجَعُ الۡاُمُوۡرُࣖ‏",
       "tl": "Wa lillaahi maa fissamaawaati wa maa fil ard; wa ilal laahi turja;ul umoor",
       "en": "To Allah belongs whatever is in the heavens and whatever is on the earth. And to Allah will [all] matters be returned."
     },
     {
       "number": 110,
-      "ar": "كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِٱلْمَعْرُوفِ وَتَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَتُؤْمِنُونَ بِٱللَّهِ ۗ وَلَوْ ءَامَنَ أَهْلُ ٱلْكِتَٰبِ لَكَانَ خَيْرًۭا لَّهُم ۚ مِّنْهُمُ ٱلْمُؤْمِنُونَ وَأَكْثَرُهُمُ ٱلْفَٰسِقُونَ",
+      "ar": "كُنۡتُمۡ خَيۡرَ اُمَّةٍ اُخۡرِجَتۡ لِلنَّاسِ تَاۡمُرُوۡنَ بِالۡمَعۡرُوۡفِ وَتَنۡهَوۡنَ عَنِ الۡمُنۡكَرِ وَتُؤۡمِنُوۡنَ بِاللّٰهِؕ وَلَوۡ اٰمَنَ اَهۡلُ الۡكِتٰبِ لَكَانَ خَيۡرًا لَّهُمۡؕ مِنۡهُمُ الۡمُؤۡمِنُوۡنَ وَاَكۡثَرُهُمُ الۡفٰسِقُوۡنَ",
       "tl": "Kuntum khaira ummatin ukhrijat linnaasi taamuroona bilma'roofi wa tanhawna 'anil munkari wa tu'minoona billaah; wa law aamana Ahlul Kitaabi lakaana khairal lahum minhumul mu'minoona wa aksaruhumul faasiqoon",
       "en": "You are the best nation produced [as an example] for mankind. You enjoin what is right and forbid what is wrong and believe in Allah. If only the People of the Scripture had believed, it would have been better for them. Among them are believers, but most of them are defiantly disobedient."
     },
     {
       "number": 111,
-      "ar": "لَن يَضُرُّوكُمْ إِلَّآ أَذًۭى ۖ وَإِن يُقَٰتِلُوكُمْ يُوَلُّوكُمُ ٱلْأَدْبَارَ ثُمَّ لَا يُنصَرُونَ",
+      "ar": "لَنۡ يَّضُرُّوۡكُمۡ اِلَّا٘ اَذًيؕ وَاِنۡ يُّقَاتِلُوۡكُمۡ يُوَلُّوۡكُمُ الۡاَدۡبَارَࣞ ثُمَّ لَا يُنۡصَرُوۡنَ",
       "tl": "Lai yadurrookum 'illaaa azanw wa ai yuqaatilookum yuwallookumul adbaara summa laa yunsaroon",
       "en": "They will not harm you except for [some] annoyance. And if they fight you, they will show you their backs; then they will not be aided."
     },
     {
       "number": 112,
-      "ar": "ضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ أَيْنَ مَا ثُقِفُوٓا۟ إِلَّا بِحَبْلٍۢ مِّنَ ٱللَّهِ وَحَبْلٍۢ مِّنَ ٱلنَّاسِ وَبَآءُو بِغَضَبٍۢ مِّنَ ٱللَّهِ وَضُرِبَتْ عَلَيْهِمُ ٱلْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّۢ ۚ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+      "ar": "ضُرِبَتۡ عَلَيۡهِمُ الذِّلَّةُ اَيۡنَ مَا ثُقِفُوۡ٘ا اِلَّا بِحَبۡلٍ مِّنَ اللّٰهِ وَحَبۡلٍ مِّنَ النَّاسِ وَبَآءُوۡ بِغَضَبٍ مِّنَ اللّٰهِ وَضُرِبَتۡ عَلَيۡهِمُ الۡمَسۡكَنَةُؕ ذٰلِكَ بِاَنَّهُمۡ كَانُوۡا يَكۡفُرُوۡنَ بِاٰيٰتِ اللّٰهِ وَيَقۡتُلُوۡنَ الۡاَنۭۡ بِيَآءَ بِغَيۡرِ حَقٍّؕ ذٰلِكَ بِمَا عَصَوۡا وَّكَانُوۡا يَعۡتَدُوۡنَࣗ‏",
       "tl": "Duribat 'alaihimuz zillatu aina maa suqifooo illaa bihablim minal laahi wa hablim minan naasi wa baaa'oo bighadabim minallaahi wa duribat 'alaihimul maskanah; zaalika bi-annahum kaanoo yakfuroona bi Aayaatil laahi wa yaqtuloonal Ambiyaaa'a bighairi haqq; zaalika bimaa 'asaw wa kaanoo ya'tadoon",
       "en": "They have been put under humiliation [by Allah] wherever they are overtaken, except for a covenant from Allah and a rope from the Muslims. And they have drawn upon themselves anger from Allah and have been put under destitution. That is because they disbelieved in the verses of Allah and killed the prophets without right. That is because they disobeyed and [habitually] transgressed."
     },
     {
       "number": 113,
-      "ar": "۞ لَيْسُوا۟ سَوَآءًۭ ۗ مِّنْ أَهْلِ ٱلْكِتَٰبِ أُمَّةٌۭ قَآئِمَةٌۭ يَتْلُونَ ءَايَٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيْلِ وَهُمْ يَسْجُدُونَ",
+      "ar": "لَيۡسُوۡا سَوَآءًؕ مِنۡ اَهۡلِ الۡكِتٰبِ اُمَّةٌ قَآئِمَةٌ يَّتۡلُوۡنَ اٰيٰتِ اللّٰهِ اٰنَآءَ الَّيۡلِ وَهُمۡ يَسۡجُدُوۡنَ",
       "tl": "Laisoo sawaaa'a; min Ahlil Kitaabi ummatun qaaa'imatuny yatloona Aayaatil laahi aanaaa'al laili wa hum yasjudoon",
       "en": "They are not [all] the same; among the People of the Scripture is a community standing [in obedience], reciting the verses of Allah during periods of the night and prostrating [in prayer]."
     },
     {
       "number": 114,
-      "ar": "يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَأُو۟لَٰٓئِكَ مِنَ ٱلصَّٰلِحِينَ",
+      "ar": "يُؤۡمِنُوۡنَ بِاللّٰهِ وَالۡيَوۡمِ الۡاٰخِرِ وَيَاۡمُرُوۡنَ بِالۡمَعۡرُوۡفِ وَيَنۡهَوۡنَ عَنِ الۡمُنۡكَرِ وَيُسَارِعُوۡنَ فِي الۡخَيۡرٰتِؕ وَاُولٰٓئِكَ مِنَ الصّٰلِحِيۡنَ",
       "tl": "Yu'minoona billaahi wal Yawmil Aakhiri wa yaa muroona bilma'roofi wa yanhawna 'anil munkari wa yusaari'oona fil khairaati wa ulaa'ika minas saaliheen",
       "en": "They believe in Allah and the Last Day, and they enjoin what is right and forbid what is wrong and hasten to good deeds. And those are among the righteous."
     },
     {
       "number": 115,
-      "ar": "وَمَا يَفْعَلُوا۟ مِنْ خَيْرٍۢ فَلَن يُكْفَرُوهُ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلْمُتَّقِينَ",
+      "ar": "وَمَا يَفۡعَلُوۡا مِنۡ خَيۡرٍ فَلَنۡ يُّكۡفَرُوۡهُؕ وَاللّٰهُ عَلِيۡمٌۭ بِالۡمُتَّقِيۡنَ",
       "tl": "Wa maa yaf'aloo min khairin falai yukfarooh; wallaahu 'aleemun bilmuttaqeen",
       "en": "And whatever good they do - never will it be removed from them. And Allah is Knowing of the righteous."
     },
     {
       "number": 116,
-      "ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُم مِّنَ ٱللَّهِ شَيْـًۭٔا ۖ وَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۚ هُمْ فِيهَا خَٰلِدُونَ",
+      "ar": "اِنَّ الَّذِيۡنَ كَفَرُوۡا لَنۡ تُغۡنِيَ عَنۡهُمۡ اَمۡوَالُهُمۡ وَلَا٘ اَوۡلَادُهُمۡ مِّنَ اللّٰهِ شَيۡـًٔاؕ وَاُولٰٓئِكَ اَصۡحٰبُ النَّارِۚ هُمۡ فِيۡهَا خٰلِدُوۡنَ",
       "tl": "Innal lazeena kafaroo lan tughniya 'anhum amwaalum wa laaa awlaaduhum minal laahi shai anw wa ulaaa'ika Ashaabun Naar; hum feehaa khaalidoon",
       "en": "Indeed, those who disbelieve - never will their wealth or their children avail them against Allah at all, and those are the companions of the Fire; they will abide therein eternally."
     },
     {
       "number": 117,
-      "ar": "مَثَلُ مَا يُنفِقُونَ فِى هَٰذِهِ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَثَلِ رِيحٍۢ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍۢ ظَلَمُوٓا۟ أَنفُسَهُمْ فَأَهْلَكَتْهُ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَٰكِنْ أَنفُسَهُمْ يَظْلِمُونَ",
+      "ar": "مَثَلُ مَا يُنۡفِقُوۡنَ فِيۡ هٰذِهِ الۡحَيٰوةِ الدُّنۡيَا كَمَثَلِ رِيۡحٍ فِيۡهَا صِرٌّ اَصَابَتۡ حَرۡثَ قَوۡمٍ ظَلَمُوۡ٘ا اَنۡفُسَهُمۡ فَاَهۡلَكَتۡهُؕ وَمَا ظَلَمَهُمُ اللّٰهُ وَلٰكِنۡ اَنۡفُسَهُمۡ يَظۡلِمُوۡنَ",
       "tl": "Masalu maa yunfiqoona fee haazihil hayaatid dunyaa kamasali reehin feehaa sirrun as aabat harsa qawmin zalamooo anfusahum fa ahlakath; wa maa zalamahumul laahu wa laakin anfusahum yazlimoon",
       "en": "The example of what they spend in this worldly life is like that of a wind containing frost which strikes the harvest of a people who have wronged themselves and destroys it. And Allah has not wronged them, but they wrong themselves."
     },
     {
       "number": 118,
-      "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ بِطَانَةًۭ مِّن دُونِكُمْ لَا يَأْلُونَكُمْ خَبَالًۭا وَدُّوا۟ مَا عَنِتُّمْ قَدْ بَدَتِ ٱلْبَغْضَآءُ مِنْ أَفْوَٰهِهِمْ وَمَا تُخْفِى صُدُورُهُمْ أَكْبَرُ ۚ قَدْ بَيَّنَّا لَكُمُ ٱلْءَايَٰتِ ۖ إِن كُنتُمْ تَعْقِلُونَ",
+      "ar": "يٰ٘اَيُّهَا الَّذِيۡنَ اٰمَنُوۡا لَا تَتَّخِذُوۡا بِطَانَةً مِّنۡ دُوۡنِكُمۡ لَا يَاۡلُوۡنَكُمۡ خَبَالًاؕ وَدُّوۡا مَا عَنِتُّمۡۚ قَدۡ بَدَتِ الۡبَغۡضَآءُ مِنۡ اَفۡوَاهِهِمۡۚۖ وَمَا تُخۡفِيۡ صُدُوۡرُهُمۡ اَكۡبَرُؕ قَدۡ بَيَّنَّا لَكُمُ الۡاٰيٰتِ اِنۡ كُنۡتُمۡ تَعۡقِلُوۡنَ",
       "tl": "Yaaa ayyuhal lazeena aamanoo laa tattakhizoo bitaanatam min doonikum laa yaaloonakum khabaalanw waddoo maa 'anittum qad badatil baghdaaa'u min afwaahihim; wa maa tukhfee sudooruhum akbar; qad baiyannaa lakumul Aayaati in kuntum ta'qiloon",
       "en": "O you who have believed, do not take as intimates those other than yourselves, for they will not spare you [any] ruin. They wish you would have hardship. Hatred has already appeared from their mouths, and what their breasts conceal is greater. We have certainly made clear to you the signs, if you will use reason."
     },
     {
       "number": 119,
-      "ar": "هَٰٓأَنتُمْ أُو۟لَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِٱلْكِتَٰبِ كُلِّهِۦ وَإِذَا لَقُوكُمْ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَوْا۟ عَضُّوا۟ عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ ۚ قُلْ مُوتُوا۟ بِغَيْظِكُمْ ۗ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
+      "ar": "هٰ٘اَنۡتُمۡ اُولَآءِ تُحِبُّوۡنَهُمۡ وَلَا يُحِبُّوۡنَكُمۡ وَتُؤۡمِنُوۡنَ بِالۡكِتٰبِ كُلِّهٖۚ وَاِذَا لَقُوۡكُمۡ قَالُوۡ٘ا اٰمَنَّاۚࣗۖ وَاِذَا خَلَوۡا عَضُّوۡا عَلَيۡكُمُ الۡاَنَامِلَ مِنَ الۡغَيۡظِؕ قُلۡ مُوۡتُوۡا بِغَيۡظِكُمۡؕ اِنَّ اللّٰهَ عَلِيۡمٌۭ بِذَاتِ الصُّدُوۡرِ",
       "tl": "Haaa antum ulaaa'i tuhibboonahum wa laa yuhibboonakum wa tu'minoona bil kitaabi kullihee wa izaa laqookum qaalooo aamannaa wa izaa khalaw 'addoo 'alaikumul anaamila minal ghaiz; qul mootoo bighai zikum; innal laaha 'aleemum bizaatis sudoor",
       "en": "Here you are loving them but they are not loving you, while you believe in the Scripture - all of it. And when they meet you, they say, \"We believe.\" But when they are alone, they bite their fingertips at you in rage. Say, \"Die in your rage. Indeed, Allah is Knowing of that within the breasts.\""
     },
     {
       "number": 120,
-      "ar": "إِن تَمْسَسْكُمْ حَسَنَةٌۭ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌۭ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌۭ",
+      "ar": "اِنۡ تَمۡسَسۡكُمۡ حَسَنَةٌ تَسُؤۡهُمۡؗ وَاِنۡ تُصِبۡكُمۡ سَيِّئَةٌ يَّفۡرَحُوۡا بِهَاؕ وَاِنۡ تَصۡبِرُوۡا وَتَتَّقُوۡا لَا يَضُرُّكُمۡ كَيۡدُهُمۡ شَيۡـًٔاؕ اِنَّ اللّٰهَ بِمَا يَعۡمَلُوۡنَ مُحِيۡطٌࣖ‏",
       "tl": "In tamsaskum hasanatun tasu'hum wa in tusibkum saiyi'atuny yafrahoo bihaa wa in tasbiroo wa tattaqoo laa yad urrukum kaiduhum shai'aa; innal laaha bimaa ya'maloona muheet",
       "en": "If good touches you, it distresses them; but if harm strikes you, they rejoice at it. And if you are patient and fear Allah, their plot will not harm you at all. Indeed, Allah is encompassing of what they do."
     },
     {
       "number": 121,
-      "ar": "وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ ٱلْمُؤْمِنِينَ مَقَٰعِدَ لِلْقِتَالِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "ar": "وَاِذۡ غَدَوۡتَ مِنۡ اَهۡلِكَ تُبَوِّئُ الۡمُؤۡمِنِيۡنَ مَقَاعِدَ لِلۡقِتَالِؕ وَاللّٰهُ سَمِيۡعٌ عَلِيۡمٌۙ‏",
       "tl": "Wa iz ghadawta min ahlika tubawwi'ul mu'mineena maqaa'ida lilqitaal; wallaahu samee'un 'aleem",
       "en": "And [remember] when you, [O Muhammad], left your family in the morning to post the believers at their stations for the battle [of Uhud] - and Allah is Hearing and Knowing -"
     },
     {
       "number": 122,
-      "ar": "إِذْ هَمَّت طَّآئِفَتَانِ مِنكُمْ أَن تَفْشَلَا وَٱللَّهُ وَلِيُّهُمَا ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "ar": "اِذۡ هَمَّتۡ طَّآئِفَتٰنِ مِنۡكُمۡ اَنۡ تَفۡشَلَاۙ وَاللّٰهُ وَلِيُّهُمَاؕ وَعَلَي اللّٰهِ فَلۡيَتَوَكَّلِ الۡمُؤۡمِنُوۡنَ",
       "tl": "Iz hammat taaa'ifataani minkum an tafshalaa wallaahu waliyyuhumaa; wa 'alal laahi falyatawakkalil mu'minoon",
       "en": "When two parties among you were about to lose courage, but Allah was their ally; and upon Allah the believers should rely."
     },
     {
       "number": 123,
-      "ar": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍۢ وَأَنتُمْ أَذِلَّةٌۭ ۖ فَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ",
+      "ar": "وَلَقَدۡ نَصَرَكُمُ اللّٰهُ بِبَدۡرٍ وَّاَنۡتُمۡ اَذِلَّةٌۚ فَاتَّقُوا اللّٰهَ لَعَلَّكُمۡ تَشۡكُرُوۡنَ",
       "tl": "Wa laqad nasarakumul laahu bi-Badrinw wa antum azillatun fattaqul laaha la'allakum tashkuroon",
       "en": "And already had Allah given you victory at [the battle of] Badr while you were few in number. Then fear Allah; perhaps you will be grateful."
     },
     {
       "number": 124,
-      "ar": "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَٰثَةِ ءَالَٰفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُنزَلِينَ",
+      "ar": "اِذۡ تَقُوۡلُ لِلۡمُؤۡمِنِيۡنَ اَلَنۡ يَّكۡفِيَكُمۡ اَنۡ يُّمِدَّكُمۡ رَبُّكُمۡ بِثَلٰثَةِ اٰلٰفٍ مِّنَ الۡمَلٰٓئِكَةِ مُنۡزَلِيۡنَؕ‏",
       "tl": "Iz taqoolu lilmu'mineena alai yakfiyakum ai-yumiddakum Rabbukum bisalaasati aalaafim minal malaaa'ikati munzaleen",
       "en": "[Remember] when you said to the believers, \"Is it not sufficient for you that your Lord should reinforce you with three thousand angels sent down?"
     },
     {
       "number": 125,
-      "ar": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَٰفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ",
+      "ar": "بَلٰ٘يۙ اِنۡ تَصۡبِرُوۡا وَتَتَّقُوۡا وَيَاۡتُوۡكُمۡ مِّنۡ فَوۡرِهِمۡ هٰذَا يُمۡدِدۡكُمۡ رَبُّكُمۡ بِخَمۡسَةِ اٰلٰفٍ مِّنَ الۡمَلٰٓئِكَةِ مُسَوِّمِيۡنَ",
       "tl": "Balaaa; in tasbiroo wa tattaqoo wa yaatookum min fawrihim haazaa yumdidkum Rabbukum bikhamsati aalaafim minal malaaa'ikati musawwaimeen",
       "en": "Yes, if you remain patient and conscious of Allah and the enemy come upon you [attacking] in rage, your Lord will reinforce you with five thousand angels having marks [of distinction]"
     },
     {
       "number": 126,
-      "ar": "وَمَا جَعَلَهُ ٱللَّهُ إِلَّا بُشْرَىٰ لَكُمْ وَلِتَطْمَئِنَّ قُلُوبُكُم بِهِۦ ۗ وَمَا ٱلنَّصْرُ إِلَّا مِنْ عِندِ ٱللَّهِ ٱلْعَزِيزِ ٱلْحَكِيمِ",
+      "ar": "وَمَا جَعَلَهُ اللّٰهُ اِلَّا بُشۡرٰي لَكُمۡ وَلِتَطۡمَئِنَّ قُلُوۡبُكُمۡ بِهٖؕ وَمَا النَّصۡرُ اِلَّا مِنۡ عِنۡدِ اللّٰهِ الۡعَزِيۡزِ الۡحَكِيۡمِۙ‏",
       "tl": "Wa maa ja'alahul laahu illaa bushraa lakum wa litatma'inna quloobukum bih' wa man-nasru illaa min 'indilllaahil 'Azeezil Hakeem",
       "en": "And Allah made it not except as [a sign of] good tidings for you and to reassure your hearts thereby. And victory is not except from Allah, the Exalted in Might, the Wise -"
     },
     {
       "number": 127,
-      "ar": "لِيَقْطَعَ طَرَفًۭا مِّنَ ٱلَّذِينَ كَفَرُوٓا۟ أَوْ يَكْبِتَهُمْ فَيَنقَلِبُوا۟ خَآئِبِينَ",
+      "ar": "لِيَقۡطَعَ طَرَفًا مِّنَ الَّذِيۡنَ كَفَرُوۡ٘ا اَوۡ يَكۡبِتَهُمۡ فَيَنۡقَلِبُوۡا خَآئِبِيۡنَ",
       "tl": "Laiyaqta'a tarafam minal lazeena kafarooo aw yakbitahum fayanqaliboo khaaa'ibeen",
       "en": "That He might cut down a section of the disbelievers or suppress them so that they turn back disappointed."
     },
     {
       "number": 128,
-      "ar": "لَيْسَ لَكَ مِنَ ٱلْأَمْرِ شَىْءٌ أَوْ يَتُوبَ عَلَيْهِمْ أَوْ يُعَذِّبَهُمْ فَإِنَّهُمْ ظَٰلِمُونَ",
+      "ar": "لَيۡسَ لَكَ مِنَ الۡاَمۡرِ شَيۡءٌ اَوۡ يَتُوۡبَ عَلَيۡهِمۡ اَوۡ يُعَذِّبَهُمۡ فَاِنَّهُمۡ ظٰلِمُوۡنَ",
       "tl": "Laisa laka minal amrishai'un aw yatooba 'alaihim aw yu'az zi bahum fa innahum zaalimoon",
       "en": "Not for you, [O Muhammad, but for Allah], is the decision whether He should [cut them down] or forgive them or punish them, for indeed, they are wrongdoers."
     },
     {
       "number": 129,
-      "ar": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ",
+      "ar": "وَلِلّٰهِ مَا فِي السَّمٰوٰتِ وَمَا فِي الۡاَرۡضِؕ يَغۡفِرُ لِمَنۡ يَّشَآءُ وَيُعَذِّبُ مَنۡ يَّشَآءُؕ وَاللّٰهُ غَفُوۡرٌ رَّحِيۡمٌࣖ‏",
       "tl": "Wa lilaahi maa fissamaawaati wa maa fil-ard; yaghfiru limai-yashaaa'u wa yu'azzibu mai-yashaaa'; wallaahu Ghafoorur Raheem",
       "en": "And to Allah belongs whatever is in the heavens and whatever is on the earth. He forgives whom He wills and punishes whom He wills. And Allah is Forgiving and Merciful."
     },
     {
       "number": 130,
-      "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَٰفًۭا مُّضَٰعَفَةًۭ ۖ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "ar": "يٰ٘اَيُّهَا الَّذِيۡنَ اٰمَنُوۡا لَا تَاۡكُلُوا الرِّبٰ٘وا اَضۡعَافًا مُّضٰعَفَةًࣕ وَاتَّقُوا اللّٰهَ لَعَلَّكُمۡ تُفۡلِحُوۡنَۚ‏",
       "tl": "Yaaa ayyuhal lazeena aamanoo la taakuhur ribaaa ad'aafam mudaa'afatanw wattaqul laaha la'allakum tuflihoon",
       "en": "O you who have believed, do not consume usury, doubled and multiplied, but fear Allah that you may be successful."
     },
     {
       "number": 131,
-      "ar": "وَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِىٓ أُعِدَّتْ لِلْكَٰفِرِينَ",
+      "ar": "وَاتَّقُوا النَّارَ الَّتِيۡ٘ اُعِدَّتۡ لِلۡكٰفِرِيۡنَۚ‏",
       "tl": "Wattaqun Naaral lateee u'iddat lilkaafireen",
       "en": "And fear the Fire, which has been prepared for the disbelievers."
     },
     {
       "number": 132,
-      "ar": "وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
+      "ar": "وَاَطِيۡعُوا اللّٰهَ وَالرَّسُوۡلَ لَعَلَّكُمۡ تُرۡحَمُوۡنَۚ‏",
       "tl": "Wa atee'ul laaha war Rasoola la'allakum turhamoon",
       "en": "And obey Allah and the Messenger that you may obtain mercy."
     },
     {
       "number": 133,
-      "ar": "۞ وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ",
+      "ar": "وَسَارِعُوۡ٘ا اِلٰي مَغۡفِرَةٍ مِّنۡ رَّبِّكُمۡ وَجَنَّةٍ عَرۡضُهَا السَّمٰوٰتُ وَالۡاَرۡضُۙ اُعِدَّتۡ لِلۡمُتَّقِيۡنَۙ‏",
       "tl": "Wa saari'ooo ilaa maghfiratim mir Rabbikum wa Jannatin arduhassamaawaatu wal ardu u'iddat lilmuttaqeen",
       "en": "And hasten to forgiveness from your Lord and a garden as wide as the heavens and earth, prepared for the righteous"
     },
     {
       "number": 134,
-      "ar": "ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "ar": "الَّذِيۡنَ يُنۡفِقُوۡنَ فِي السَّرَّآءِ وَالضَّرَّآءِ وَالۡكٰظِمِيۡنَ الۡغَيۡظَ وَالۡعَافِيۡنَ عَنِ النَّاسِؕ وَاللّٰهُ يُحِبُّ الۡمُحۡسِنِيۡنَۚ‏",
       "tl": "Allazeena yunfiqoona fissarraaa'i waddarraaa'i wal kaazimeenal ghaiza wal aafeena 'anin-naas; wallaahu yuhibbul muhsineen",
       "en": "Who spend [in the cause of Allah] during ease and hardship and who restrain anger and who pardon the people - and Allah loves the doers of good;"
     },
     {
       "number": 135,
-      "ar": "وَٱلَّذِينَ إِذَا فَعَلُوا۟ فَٰحِشَةً أَوْ ظَلَمُوٓا۟ أَنفُسَهُمْ ذَكَرُوا۟ ٱللَّهَ فَٱسْتَغْفَرُوا۟ لِذُنُوبِهِمْ وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ وَلَمْ يُصِرُّوا۟ عَلَىٰ مَا فَعَلُوا۟ وَهُمْ يَعْلَمُونَ",
+      "ar": "وَالَّذِيۡنَ اِذَا فَعَلُوۡا فَاحِشَةً اَوۡ ظَلَمُوۡ٘ا اَنۡفُسَهُمۡ ذَكَرُوا اللّٰهَ فَاسۡتَغۡفَرُوۡا لِذُنُوۡبِهِمۡࣞ وَمَنۡ يَّغۡفِرُ الذُّنُوۡبَ اِلَّا اللّٰهُࣕࣞ وَلَمۡ يُصِرُّوۡا عَلٰي مَا فَعَلُوۡا وَهُمۡ يَعۡلَمُوۡنَ",
       "tl": "Wallazeena izaa fa'aloo faahishatan aw zalamooo anfusahum zakarul laaha fastaghfaroo lizunoobihim; wa mai yaghfiruz zunooba illal laahu wa lam yusirroo 'alaa maa fa'aloo wa hum ya'lamooo",
       "en": "And those who, when they commit an immorality or wrong themselves [by transgression], remember Allah and seek forgiveness for their sins - and who can forgive sins except Allah? - and [who] do not persist in what they have done while they know."
     },
     {
       "number": 136,
-      "ar": "أُو۟لَٰٓئِكَ جَزَآؤُهُم مَّغْفِرَةٌۭ مِّن رَّبِّهِمْ وَجَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا ۚ وَنِعْمَ أَجْرُ ٱلْعَٰمِلِينَ",
+      "ar": "اُولٰٓئِكَ جَزَآؤُهُمۡ مَّغۡفِرَةٌ مِّنۡ رَّبِّهِمۡ وَجَنّٰتٌ تَجۡرِيۡ مِنۡ تَحۡتِهَا الۡاَنۡهٰرُ خٰلِدِيۡنَ فِيۡهَاؕ وَنِعۡمَ اَجۡرُ الۡعٰمِلِيۡنَؕ‏",
       "tl": "Ulaaa'ika jazaaa'uhum maghfiratum mir Rabbihim wa Jannaatun tajree min tahtihal anhaaru khaalideena feeha; wa ni'ma ajrul 'aamileen",
       "en": "Those - their reward is forgiveness from their Lord and gardens beneath which rivers flow [in Paradise], wherein they will abide eternally; and excellent is the reward of the [righteous] workers."
     },
     {
       "number": 137,
-      "ar": "قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٌۭ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "ar": "قَدۡ خَلَتۡ مِنۡ قَبۡلِكُمۡ سُنَنٌۙ فَسِيۡرُوۡا فِي الۡاَرۡضِ فَانۡظُرُوۡا كَيۡفَ كَانَ عَاقِبَةُ الۡمُكَذِّبِيۡنَ",
       "tl": "Qad khalat min qablikum sunanum faseeroo fil ardi fanzuroo kaifa kaana 'aaqiba tul mukazzibeen",
       "en": "Similar situations [as yours] have passed on before you, so proceed throughout the earth and observe how was the end of those who denied."
     },
     {
       "number": 138,
-      "ar": "هَٰذَا بَيَانٌۭ لِّلنَّاسِ وَهُدًۭى وَمَوْعِظَةٌۭ لِّلْمُتَّقِينَ",
+      "ar": "هٰذَا بَيَانٌ لِّلنَّاسِ وَهُدًي وَّمَوۡعِظَةٌ لِّلۡمُتَّقِيۡنَ",
       "tl": "Haazaa bayaanul linnaasi wa hudanw wa maw'izatul lilmuttaqeen",
       "en": "This [Qur'an] is a clear statement to [all] the people and a guidance and instruction for those conscious of Allah."
     },
     {
       "number": 139,
-      "ar": "وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ",
+      "ar": "وَلَا تَهِنُوۡا وَلَا تَحۡزَنُوۡا وَاَنۡتُمُ الۡاَعۡلَوۡنَ اِنۡ كُنۡتُمۡ مُّؤۡمِنِيۡنَ",
       "tl": "Wa laa tahinoo wa laa tahzanoo wa antumul a'lawna in kuntum mu'mineen",
       "en": "So do not weaken and do not grieve, and you will be superior if you are [true] believers."
     },
     {
       "number": 140,
-      "ar": "إِن يَمْسَسْكُمْ قَرْحٌۭ فَقَدْ مَسَّ ٱلْقَوْمَ قَرْحٌۭ مِّثْلُهُۥ ۚ وَتِلْكَ ٱلْأَيَّامُ نُدَاوِلُهَا بَيْنَ ٱلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَتَّخِذَ مِنكُمْ شُهَدَآءَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّٰلِمِينَ",
+      "ar": "اِنۡ يَّمۡسَسۡكُمۡ قَرۡحٌ فَقَدۡ مَسَّ الۡقَوۡمَ قَرۡحٌ مِّثۡلُهٗؕ وَتِلۡكَ الۡاَيَّامُ نُدَاوِلُهَا بَيۡنَ النَّاسِۚ وَلِيَعۡلَمَ اللّٰهُ الَّذِيۡنَ اٰمَنُوۡا وَيَتَّخِذَ مِنۡكُمۡ شُهَدَآءَؕ وَاللّٰهُ لَا يُحِبُّ الظّٰلِمِيۡنَۙ‏",
       "tl": "Iny-yamsaskum qarhum faqad massal qawma qarhum misluh; wa tilkal ayyaamu nudaawiluhaa bainan naasi wa liya'lamal laahul lazeena aamanoo wa yattakhiza minkum shuhadaaa'; wallaahu laa yuh ibbuz zaalimeen",
       "en": "If a wound should touch you - there has already touched the [opposing] people a wound similar to it. And these days [of varying conditions] We alternate among the people so that Allah may make evident those who believe and [may] take to Himself from among you martyrs - and Allah does not like the wrongdoers -"
     },
     {
       "number": 141,
-      "ar": "وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَمْحَقَ ٱلْكَٰفِرِينَ",
+      "ar": "وَلِيُمَحِّصَ اللّٰهُ الَّذِيۡنَ اٰمَنُوۡا وَيَمۡحَقَ الۡكٰفِرِيۡنَ",
       "tl": "Wa liyumahhisal laahul lazeena aamanoo wa yamhaqal kaafireen",
       "en": "And that Allah may purify the believers [through trials] and destroy the disbelievers."
     },
     {
       "number": 142,
-      "ar": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَٰهَدُوا۟ مِنكُمْ وَيَعْلَمَ ٱلصَّٰبِرِينَ",
+      "ar": "اَمۡ حَسِبۡتُمۡ اَنۡ تَدۡخُلُوا الۡجَنَّةَ وَلَمَّا يَعۡلَمِ اللّٰهُ الَّذِيۡنَ جٰهَدُوۡا مِنۡكُمۡ وَيَعۡلَمَ الصّٰبِرِيۡنَ",
       "tl": "Am hasibtum an tadkhulul Jannnata wa lammaa ya'lamil laahul lazeena jaahadoo minkum wa ya'lamas saabireen",
       "en": "Or do you think that you will enter Paradise while Allah has not yet made evident those of you who fight in His cause and made evident those who are steadfast?"
     },
     {
       "number": 143,
-      "ar": "وَلَقَدْ كُنتُمْ تَمَنَّوْنَ ٱلْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَ",
+      "ar": "وَلَقَدۡ كُنۡتُمۡ تَمَنَّوۡنَ الۡمَوۡتَ مِنۡ قَبۡلِ اَنۡ تَلۡقَوۡهُࣕ فَقَدۡ رَاَيۡتُمُوۡهُ وَاَنۡتُمۡ تَنۡظُرُوۡنَࣖ‏",
       "tl": "Wa laqad kuntum tamannnawnal mawta min qabli an talqawhu faqad ra aitumoohu wa antum tanzuroon",
       "en": "And you had certainly wished for martyrdom before you encountered it, and you have [now] seen it [before you] while you were looking on."
     },
     {
       "number": 144,
-      "ar": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًۭٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّٰكِرِينَ",
+      "ar": "وَمَا مُحَمَّدٌ اِلَّا رَسُوۡلٌۚ قَدۡ خَلَتۡ مِنۡ قَبۡلِهِ الرُّسُلُؕ اَفَا۠ئِنۡ مَّاتَ اَوۡ قُتِلَ انۡقَلَبۡتُمۡ عَلٰ٘ي اَعۡقَابِكُمۡؕ وَمَنۡ يَّنۡقَلِبۡ عَلٰي عَقِبَيۡهِ فَلَنۡ يَّضُرَّ اللّٰهَ شَيۡـًٔاؕ وَسَيَجۡزِي اللّٰهُ الشّٰكِرِيۡنَ",
       "tl": "Wa maa Muhammadun illaa Rasoolun qad khalat min qablihir Rusul; afa'im maata aw qutilan qalabtum 'alaaa a'qaabikum; wa mai yanqalib 'alaa aqibihi falai yadurral laaha shai'aa; wa sayajzil laahush shaakireen",
       "en": "Muhammad is not but a messenger. [Other] messengers have passed on before him. So if he was to die or be killed, would you turn back on your heels [to unbelief]? And he who turns back on his heels will never harm Allah at all; but Allah will reward the grateful."
     },
     {
       "number": 145,
-      "ar": "وَمَا كَانَ لِنَفْسٍ أَن تَمُوتَ إِلَّا بِإِذْنِ ٱللَّهِ كِتَٰبًۭا مُّؤَجَّلًۭا ۗ وَمَن يُرِدْ ثَوَابَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَن يُرِدْ ثَوَابَ ٱلْءَاخِرَةِ نُؤْتِهِۦ مِنْهَا ۚ وَسَنَجْزِى ٱلشَّٰكِرِينَ",
+      "ar": "وَمَا كَانَ لِنَفۡسٍ اَنۡ تَمُوۡتَ اِلَّا بِاِذۡنِ اللّٰهِ كِتٰبًا مُّؤَجَّلًاؕ وَمَنۡ يُّرِدۡ ثَوَابَ الدُّنۡيَا نُؤۡتِهٖ مِنۡهَاۚ وَمَنۡ يُّرِدۡ ثَوَابَ الۡاٰخِرَةِ نُؤۡتِهٖ مِنۡهَاؕ وَسَنَجۡزِي الشّٰكِرِيۡنَ",
       "tl": "Wa maa kaana linafsin an tamoota illaa bi iznillaahi kitaabam mu'ajjalaa; wa mai yurid sawaabad dunyaa nu'tihee minhaa wa mai yurid sawaabal Aakhirati nu'tihee minhaa; wa sanajzish shaakireen",
       "en": "And it is not [possible] for one to die except by permission of Allah at a decree determined. And whoever desires the reward of this world - We will give him thereof; and whoever desires the reward of the Hereafter - We will give him thereof. And we will reward the grateful."
     },
     {
       "number": 146,
-      "ar": "وَكَأَيِّن مِّن نَّبِىٍّۢ قَٰتَلَ مَعَهُۥ رِبِّيُّونَ كَثِيرٌۭ فَمَا وَهَنُوا۟ لِمَآ أَصَابَهُمْ فِى سَبِيلِ ٱللَّهِ وَمَا ضَعُفُوا۟ وَمَا ٱسْتَكَانُوا۟ ۗ وَٱللَّهُ يُحِبُّ ٱلصَّٰبِرِينَ",
+      "ar": "وَكَاَيِّنۡ مِّنۡ نَّبِيٍّ قٰتَلَۙ مَعَهٗ رِبِّيُّوۡنَ كَثِيۡرٌۚ فَمَا وَهَنُوۡا لِمَا٘ اَصَابَهُمۡ فِيۡ سَبِيۡلِ اللّٰهِ وَمَا ضَعُفُوۡا وَمَا اسۡتَكَانُوۡاؕ وَاللّٰهُ يُحِبُّ الصّٰبِرِيۡنَ",
       "tl": "Wa ka aiyim min Nabiyyin qaatala ma'ahoo ribbiyyoona kaseerun famaa wahanoo limaaa Asaabahum fee sabeelil laahi wa maa da'ufoo wa mas takaanoo; wallaahu yuhibbus saabireen",
       "en": "And how many a prophet [fought and] with him fought many religious scholars. But they never lost assurance due to what afflicted them in the cause of Allah, nor did they weaken or submit. And Allah loves the steadfast."
     },
     {
       "number": 147,
-      "ar": "وَمَا كَانَ قَوْلَهُمْ إِلَّآ أَن قَالُوا۟ رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "ar": "وَمَا كَانَ قَوۡلَهُمۡ اِلَّا٘ اَنۡ قَالُوۡا رَبَّنَا اغۡفِرۡ لَنَا ذُنُوۡبَنَا وَاِسۡرَافَنَا فِيۡ٘ اَمۡرِنَا وَثَبِّتۡ اَقۡدَامَنَا وَانۡصُرۡنَا عَلَي الۡقَوۡمِ الۡكٰفِرِيۡنَ",
       "tl": "Wa maa kaana qawlahum illaa an qaaloo Rabbanagh fir lanaa zunoobanaa wa israafanaa feee amirnaa wa sabbit aqdaamanaa wansurnaa 'alal qawmil kaafireen",
       "en": "And their words were not but that they said, \"Our Lord, forgive us our sins and the excess [committed] in our affairs and plant firmly our feet and give us victory over the disbelieving people.\""
     },
     {
       "number": 148,
-      "ar": "فَـَٔاتَىٰهُمُ ٱللَّهُ ثَوَابَ ٱلدُّنْيَا وَحُسْنَ ثَوَابِ ٱلْءَاخِرَةِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "ar": "فَاٰتٰىهُمُ اللّٰهُ ثَوَابَ الدُّنۡيَا وَحُسۡنَ ثَوَابِ الۡاٰخِرَةِؕ وَاللّٰهُ يُحِبُّ الۡمُحۡسِنِيۡنَࣖ‏",
       "tl": "Fa aataahumul laahu sawaabad dunyaa wa husna sawaabil Aakhirah; wallaahu yuhibbul muhsineen",
       "en": "So Allah gave them the reward of this world and the good reward of the Hereafter. And Allah loves the doers of good."
     },
     {
       "number": 149,
-      "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ ٱلَّذِينَ كَفَرُوا۟ يَرُدُّوكُمْ عَلَىٰٓ أَعْقَٰبِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ",
+      "ar": "يٰ٘اَيُّهَا الَّذِيۡنَ اٰمَنُوۡ٘ا اِنۡ تُطِيۡعُوا الَّذِيۡنَ كَفَرُوۡا يَرُدُّوۡكُمۡ عَلٰ٘ي اَعۡقَابِكُمۡ فَتَنۡقَلِبُوۡا خٰسِرِيۡنَ",
       "tl": "Yaaa 'aiyuhal lazeena aamanoo in tutee'ullazeena kafaroo yaruddookum 'alaaa a'qaabkum fatanqaliboo khaasireen",
       "en": "O you who have believed, if you obey those who disbelieve, they will turn you back on your heels, and you will [then] become losers."
     },
     {
       "number": 150,
-      "ar": "بَلِ ٱللَّهُ مَوْلَىٰكُمْ ۖ وَهُوَ خَيْرُ ٱلنَّٰصِرِينَ",
+      "ar": "بَلِ اللّٰهُ مَوۡلٰىكُمۡۚ وَهُوَ خَيۡرُ النّٰصِرِيۡنَ",
       "tl": "Balil laahu mawlaakum wa Huwa khairun naasireen",
       "en": "But Allah is your protector, and He is the best of helpers."
     },
     {
       "number": 151,
-      "ar": "سَنُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ بِمَآ أَشْرَكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَٰنًۭا ۖ وَمَأْوَىٰهُمُ ٱلنَّارُ ۚ وَبِئْسَ مَثْوَى ٱلظَّٰلِمِينَ",
+      "ar": "سَنُلۡقِيۡ فِيۡ قُلُوۡبِ الَّذِيۡنَ كَفَرُوا الرُّعۡبَ بِمَا٘ اَشۡرَكُوۡا بِاللّٰهِ مَا لَمۡ يُنَزِّلۡ بِهٖ سُلۡطٰنًاۚ وَمَاۡوٰىهُمُ النَّارُؕ وَبِئۡسَ مَثۡوَي الظّٰلِمِيۡنَ",
       "tl": "Sanulqee fee quloobil lazeena kafarur ru'ba bimaaa ashrakoo billaahi maa lam yunazzil bihee sultaana-nw wa maawaahumun Naar; wa bi'sa maswaz zaalimeen",
       "en": "We will cast terror into the hearts of those who disbelieve for what they have associated with Allah of which He had not sent down [any] authority. And their refuge will be the Fire, and wretched is the residence of the wrongdoers."
     },
     {
       "number": 152,
-      "ar": "وَلَقَدْ صَدَقَكُمُ ٱللَّهُ وَعْدَهُۥٓ إِذْ تَحُسُّونَهُم بِإِذْنِهِۦ ۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ وَتَنَٰزَعْتُمْ فِى ٱلْأَمْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَرَىٰكُم مَّا تُحِبُّونَ ۚ مِنكُم مَّن يُرِيدُ ٱلدُّنْيَا وَمِنكُم مَّن يُرِيدُ ٱلْءَاخِرَةَ ۚ ثُمَّ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ ۖ وَلَقَدْ عَفَا عَنكُمْ ۗ وَٱللَّهُ ذُو فَضْلٍ عَلَى ٱلْمُؤْمِنِينَ",
+      "ar": "وَلَقَدۡ صَدَقَكُمُ اللّٰهُ وَعۡدَهٗ٘ اِذۡ تَحُسُّوۡنَهُمۡ بِاِذۡنِهٖۚ حَتّٰ٘ي اِذَا فَشِلۡتُمۡ وَتَنَازَعۡتُمۡ فِي الۡاَمۡرِ وَعَصَيۡتُمۡ مِّنۭۡ بَعۡدِ مَا٘ اَرٰىكُمۡ مَّا تُحِبُّوۡنَؕ مِنۡكُمۡ مَّنۡ يُّرِيۡدُ الدُّنۡيَا وَمِنۡكُمۡ مَّنۡ يُّرِيۡدُ الۡاٰخِرَةَۚ ثُمَّ صَرَفَكُمۡ عَنۡهُمۡ لِيَبۡتَلِيَكُمۡۚ وَلَقَدۡ عَفَا عَنۡكُمۡؕ وَاللّٰهُ ذُوۡ فَضۡلٍ عَلَي الۡمُؤۡمِنِيۡنَ",
       "tl": "Wa laqad sadaqakumul laahu wa'dahooo iz tahussoo nahum bi iznihee hattaaa izaa fashiltim wa tanaaza'tum fil amri wa 'asaitum mim ba'di maaa araakum maa tuhibboon; minkum mai yureedud dunyaa wa minkum mai yureedul Aakhirah; summa sarafakum 'anhum sarafakum 'anhum liyabtaliyakum wa laqad 'afaa 'ankum; wallaahu zoo fadlin 'alal mu'mineen",
       "en": "And Allah had certainly fulfilled His promise to you when you were killing the enemy by His permission until [the time] when you lost courage and fell to disputing about the order [given by the Prophet] and disobeyed after He had shown you that which you love. Among you are some who desire this world, and among you are some who desire the Hereafter. Then he turned you back from them [defeated] that He might test you. And He has already forgiven you, and Allah is the possessor of bounty for the believers."
     },
     {
       "number": 153,
-      "ar": "۞ إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ عَلَىٰٓ أَحَدٍۢ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَىٰكُمْ فَأَثَٰبَكُمْ غَمًّۢا بِغَمٍّۢ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "ar": "اِذۡ تُصۡعِدُوۡنَ وَلَا تَلۡوٗنَ عَلٰ٘ي اَحَدٍ وَّالرَّسُوۡلُ يَدۡعُوۡكُمۡ فِيۡ٘ اُخۡرٰىكُمۡ فَاَثَابَكُمۡ غَمًّاۭ بِغَمٍّ لِّكَيۡلَا تَحۡزَنُوۡا عَلٰي مَا فَاتَكُمۡ وَلَا مَا٘ اَصَابَكُمۡؕ وَاللّٰهُ خَبِيۡرٌۭ بِمَا تَعۡمَلُوۡنَ",
       "tl": "Iz tus'idoona wa laa talwoona 'alaaa ahadinw war Rasoolu yad'ookum feee ukhraakum fa asaabakum ghammam bighammil likailaa tahzanoo 'alaa maa faatakum wa laa maaa asaabakum; wallaahu khabeerum bimaa ta'maloon",
       "en": "[Remember] when you [fled and] climbed [the mountain] without looking aside at anyone while the Messenger was calling you from behind. So Allah repaid you with distress upon distress so you would not grieve for that which had escaped you [of victory and spoils of war] or [for] that which had befallen you [of injury and death]. And Allah is [fully] Acquainted with what you do."
     },
     {
       "number": 154,
-      "ar": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةًۭ نُّعَاسًۭا يَغْشَىٰ طَآئِفَةًۭ مِّنكُمْ ۖ وَطَآئِفَةٌۭ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍۢ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌۭ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
+      "ar": "ثُمَّ اَنۡزَلَ عَلَيۡكُمۡ مِّنۭۡ بَعۡدِ الۡغَمِّ اَمَنَةً نُّعَاسًا يَّغۡشٰي طَآئِفَةً مِّنۡكُمۡۙ وَطَآئِفَةٌ قَدۡ اَهَمَّتۡهُمۡ اَنۡفُسُهُمۡ يَظُنُّوۡنَ بِاللّٰهِ غَيۡرَ الۡحَقِّ ظَنَّ الۡجَاهِلِيَّةِؕ يَقُوۡلُوۡنَ هَلۡ لَّنَا مِنَ الۡاَمۡرِ مِنۡ شَيۡءٍؕ قُلۡ اِنَّ الۡاَمۡرَ كُلَّهٗ لِلّٰهِؕ يُخۡفُوۡنَ فِيۡ٘ اَنۡفُسِهِمۡ مَّا لَا يُبۡدُوۡنَ لَكَؕ يَقُوۡلُوۡنَ لَوۡ كَانَ لَنَا مِنَ الۡاَمۡرِ شَيۡءٌ مَّا قُتِلۡنَا هٰهُنَاؕ قُلۡ لَّوۡ كُنۡتُمۡ فِيۡ بُيُوۡتِكُمۡ لَبَرَزَ الَّذِيۡنَ كُتِبَ عَلَيۡهِمُ الۡقَتۡلُ اِلٰي مَضَاجِعِهِمۡۚ وَلِيَبۡتَلِيَ اللّٰهُ مَا فِيۡ صُدُوۡرِكُمۡ وَلِيُمَحِّصَ مَا فِيۡ قُلُوۡبِكُمۡؕ وَاللّٰهُ عَلِيۡمٌۭ بِذَاتِ الصُّدُوۡرِ",
       "tl": "Summa anzala 'alaikum mim ba'dil ghammi amanatan nu'aasai yaghshaa taaa' ifatam minkum wa taaa'ifatun qad ahammathum anfusuhum yazunnoona billaahi ghairal haqqi zannal jaahiliyyati yaqooloona hal lanaa minal amri min shai'; qul innal amra kullahoo lillaah; yukhfoona fee anfusihim maa laa yubdoona laka yaqooloona law kaana lanaa minal amri shai'ummaa qutilnaa haahunaa; qul law kuntum fee buyootikum labarazal lazeena kutiba 'alaihimul qatlu ilaa madaaji'ihim wa liyabtaliyal laahu maa fee sudoorikum wa liyumah hisa maa fee quloobikum; wallaahu 'aleemum bizaatis sudoor",
       "en": "Then after distress, He sent down upon you security [in the form of] drowsiness, overcoming a faction of you, while another faction worried about themselves, thinking of Allah other than the truth - the thought of ignorance, saying, \"Is there anything for us [to have done] in this matter?\" Say, \"Indeed, the matter belongs completely to Allah.\" They conceal within themselves what they will not reveal to you. They say, \"If there was anything we could have done in the matter, some of us would not have been killed right here.\" Say, \"Even if you had been inside your houses, those decreed to be killed would have come out to their death beds.\" [It was] so that Allah might test what is in your breasts and purify what is in your hearts. And Allah is Knowing of that within the breasts."
     },
     {
       "number": 155,
-      "ar": "إِنَّ ٱلَّذِينَ تَوَلَّوْا۟ مِنكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ إِنَّمَا ٱسْتَزَلَّهُمُ ٱلشَّيْطَٰنُ بِبَعْضِ مَا كَسَبُوا۟ ۖ وَلَقَدْ عَفَا ٱللَّهُ عَنْهُمْ ۗ إِنَّ ٱللَّهَ غَفُورٌ حَلِيمٌۭ",
+      "ar": "اِنَّ الَّذِيۡنَ تَوَلَّوۡا مِنۡكُمۡ يَوۡمَ الۡتَقَي الۡجَمۡعٰنِۙ اِنَّمَا اسۡتَزَلَّهُمُ الشَّيۡطٰنُ بِبَعۡضِ مَا كَسَبُوۡاۚ وَلَقَدۡ عَفَا اللّٰهُ عَنۡهُمۡؕ اِنَّ اللّٰهَ غَفُوۡرٌ حَلِيۡمٌࣖ‏",
       "tl": "Innal lazeena tawallaw minkum yawmal taqal jam'aani innamas tazallahumush Shaitaanu biba'di maa kasaboo wa laqad 'afal laahu 'anhum; innnal laaha Ghafoorum Haleem",
       "en": "Indeed, those of you who turned back on the day the two armies met, it was Satan who caused them to slip because of some [blame] they had earned. But Allah has already forgiven them. Indeed, Allah is Forgiving and Forbearing."
     },
     {
       "number": 156,
-      "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَكُونُوا۟ كَٱلَّذِينَ كَفَرُوا۟ وَقَالُوا۟ لِإِخْوَٰنِهِمْ إِذَا ضَرَبُوا۟ فِى ٱلْأَرْضِ أَوْ كَانُوا۟ غُزًّۭى لَّوْ كَانُوا۟ عِندَنَا مَا مَاتُوا۟ وَمَا قُتِلُوا۟ لِيَجْعَلَ ٱللَّهُ ذَٰلِكَ حَسْرَةًۭ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ يُحْىِۦ وَيُمِيتُ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ",
+      "ar": "يٰ٘اَيُّهَا الَّذِيۡنَ اٰمَنُوۡا لَا تَكُوۡنُوۡا كَالَّذِيۡنَ كَفَرُوۡا وَقَالُوۡا لِاِخۡوَانِهِمۡ اِذَا ضَرَبُوۡا فِي الۡاَرۡضِ اَوۡ كَانُوۡا غُزًّي لَّوۡ كَانُوۡا عِنۡدَنَا مَا مَاتُوۡا وَمَا قُتِلُوۡاۚ لِيَجۡعَلَ اللّٰهُ ذٰلِكَ حَسۡرَةً فِيۡ قُلُوۡبِهِمۡؕ وَاللّٰهُ يُحۡيٖ وَيُمِيۡتُؕ وَاللّٰهُ بِمَا تَعۡمَلُوۡنَ بَصِيۡرٌ",
       "tl": "Yaaa ayyuhul lazeena aamanoo laa takoonoo kallazeena kafaroo wa qaaloo li ikhwaanihim izaa daraboo fil ardi aw kaanoo ghuzzal law kaanoo 'indanaa maa maatoo wa maa qutiloo liyaj'alal laahu zaalika hasratan fee quloobihim; qallaahu yuhyee wa yumeet; wallaahu bimaa ta'maloona Baseer",
       "en": "O you who have believed, do not be like those who disbelieved and said about their brothers when they traveled through the land or went out to fight, \"If they had been with us, they would not have died or have been killed,\" so Allah makes that [misconception] a regret within their hearts. And it is Allah who gives life and causes death, and Allah is Seeing of what you do."
     },
     {
       "number": 157,
-      "ar": "وَلَئِن قُتِلْتُمْ فِى سَبِيلِ ٱللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌۭ مِّنَ ٱللَّهِ وَرَحْمَةٌ خَيْرٌۭ مِّمَّا يَجْمَعُونَ",
+      "ar": "وَلَئِنۡ قُتِلۡتُمۡ فِيۡ سَبِيۡلِ اللّٰهِ اَوۡ مُتُّمۡ لَمَغۡفِرَةٌ مِّنَ اللّٰهِ وَرَحۡمَةٌ خَيۡرٌ مِّمَّا يَجۡمَعُوۡنَ",
       "tl": "Wa la'in qutiltum fee sabeelil laahi aw muttum lamaghfiratum minal laahi wa rahmatun khairum mimmaa yajma'oon",
       "en": "And if you are killed in the cause of Allah or die - then forgiveness from Allah and mercy are better than whatever they accumulate [in this world]."
     },
     {
       "number": 158,
-      "ar": "وَلَئِن مُّتُّمْ أَوْ قُتِلْتُمْ لَإِلَى ٱللَّهِ تُحْشَرُونَ",
+      "ar": "وَلَئِنۡ مُّتُّمۡ اَوۡ قُتِلۡتُمۡ لَاِالَي اللّٰهِ تُحۡشَرُوۡنَ",
       "tl": "Wa la'im muttum 'aw qutiltumla ilal laahi tuhsharoon",
       "en": "And whether you die or are killed, unto Allah you will be gathered."
     },
     {
       "number": 159,
-      "ar": "فَبِمَا رَحْمَةٍۢ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
+      "ar": "فَبِمَا رَحۡمَةٍ مِّنَ اللّٰهِ لِنۡتَ لَهُمۡۚ وَلَوۡ كُنۡتَ فَظًّا غَلِيۡظَ الۡقَلۡبِ لَانۡفَضُّوۡا مِنۡ حَوۡلِكَࣕ فَاعۡفُ عَنۡهُمۡ وَاسۡتَغۡفِرۡ لَهُمۡ وَشَاوِرۡهُمۡ فِي الۡاَمۡرِۚ فَاِذَا عَزَمۡتَ فَتَوَكَّلۡ عَلَي اللّٰهِؕ اِنَّ اللّٰهَ يُحِبُّ الۡمُتَوَكِّلِيۡنَ",
       "tl": "Fabimaa rahmatim minal laahi linta lahum wa law kunta fazzan ghaleezal qalbi lanfaddoo min hawlika fafu 'anhum wastaghfir lahum wa shaawirhum fil amri fa izaa 'azamta fatawakkal 'alal laah; innallaaha yuhibbul mutawak kileen",
       "en": "So by mercy from Allah, [O Muhammad], you were lenient with them. And if you had been rude [in speech] and harsh in heart, they would have disbanded from about you. So pardon them and ask forgiveness for them and consult them in the matter. And when you have decided, then rely upon Allah. Indeed, Allah loves those who rely [upon Him]."
     },
     {
       "number": 160,
-      "ar": "إِن يَنصُرْكُمُ ٱللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن يَخْذُلْكُمْ فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "ar": "اِنۡ يَّنۡصُرۡكُمُ اللّٰهُ فَلَا غَالِبَ لَكُمۡۚ وَاِنۡ يَّخۡذُلۡكُمۡ فَمَنۡ ذَا الَّذِيۡ يَنۡصُرُكُمۡ مِّنۭۡ بَعۡدِهٖؕ وَعَلَي اللّٰهِ فَلۡيَتَوَكَّلِ الۡمُؤۡمِنُوۡنَ",
       "tl": "Iny-yansurkumul laahu falaa ghaaliba lakum wa iny-yakhzulkum faman zal lazee yansurukum mim ba'dih; wa 'alal laahi falyatawakkalil mu'minoon",
       "en": "If Allah should aid you, no one can overcome you; but if He should forsake you, who is there that can aid you after Him? And upon Allah let the believers rely."
     },
     {
       "number": 161,
-      "ar": "وَمَا كَانَ لِنَبِىٍّ أَن يَغُلَّ ۚ وَمَن يَغْلُلْ يَأْتِ بِمَا غَلَّ يَوْمَ ٱلْقِيَٰمَةِ ۚ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍۢ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
+      "ar": "وَمَا كَانَ لِنَبِيٍّ اَنۡ يَّغُلَّؕ وَمَنۡ يَّغۡلُلۡ يَاۡتِ بِمَا غَلَّ يَوۡمَ الۡقِيٰمَةِۚ ثُمَّ تُوَفّٰي كُلُّ نَفۡسٍ مَّا كَسَبَتۡ وَهُمۡ لَا يُظۡلَمُوۡنَ",
       "tl": "Wa maa kaana li Nabiyyin ai yaghull; wa mai yaghlul yaati bimaa ghalla Yawmal Qiyaamah; summa tuwaffaa kullu nafsim maa kasabat wa hum laa yuzlamoon",
       "en": "It is not [attributable] to any prophet that he would act unfaithfully [in regard to war booty]. And whoever betrays, [taking unlawfully], will come with what he took on the Day of Resurrection. Then will every soul be [fully] compensated for what it earned, and they will not be wronged."
     },
     {
       "number": 162,
-      "ar": "أَفَمَنِ ٱتَّبَعَ رِضْوَٰنَ ٱللَّهِ كَمَنۢ بَآءَ بِسَخَطٍۢ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمَصِيرُ",
+      "ar": "اَفَمَنِ اتَّبَعَ رِضۡوَانَ اللّٰهِ كَمَنۭۡ بَآءَ بِسَخَطٍ مِّنَ اللّٰهِ وَمَاۡوٰىهُ جَهَنَّمُؕ وَبِئۡسَ الۡمَصِيۡرُ",
       "tl": "Afamanit taba'a Ridwaanal laahi kamam baaa'a bisakhatim minal laahi wa maawaahu Jahannam; wa bi'sal maseer",
       "en": "So is one who pursues the pleasure of Allah like one who brings upon himself the anger of Allah and whose refuge is Hell? And wretched is the destination."
     },
     {
       "number": 163,
-      "ar": "هُمْ دَرَجَٰتٌ عِندَ ٱللَّهِ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "ar": "هُمۡ دَرَجٰتٌ عِنۡدَ اللّٰهِؕ وَاللّٰهُ بَصِيۡرٌۭ بِمَا يَعۡمَلُوۡنَ",
       "tl": "Hum darajaatun 'indal laah; wallaahu baseerum bimaa ya'maloon",
       "en": "They are [varying] degrees in the sight of Allah, and Allah is Seeing of whatever they do."
     },
     {
       "number": 164,
-      "ar": "لَقَدْ مَنَّ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولًۭا مِّنْ أَنفُسِهِمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَٰتِهِۦ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَإِن كَانُوا۟ مِن قَبْلُ لَفِى ضَلَٰلٍۢ مُّبِينٍ",
+      "ar": "لَقَدۡ مَنَّ اللّٰهُ عَلَي الۡمُؤۡمِنِيۡنَ اِذۡ بَعَثَ فِيۡهِمۡ رَسُوۡلًا مِّنۡ اَنۡفُسِهِمۡ يَتۡلُوۡا عَلَيۡهِمۡ اٰيٰتِهٖ وَيُزَكِّيۡهِمۡ وَيُعَلِّمُهُمُ الۡكِتٰبَ وَالۡحِكۡمَةَۚ وَاِنۡ كَانُوۡا مِنۡ قَبۡلُ لَفِيۡ ضَلٰلٍ مُّبِيۡنٍ",
       "tl": "Laqad mannal laahu 'alal mu'mineena iz ba'asa feehim Rasoolam min anfusihim yatloo 'alaihim Aayaatihee wa yuzakkeehim wa yu'allimu humul Kitaaba wal Hikmata wa in kaanoo min qablu lafee dalaalim mubeen",
       "en": "Certainly did Allah confer [great] favor upon the believers when He sent among them a Messenger from themselves, reciting to them His verses and purifying them and teaching them the Book and wisdom, although they had been before in manifest error."
     },
     {
       "number": 165,
-      "ar": "أَوَلَمَّآ أَصَٰبَتْكُم مُّصِيبَةٌۭ قَدْ أَصَبْتُم مِّثْلَيْهَا قُلْتُمْ أَنَّىٰ هَٰذَا ۖ قُلْ هُوَ مِنْ عِندِ أَنفُسِكُمْ ۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ",
+      "ar": "اَوَ لَمَّا٘ اَصَابَتۡكُمۡ مُّصِيۡبَةٌ قَدۡ اَصَبۡتُمۡ مِّثۡلَيۡهَاۙ قُلۡتُمۡ اَنّٰي هٰذَاؕ قُلۡ هُوَ مِنۡ عِنۡدِ اَنۡفُسِكُمۡؕ اِنَّ اللّٰهَ عَلٰي كُلِّ شَيۡءٍ قَدِيۡرٌ",
       "tl": "Awa lammaaa asaabatkum museebatun qad asabtum mislaihaa qultum annaa haazaa qul huwa min 'indi anfusikum; innal laaha 'alaa kulli shai'in Qadeer",
       "en": "Why [is it that] when a [single] disaster struck you [on the day of Uhud], although you had struck [the enemy in the battle of Badr] with one twice as great, you said, \"From where is this?\" Say, \"It is from yourselves.\" Indeed, Allah is over all things competent."
     },
     {
       "number": 166,
-      "ar": "وَمَآ أَصَٰبَكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ فَبِإِذْنِ ٱللَّهِ وَلِيَعْلَمَ ٱلْمُؤْمِنِينَ",
+      "ar": "وَمَا٘ اَصَابَكُمۡ يَوۡمَ الۡتَقَي الۡجَمۡعٰنِ فَبِاِذۡنِ اللّٰهِ وَلِيَعۡلَمَ الۡمُؤۡمِنِيۡنَۙ‏",
       "tl": "Wa maa asaabakum yawmal taqal jam'aani fabiiznil laahi wa liya'lamal mu'mineen",
       "en": "And what struck you on the day the two armies met was by permission of Allah that He might make evident the [true] believers."
     },
     {
       "number": 167,
-      "ar": "وَلِيَعْلَمَ ٱلَّذِينَ نَافَقُوا۟ ۚ وَقِيلَ لَهُمْ تَعَالَوْا۟ قَٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَوِ ٱدْفَعُوا۟ ۖ قَالُوا۟ لَوْ نَعْلَمُ قِتَالًۭا لَّٱتَّبَعْنَٰكُمْ ۗ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَٰنِ ۚ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ",
+      "ar": "وَلِيَعۡلَمَ الَّذِيۡنَ نَافَقُوۡاۚۖ وَقِيۡلَ لَهُمۡ تَعَالَوۡا قَاتِلُوۡا فِيۡ سَبِيۡلِ اللّٰهِ اَوِ ادۡفَعُوۡاؕ قَالُوۡا لَوۡ نَعۡلَمُ قِتَالًا لَّاتَّبَعۡنٰكُمۡؕ هُمۡ لِلۡكُفۡرِ يَوۡمَئِذٍ اَقۡرَبُ مِنۡهُمۡ لِلۡاِيۡمَانِۚ يَقُوۡلُوۡنَ بِاَفۡوَاهِهِمۡ مَّا لَيۡسَ فِيۡ قُلُوۡبِهِمۡؕ وَاللّٰهُ اَعۡلَمُ بِمَا يَكۡتُمُوۡنَۚ‏",
       "tl": "Wa liya'lamal lazeena naafaqoo; wa qeela lahum ta'aalaw qaatiloo fee sabeelil laahi awid fa'oo qaaloo law na'lamu qitaalallat taba'naakum; hum lilkufri yawma'izin aqrabu minhum lil eemaan; yaqooloona bi afwaahihim maa laisa fee quloobihim; wallaahu a'lamu bimaa yaktumoon",
       "en": "And that He might make evident those who are hypocrites. For it was said to them, \"Come, fight in the way of Allah or [at least] defend.\" They said, \"If we had known [there would be] fighting, we would have followed you.\" They were nearer to disbelief that day than to faith, saying with their mouths what was not in their hearts. And Allah is most Knowing of what they conceal -"
     },
     {
       "number": 168,
-      "ar": "ٱلَّذِينَ قَالُوا۟ لِإِخْوَٰنِهِمْ وَقَعَدُوا۟ لَوْ أَطَاعُونَا مَا قُتِلُوا۟ ۗ قُلْ فَٱدْرَءُوا۟ عَنْ أَنفُسِكُمُ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "ar": "اَلَّذِيۡنَ قَالُوۡا لِاِخۡوَانِهِمۡ وَقَعَدُوۡا لَوۡ اَطَاعُوۡنَا مَا قُتِلُوۡاؕ قُلۡ فَادۡرَءُوۡا عَنۡ اَنۡفُسِكُمُ الۡمَوۡتَ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ",
       "tl": "Allazeena qaaloo liikhwaanihim wa qa'adoo law ataa'oonaa maa qutiloo; qul fadra'oo'an anfusikumul mawta in kuntum saadiqeen",
       "en": "Those who said about their brothers while sitting [at home], \"If they had obeyed us, they would not have been killed.\" Say, \"Then prevent death from yourselves, if you should be truthful.\""
     },
     {
       "number": 169,
-      "ar": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتًۢا ۚ بَلْ أَحْيَآءٌ عِندَ رَبِّهِمْ يُرْزَقُونَ",
+      "ar": "وَلَا تَحۡسَبَنَّ الَّذِيۡنَ قُتِلُوۡا فِيۡ سَبِيۡلِ اللّٰهِ اَمۡوَاتًاؕ بَلۡ اَحۡيَآءٌ عِنۡدَ رَبِّهِمۡ يُرۡزَقُوۡنَۙ‏",
       "tl": "Wa laa tahsabannal lazeena qutiloo fee sabeelillaahi amwaata; bal ahyaaa'un 'inda Rabbihim yurzaqoon",
       "en": "And never think of those who have been killed in the cause of Allah as dead. Rather, they are alive with their Lord, receiving provision,"
     },
     {
       "number": 170,
-      "ar": "فَرِحِينَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ وَيَسْتَبْشِرُونَ بِٱلَّذِينَ لَمْ يَلْحَقُوا۟ بِهِم مِّنْ خَلْفِهِمْ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "ar": "فَرِحِيۡنَ بِمَا٘ اٰتٰىهُمُ اللّٰهُ مِنۡ فَضۡلِهٖۙ وَيَسۡتَبۡشِرُوۡنَ بِالَّذِيۡنَ لَمۡ يَلۡحَقُوۡا بِهِمۡ مِّنۡ خَلۡفِهِمۡۙ اَلَّا خَوۡفٌ عَلَيۡهِمۡ وَلَا هُمۡ يَحۡزَنُوۡنَۘ‏",
       "tl": "Fariheena bimaaa aataa humul laahu min fadlihee wa yastabshiroona billazeena lam yalhaqoo bihim min fadlihee wa yastabshiroona billazeena lam yalhaqoo bihim min khalfihim allaa khawfun 'alaihim wa laa hum yahzanoon",
       "en": "Rejoicing in what Allah has bestowed upon them of His bounty, and they receive good tidings about those [to be martyred] after them who have not yet joined them - that there will be no fear concerning them, nor will they grieve."
     },
     {
       "number": 171,
-      "ar": "۞ يَسْتَبْشِرُونَ بِنِعْمَةٍۢ مِّنَ ٱللَّهِ وَفَضْلٍۢ وَأَنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُؤْمِنِينَ",
+      "ar": "يَسۡتَبۡشِرُوۡنَ بِنِعۡمَةٍ مِّنَ اللّٰهِ وَفَضۡلٍۙ وَّاَنَّ اللّٰهَ لَا يُضِيۡعُ اَجۡرَ الۡمُؤۡمِنِيۡنَۚۛࣖ‏",
       "tl": "Yastabshiroona bini'matim minal laahi wa fad linw wa annal laaha laa yudee'u ajral mu'mineen",
       "en": "They receive good tidings of favor from Allah and bounty and [of the fact] that Allah does not allow the reward of believers to be lost -"
     },
     {
       "number": 172,
-      "ar": "ٱلَّذِينَ ٱسْتَجَابُوا۟ لِلَّهِ وَٱلرَّسُولِ مِنۢ بَعْدِ مَآ أَصَابَهُمُ ٱلْقَرْحُ ۚ لِلَّذِينَ أَحْسَنُوا۟ مِنْهُمْ وَٱتَّقَوْا۟ أَجْرٌ عَظِيمٌ",
+      "ar": "اَلَّذِيۡنَ اسۡتَجَابُوۡا لِلّٰهِ وَالرَّسُوۡلِ مِنۭۡ بَعۡدِ مَا٘ اَصَابَهُمُ الۡقَرۡحُؕۛ لِلَّذِيۡنَ اَحۡسَنُوۡا مِنۡهُمۡ وَاتَّقَوۡا اَجۡرٌ عَظِيۡمٌۚ‏",
       "tl": "Allazeenas tajaaboo lil laahi war Rasooli mim ba'di maaa asaabahumulqarh; lillazeena ahsanoo minhum wattaqaw ajrun 'azeem",
       "en": "Those [believers] who responded to Allah and the Messenger after injury had struck them. For those who did good among them and feared Allah is a great reward -"
     },
     {
       "number": 173,
-      "ar": "ٱلَّذِينَ قَالَ لَهُمُ ٱلنَّاسُ إِنَّ ٱلنَّاسَ قَدْ جَمَعُوا۟ لَكُمْ فَٱخْشَوْهُمْ فَزَادَهُمْ إِيمَٰنًۭا وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
+      "ar": "اَلَّذِيۡنَ قَالَ لَهُمُ النَّاسُ اِنَّ النَّاسَ قَدۡ جَمَعُوۡا لَكُمۡ فَاخۡشَوۡهُمۡ فَزَادَهُمۡ اِيۡمَانًاࣗۖ وَّقَالُوۡا حَسۡبُنَا اللّٰهُ وَنِعۡمَ الۡوَكِيۡلُ",
       "tl": "Allazeena qaala lahumun naasu innan naasa qad jama'oo lakum fakhshawhuin fazaadahum eemaannanwa wa qaaloo hasbunal laahu wa ni'malwakeel",
       "en": "Those to whom hypocrites said, \"Indeed, the people have gathered against you, so fear them.\" But it [merely] increased them in faith, and they said, \"Sufficient for us is Allah, and [He is] the best Disposer of affairs.\""
     },
     {
       "number": 174,
-      "ar": "فَٱنقَلَبُوا۟ بِنِعْمَةٍۢ مِّنَ ٱللَّهِ وَفَضْلٍۢ لَّمْ يَمْسَسْهُمْ سُوٓءٌۭ وَٱتَّبَعُوا۟ رِضْوَٰنَ ٱللَّهِ ۗ وَٱللَّهُ ذُو فَضْلٍ عَظِيمٍ",
+      "ar": "فَانۡقَلَبُوۡا بِنِعۡمَةٍ مِّنَ اللّٰهِ وَفَضۡلٍ لَّمۡ يَمۡسَسۡهُمۡ سُوۡٓءٌۙ وَّاتَّبَعُوۡا رِضۡوَانَ اللّٰهِؕ وَاللّٰهُ ذُوۡ فَضۡلٍ عَظِيۡمٍ",
       "tl": "Fanqalaboo bini'matim minal laahi wa fadlil lam yamsashum sooo'unw wattaba'oo ridwaanal laah; wallaahu zoo fadlin 'azeem",
       "en": "So they returned with favor from Allah and bounty, no harm having touched them. And they pursued the pleasure of Allah, and Allah is the possessor of great bounty."
     },
     {
       "number": 175,
-      "ar": "إِنَّمَا ذَٰلِكُمُ ٱلشَّيْطَٰنُ يُخَوِّفُ أَوْلِيَآءَهُۥ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ",
+      "ar": "اِنَّمَا ذٰلِكُمُ الشَّيۡطٰنُ يُخَوِّفُ اَوۡلِيَآءَهٗࣕ فَلَا تَخَافُوۡهُمۡ وَخَافُوۡنِ اِنۡ كُنۡتُمۡ مُّؤۡمِنِيۡنَ",
       "tl": "Innamaa zaalikumush Shaitaanu yukhawwifu awliyaaa'ahoo falaa takhaafoohum wa khaafooni in kuntum mu'mineen",
       "en": "That is only Satan who frightens [you] of his supporters. So fear them not, but fear Me, if you are [indeed] believers."
     },
     {
       "number": 176,
-      "ar": "وَلَا يَحْزُنكَ ٱلَّذِينَ يُسَٰرِعُونَ فِى ٱلْكُفْرِ ۚ إِنَّهُمْ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًۭٔا ۗ يُرِيدُ ٱللَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظًّۭا فِى ٱلْءَاخِرَةِ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "ar": "وَلَا يَحۡزُنۡكَ الَّذِيۡنَ يُسَارِعُوۡنَ فِي الۡكُفۡرِۚ اِنَّهُمۡ لَنۡ يَّضُرُّوا اللّٰهَ شَيۡـًٔاؕ يُرِيۡدُ اللّٰهُ اَلَّا يَجۡعَلَ لَهُمۡ حَظًّا فِي الۡاٰخِرَةِۚ وَلَهُمۡ عَذَابٌ عَظِيۡمٌ",
       "tl": "Wa laa yahzunkal lazeena yusaari'oona fil Kufr; innahum lai yadurrul laaha shai'aa; yureedul laahu allaa yaj'ala lahum hazzan fil Aakhirati wa lahum 'azaabun 'azeem",
       "en": "And do not be grieved, [O Muhammad], by those who hasten into disbelief. Indeed, they will never harm Allah at all. Allah intends that He should give them no share in the Hereafter, and for them is a great punishment."
     },
     {
       "number": 177,
-      "ar": "إِنَّ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلْكُفْرَ بِٱلْإِيمَٰنِ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًۭٔا وَلَهُمْ عَذَابٌ أَلِيمٌۭ",
+      "ar": "اِنَّ الَّذِيۡنَ اشۡتَرَوُا الۡكُفۡرَ بِالۡاِيۡمَانِ لَنۡ يَّضُرُّوا اللّٰهَ شَيۡـًٔاۚ وَلَهُمۡ عَذَابٌ اَلِيۡمٌ",
       "tl": "Innal lazeenash tarawul kufra bil eemaani lai yadurrul laaha shai anw wa lahum 'azdaabun aleem",
       "en": "Indeed, those who purchase disbelief [in exchange] for faith - never will they harm Allah at all, and for them is a painful punishment."
     },
     {
       "number": 178,
-      "ar": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّمَا نُمْلِى لَهُمْ خَيْرٌۭ لِّأَنفُسِهِمْ ۚ إِنَّمَا نُمْلِى لَهُمْ لِيَزْدَادُوٓا۟ إِثْمًۭا ۚ وَلَهُمْ عَذَابٌۭ مُّهِينٌۭ",
+      "ar": "وَلَا يَحۡسَبَنَّ الَّذِيۡنَ كَفَرُوۡ٘ا اَنَّمَا نُمۡلِيۡ لَهُمۡ خَيۡرٌ لِّاَنۡفُسِهِمۡؕ اِنَّمَا نُمۡلِيۡ لَهُمۡ لِيَزۡدَادُوۡ٘ا اِثۡمًاۚ وَلَهُمۡ عَذَابٌ مُّهِيۡنٌ",
       "tl": "Wa laa yahsabannal lazeena kafarooo annamaa numlee lahum khairulli anfusihim; innamaa numlee lahum liyazdaadooo ismaa wa lahum 'azaabum muheen",
       "en": "And let not those who disbelieve ever think that [because] We extend their time [of enjoyment] it is better for them. We only extend it for them so that they may increase in sin, and for them is a humiliating punishment."
     },
     {
       "number": 179,
-      "ar": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌۭ",
+      "ar": "مَا كَانَ اللّٰهُ لِيَذَرَ الۡمُؤۡمِنِيۡنَ عَلٰي مَا٘ اَنۡتُمۡ عَلَيۡهِ حَتّٰي يَمِيۡزَ الۡخَبِيۡثَ مِنَ الطَّيِّبِؕ وَمَا كَانَ اللّٰهُ لِيُطۡلِعَكُمۡ عَلَي الۡغَيۡبِ وَلٰكِنَّ اللّٰهَ يَجۡتَبِيۡ مِنۡ رُّسُلِهٖ مَنۡ يَّشَآءُࣕ فَاٰمِنُوۡا بِاللّٰهِ وَرُسُلِهٖۚ وَاِنۡ تُؤۡمِنُوۡا وَتَتَّقُوۡا فَلَكُمۡ اَجۡرٌ عَظِيۡمٌ",
       "tl": "Maa kaanal laahu liyazaral mu'mineena 'alaa maaa antum 'alaihi hattaa yameezal khabeesa minat taiyib; wa maa kaanal laahu liyutli'akum 'alal ghaibi wa laakinnal laaha yajtabee mir Rusulihii mai yashaaa'u fa aaminoo billaahi wa Rusulih; wa in tu 'minoo wa tattaqoo falakum ajrun 'azeem",
       "en": "Allah would not leave the believers in that [state] you are in [presently] until He separates the evil from the good. Nor would Allah reveal to you the unseen. But [instead], Allah chooses of His messengers whom He wills, so believe in Allah and His messengers. And if you believe and fear Him, then for you is a great reward."
     },
     {
       "number": 180,
-      "ar": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًۭا لَّهُم ۖ بَلْ هُوَ شَرٌّۭ لَّهُمْ ۖ سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ",
+      "ar": "وَلَا يَحۡسَبَنَّ الَّذِيۡنَ يَبۡخَلُوۡنَ بِمَا٘ اٰتٰىهُمُ اللّٰهُ مِنۡ فَضۡلِهٖ هُوَ خَيۡرًا لَّهُمۡؕ بَلۡ هُوَ شَرٌّ لَّهُمۡؕ سَيُطَوَّقُوۡنَ مَا بَخِلُوۡا بِهٖ يَوۡمَ الۡقِيٰمَةِؕ وَلِلّٰهِ مِيۡرَاثُ السَّمٰوٰتِ وَالۡاَرۡضِؕ وَاللّٰهُ بِمَا تَعۡمَلُوۡنَ خَبِيۡرٌࣖ‏",
       "tl": "Wa laa yahsabannal lazeena yabkhaloon bimaa aataahumul lahu min fadilhee huwa khairal lahum bal huwa sharrul lahum sayutaw waqoona maa bakhiloo bihee Yawmal Qiyaamah; wa lillaahi meeraasus samaawaati wal ard; wallaahu bimaa ta'maloona Khabeer",
       "en": "And let not those who [greedily] withhold what Allah has given them of His bounty ever think that it is better for them. Rather, it is worse for them. Their necks will be encircled by what they withheld on the Day of Resurrection. And to Allah belongs the heritage of the heavens and the earth. And Allah, with what you do, is [fully] Acquainted."
     },
     {
       "number": 181,
-      "ar": "لَّقَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ فَقِيرٌۭ وَنَحْنُ أَغْنِيَآءُ ۘ سَنَكْتُبُ مَا قَالُوا۟ وَقَتْلَهُمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّۢ وَنَقُولُ ذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ",
+      "ar": "لَقَدۡ سَمِعَ اللّٰهُ قَوۡلَ الَّذِيۡنَ قَالُوۡ٘ا اِنَّ اللّٰهَ فَقِيۡرٌ وَّنَحۡنُ اَغۡنِيَآءُۘ سَنَكۡتُبُ مَا قَالُوۡا وَقَتۡلَهُمُ الۡاَنۭۡ بِيَآءَ بِغَيۡرِ حَقٍّۚۙ وَّنَقُوۡلُ ذُوۡقُوۡا عَذَابَ الۡحَرِيۡقِ",
       "tl": "Laqad sami'al laahu qawlal lazeena qaalooo innal laaha faqeerunw wa nahnu aghniyaaa'; sanaktubu maa qaaloo wa qatlahumul Ambiyaa'a bighairi haqqinw wa naqoolu zooqoo 'azaaba Ihreeq",
       "en": "Allah has certainly heard the statement of those [Jews] who said, \"Indeed, Allah is poor, while we are rich.\" We will record what they said and their killing of the prophets without right and will say, \"Taste the punishment of the Burning Fire."
     },
     {
       "number": 182,
-      "ar": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّامٍۢ لِّلْعَبِيدِ",
+      "ar": "ذٰلِكَ بِمَا قَدَّمَتۡ اَيۡدِيۡكُمۡ وَاَنَّ اللّٰهَ لَيۡسَ بِظَلَّامٍ لِّلۡعَبِيۡدِۚ‏",
       "tl": "Zaalika bimaa qaddamat aideekum wa annal laaha laisa bizallaamil lil'abeed",
       "en": "That is for what your hands have put forth and because Allah is not ever unjust to [His] servants.\""
     },
     {
       "number": 183,
-      "ar": "ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ عَهِدَ إِلَيْنَآ أَلَّا نُؤْمِنَ لِرَسُولٍ حَتَّىٰ يَأْتِيَنَا بِقُرْبَانٍۢ تَأْكُلُهُ ٱلنَّارُ ۗ قُلْ قَدْ جَآءَكُمْ رُسُلٌۭ مِّن قَبْلِى بِٱلْبَيِّنَٰتِ وَبِٱلَّذِى قُلْتُمْ فَلِمَ قَتَلْتُمُوهُمْ إِن كُنتُمْ صَٰدِقِينَ",
+      "ar": "اَلَّذِيۡنَ قَالُوۡ٘ا اِنَّ اللّٰهَ عَهِدَ اِلَيۡنَا٘ اَلَّا نُؤۡمِنَ لِرَسُوۡلٍ حَتّٰي يَاۡتِيَنَا بِقُرۡبَانٍ تَاۡكُلُهُ النَّارُؕ قُلۡ قَدۡ جَآءَكُمۡ رُسُلٌ مِّنۡ قَبۡلِيۡ بِالۡبَيِّنٰتِ وَبِالَّذِيۡ قُلۡتُمۡ فَلِمَ قَتَلۡتُمُوۡهُمۡ اِنۡ كُنۡتُمۡ صٰدِقِيۡنَ",
       "tl": "Allazeena qaalooo innal laaha 'ahida ilainaaa allaa nu'mina liRasoolin hatta yaa tiyanaa biqurbaanin taa kuluhun naar; qul qad jaaa'akum Rusulum min qablee bilbaiyinaati wa billazee qultum falima qataltumoohum in kuntum saadiqeen",
       "en": "[They are] those who said, \"Indeed, Allah has taken our promise not to believe any messenger until he brings us an offering which fire [from heaven] will consume.\" Say, \"There have already come to you messengers before me with clear proofs and [even] that of which you speak. So why did you kill them, if you should be truthful?\""
     },
     {
       "number": 184,
-      "ar": "فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌۭ مِّن قَبْلِكَ جَآءُو بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ وَٱلْكِتَٰبِ ٱلْمُنِيرِ",
+      "ar": "فَاِنۡ كَذَّبُوۡكَ فَقَدۡ كُذِّبَ رُسُلٌ مِّنۡ قَبۡلِكَ جَآءُوۡ بِالۡبَيِّنٰتِ وَالزُّبُرِ وَالۡكِتٰبِ الۡمُنِيۡرِ",
       "tl": "Fa in kaz zabooka faqad kuz ziba Rusulum min qablika jaaa'oo bilbaiyinaati waz Zuburi wal Kitaabil Muneer",
       "en": "Then if they deny you, [O Muhammad] - so were messengers denied before you, who brought clear proofs and written ordinances and the enlightening Scripture."
     },
     {
       "number": 185,
-      "ar": "كُلُّ نَفْسٍۢ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۖ فَمَن زُحْزِحَ عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "ar": "كُلُّ نَفۡسٍ ذَآئِقَةُ الۡمَوۡتِؕ وَاِنَّمَا تُوَفَّوۡنَ اُجُوۡرَكُمۡ يَوۡمَ الۡقِيٰمَةِؕ فَمَنۡ زُحۡزِحَ عَنِ النَّارِ وَاُدۡخِلَ الۡجَنَّةَ فَقَدۡ فَازَؕ وَمَا الۡحَيٰوةُ الدُّنۡيَا٘ اِلَّا مَتَاعُ الۡغُرُوۡرِ",
       "tl": "Kulu nafsin zaaa'iqatul mawt; wa innamaa tuwaffawna ujoorakum Yawmal Qiyaamati faman zuhziha 'anin Naari waudkhilal Jannata faqad faaz; wa mal hayaatud dunyaaa illaa mataa'ul ghuroor",
       "en": "Every soul will taste death, and you will only be given your [full] compensation on the Day of Resurrection. So he who is drawn away from the Fire and admitted to Paradise has attained [his desire]. And what is the life of this world except the enjoyment of delusion."
     },
     {
       "number": 186,
-      "ar": "۞ لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًۭى كَثِيرًۭا ۚ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
+      "ar": "لَتُبۡلَوُنَّ فِيۡ٘ اَمۡوَالِكُمۡ وَاَنۡفُسِكُمۡࣞ وَلَتَسۡمَعُنَّ مِنَ الَّذِيۡنَ اُوۡتُوا الۡكِتٰبَ مِنۡ قَبۡلِكُمۡ وَمِنَ الَّذِيۡنَ اَشۡرَكُوۡ٘ا اَذًي كَثِيۡرًاؕ وَاِنۡ تَصۡبِرُوۡا وَتَتَّقُوۡا فَاِنَّ ذٰلِكَ مِنۡ عَزۡمِ الۡاُمُوۡرِ",
       "tl": "Latublawunna feee amwaalikum wa anfusikum wa latasma'unna minal lazeena ootul Kitaaba min qablikum wa minal lazeena ashrakooo azan kaseeraa; wa in tasbiroo wa tattaqoo fa inna zaalika min 'azmil umoor",
       "en": "You will surely be tested in your possessions and in yourselves. And you will surely hear from those who were given the Scripture before you and from those who associate others with Allah much abuse. But if you are patient and fear Allah - indeed, that is of the matters [worthy] of determination."
     },
     {
       "number": 187,
-      "ar": "وَإِذْ أَخَذَ ٱللَّهُ مِيثَٰقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ لَتُبَيِّنُنَّهُۥ لِلنَّاسِ وَلَا تَكْتُمُونَهُۥ فَنَبَذُوهُ وَرَآءَ ظُهُورِهِمْ وَٱشْتَرَوْا۟ بِهِۦ ثَمَنًۭا قَلِيلًۭا ۖ فَبِئْسَ مَا يَشْتَرُونَ",
+      "ar": "وَاِذۡ اَخَذَ اللّٰهُ مِيۡثَاقَ الَّذِيۡنَ اُوۡتُوا الۡكِتٰبَ لَتُبَيِّنُنَّهٗ لِلنَّاسِ وَلَا تَكۡتُمُوۡنَهٗؗࣗ فَنَبَذُوۡهُ وَرَآءَ ظُهُوۡرِهِمۡ وَاشۡتَرَوۡا بِهٖ ثَمَنًا قَلِيۡلًاؕ فَبِئۡسَ مَا يَشۡتَرُوۡنَ",
       "tl": "Wa iz akhazal laahu meesaaqal lazeena ootul Kitaaba latubaiyinunnahoo linnaasi wa laa taktumoona hoo fanabazoohu waraaa'a zuhoorihim washtaraw bihee samanan qaleelan fabi'sa maa yashtaroon",
       "en": "And [mention, O Muhammad], when Allah took a covenant from those who were given the Scripture, [saying], \"You must make it clear to the people and not conceal it.\" But they threw it away behind their backs and exchanged it for a small price. And wretched is that which they purchased."
     },
     {
       "number": 188,
-      "ar": "لَا تَحْسَبَنَّ ٱلَّذِينَ يَفْرَحُونَ بِمَآ أَتَوا۟ وَّيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟ فَلَا تَحْسَبَنَّهُم بِمَفَازَةٍۢ مِّنَ ٱلْعَذَابِ ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۭ",
+      "ar": "لَا تَحۡسَبَنَّ الَّذِيۡنَ يَفۡرَحُوۡنَ بِمَا٘ اَتَوۡا وَّيُحِبُّوۡنَ اَنۡ يُّحۡمَدُوۡا بِمَا لَمۡ يَفۡعَلُوۡا فَلَا تَحۡسَبَنَّهُمۡ بِمَفَازَةٍ مِّنَ الۡعَذَابِۚ وَلَهُمۡ عَذَابٌ اَلِيۡمٌ",
       "tl": "Laa tahsabannal lazeena yafrahoona bimaaa ataw wa yuhibbona ai yuhmadoo bimaa lam yaf'aloo falaa tahsabunnahum bimafaazatim minal 'azaabi wa lahum 'azaabun aleem",
       "en": "And never think that those who rejoice in what they have perpetrated and like to be praised for what they did not do - never think them [to be] in safety from the punishment, and for them is a painful punishment."
     },
     {
       "number": 189,
-      "ar": "وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ",
+      "ar": "وَلِلّٰهِ مُلۡكُ السَّمٰوٰتِ وَالۡاَرۡضِؕ وَاللّٰهُ عَلٰي كُلِّ شَيۡءٍ قَدِيۡرٌࣖ‏",
       "tl": "Wa lillaahi mulkus samaawaati wal ard; wallaahu 'alaa kulli shai'in Qadeer",
       "en": "And to Allah belongs the dominion of the heavens and the earth, and Allah is over all things competent."
     },
     {
       "number": 190,
-      "ar": "إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلْأَلْبَٰبِ",
+      "ar": "اِنَّ فِيۡ خَلۡقِ السَّمٰوٰتِ وَالۡاَرۡضِ وَاخۡتِلَافِ الَّيۡلِ وَالنَّهَارِ لَاٰيٰتٍ لِّاُولِي الۡاَلۡبَابِۚۖ‏",
       "tl": "Inna fee khalqis samaawati wal ardi wakhtilaafil laili wannahaari la Aayaatil liulil albaab",
       "en": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding."
     },
     {
       "number": 191,
-      "ar": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًۭا وَقُعُودًۭا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًۭا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+      "ar": "الَّذِيۡنَ يَذۡكُرُوۡنَ اللّٰهَ قِيٰمًا وَّقُعُوۡدًا وَّعَلٰي جُنُوۡبِهِمۡ وَيَتَفَكَّرُوۡنَ فِيۡ خَلۡقِ السَّمٰوٰتِ وَالۡاَرۡضِۚ رَبَّنَا مَا خَلَقۡتَ هٰذَا بَاطِلًاۚ سُبۡحٰنَكَ فَقِنَا عَذَابَ النَّارِ",
       "tl": "Allazeena yazkuroonal laaha qiyaamaiw-wa qu'oodanw-wa 'alaa juno obihim wa yatafakkaroona fee khalqis samaawaati wal ardi Rabbanaa maa khalaqta haaza baatilan Subhaanak faqinaa 'azaaban Naar",
       "en": "Who remember Allah while standing or sitting or [lying] on their sides and give thought to the creation of the heavens and the earth, [saying], \"Our Lord, You did not create this aimlessly; exalted are You [above such a thing]; then protect us from the punishment of the Fire."
     },
     {
       "number": 192,
-      "ar": "رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّٰلِمِينَ مِنْ أَنصَارٍۢ",
+      "ar": "رَبَّنَا٘ اِنَّكَ مَنۡ تُدۡخِلِ النَّارَ فَقَدۡ اَخۡزَيۡتَهٗؕ وَمَا لِلظّٰلِمِيۡنَ مِنۡ اَنۡصَارٍ",
       "tl": "Rabbanaaa innaka man tudkhilin Naara faqad akhzai tahoo wa maa lizzaalimeena min ansaar",
       "en": "Our Lord, indeed whoever You admit to the Fire - You have disgraced him, and for the wrongdoers there are no helpers."
     },
     {
       "number": 193,
-      "ar": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًۭا يُنَادِى لِلْإِيمَٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ",
+      "ar": "رَبَّنَا٘ اِنَّنَا سَمِعۡنَا مُنَادِيًا يُّنَادِيۡ لِلۡاِيۡمَانِ اَنۡ اٰمِنُوۡا بِرَبِّكُمۡ فَاٰمَنَّاࣗۖ رَبَّنَا فَاغۡفِرۡ لَنَا ذُنُوۡبَنَا وَكَفِّرۡ عَنَّا سَيِّاٰتِنَا وَتَوَفَّنَا مَعَ الۡاَبۡرَارِۚ‏",
       "tl": "Rabbanaaa innanaa sami'naa munaadiyai yunaadee lil eemaani an aaminoo bi Rabbikum fa aamannaa; Rabbanaa faghfir lanaa zunoobanaa wa kaffir 'annaa saiyi aatina wa tawaffanaa ma'al abraar",
       "en": "Our Lord, indeed we have heard a caller calling to faith, [saying], 'Believe in your Lord,' and we have believed. Our Lord, so forgive us our sins and remove from us our misdeeds and cause us to die with the righteous."
     },
     {
       "number": 194,
-      "ar": "رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ",
+      "ar": "رَبَّنَا وَاٰتِنَا مَا وَعَدۡتَّنَا عَلٰي رُسُلِكَ وَلَا تُخۡزِنَا يَوۡمَ الۡقِيٰمَةِؕ اِنَّكَ لَا تُخۡلِفُ الۡمِيۡعَادَ",
       "tl": "Rabbanaa wa aatinaa maa wa'attanaa 'alaa Rusulika wa laa tukhzinaa Yawmal Qiyaamah; innaka laa tukhliful mee'aad",
       "en": "Our Lord, and grant us what You promised us through Your messengers and do not disgrace us on the Day of Resurrection. Indeed, You do not fail in [Your] promise.\""
     },
     {
       "number": 195,
-      "ar": "فَٱسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّى لَآ أُضِيعُ عَمَلَ عَٰمِلٍۢ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّنۢ بَعْضٍۢ ۖ فَٱلَّذِينَ هَاجَرُوا۟ وَأُخْرِجُوا۟ مِن دِيَٰرِهِمْ وَأُوذُوا۟ فِى سَبِيلِى وَقَٰتَلُوا۟ وَقُتِلُوا۟ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ثَوَابًۭا مِّنْ عِندِ ٱللَّهِ ۗ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلثَّوَابِ",
+      "ar": "فَاسۡتَجَابَ لَهُمۡ رَبُّهُمۡ اَنِّيۡ لَا٘ اُضِيۡعُ عَمَلَ عَامِلٍ مِّنۡكُمۡ مِّنۡ ذَكَرٍ اَوۡ اُنۡثٰيۚ بَعۡضُكُمۡ مِّنۭۡ بَعۡضٍۚ فَالَّذِيۡنَ هَاجَرُوۡا وَاُخۡرِجُوۡا مِنۡ دِيَارِهِمۡ وَاُوۡذُوۡا فِيۡ سَبِيۡلِيۡ وَقٰتَلُوۡا وَقُتِلُوۡا لَاُكَفِّرَنَّ عَنۡهُمۡ سَيِّاٰتِهِمۡ وَلَاُدۡخِلَنَّهُمۡ جَنّٰتٍ تَجۡرِيۡ مِنۡ تَحۡتِهَا الۡاَنۡهٰرُۚ ثَوَابًا مِّنۡ عِنۡدِ اللّٰهِؕ وَاللّٰهُ عِنۡدَهٗ حُسۡنُ الثَّوَابِ",
       "tl": "Fastajaaba lahum Rabbuhum annee laaa Udee'u 'amala 'aamilim minkum min zakarin aw unsaa ba'dukum mim ba'din fal lazeena haajaroo wa ukhrijoo min diyaarihim wa oozoo fee sabeelee wa qaataloo wa qutiloo la ukaffiranna 'anhum saiyi aatihim wa la udkhilanna hum Jannnatin tajree min tahtihal anhaaru sawaabam min 'indil laah; wallaahu 'indahoo husnus sawaab",
       "en": "And their Lord responded to them, \"Never will I allow to be lost the work of [any] worker among you, whether male or female; you are of one another. So those who emigrated or were evicted from their homes or were harmed in My cause or fought or were killed - I will surely remove from them their misdeeds, and I will surely admit them to gardens beneath which rivers flow as reward from Allah, and Allah has with Him the best reward.\""
     },
     {
       "number": 196,
-      "ar": "لَا يَغُرَّنَّكَ تَقَلُّبُ ٱلَّذِينَ كَفَرُوا۟ فِى ٱلْبِلَٰدِ",
+      "ar": "لَا يَغُرَّنَّكَ تَقَلُّبُ الَّذِيۡنَ كَفَرُوۡا فِي الۡبِلَادِؕ‏",
       "tl": "Laa yaghurrannaka taqal lubul lazeena kafaroo fil bilaad",
       "en": "Be not deceived by the [uninhibited] movement of the disbelievers throughout the land."
     },
     {
       "number": 197,
-      "ar": "مَتَٰعٌۭ قَلِيلٌۭ ثُمَّ مَأْوَىٰهُمْ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمِهَادُ",
+      "ar": "مَتَاعٌ قَلِيۡلٌࣞ ثُمَّ مَاۡوٰىهُمۡ جَهَنَّمُؕ وَبِئۡسَ الۡمِهَادُ",
       "tl": "Mataa'un qaleelun summa maawaahum Jahannam; wa bi'sal mihaad",
       "en": "[It is but] a small enjoyment; then their [final] refuge is Hell, and wretched is the resting place."
     },
     {
       "number": 198,
-      "ar": "لَٰكِنِ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ لَهُمْ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا نُزُلًۭا مِّنْ عِندِ ٱللَّهِ ۗ وَمَا عِندَ ٱللَّهِ خَيْرٌۭ لِّلْأَبْرَارِ",
+      "ar": "لٰكِنِ الَّذِيۡنَ اتَّقَوۡا رَبَّهُمۡ لَهُمۡ جَنّٰتٌ تَجۡرِيۡ مِنۡ تَحۡتِهَا الۡاَنۡهٰرُ خٰلِدِيۡنَ فِيۡهَا نُزُلًا مِّنۡ عِنۡدِ اللّٰهِؕ وَمَا عِنۡدَ اللّٰهِ خَيۡرٌ لِّلۡاَبۡرَارِ",
       "tl": "Laakinil lazeenat taqaw Rabbahum lahum Jannnaatun tajree min tahtihal anhaaru khaalideena feehaa nuzulammin 'indil laah; wa maa 'indal laahi khairul lil abraar",
       "en": "But those who feared their Lord will have gardens beneath which rivers flow, abiding eternally therein, as accommodation from Allah. And that which is with Allah is best for the righteous."
     },
     {
       "number": 199,
-      "ar": "وَإِنَّ مِنْ أَهْلِ ٱلْكِتَٰبِ لَمَن يُؤْمِنُ بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْكُمْ وَمَآ أُنزِلَ إِلَيْهِمْ خَٰشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِـَٔايَٰتِ ٱللَّهِ ثَمَنًۭا قَلِيلًا ۗ أُو۟لَٰٓئِكَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ ۗ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
+      "ar": "وَاِنَّ مِنۡ اَهۡلِ الۡكِتٰبِ لَمَنۡ يُّؤۡمِنُ بِاللّٰهِ وَمَا٘ اُنۡزِلَ اِلَيۡكُمۡ وَمَا٘ اُنۡزِلَ اِلَيۡهِمۡ خٰشِعِيۡنَ لِلّٰهِۙ لَا يَشۡتَرُوۡنَ بِاٰيٰتِ اللّٰهِ ثَمَنًا قَلِيۡلًاؕ اُولٰٓئِكَ لَهُمۡ اَجۡرُهُمۡ عِنۡدَ رَبِّهِمۡؕ اِنَّ اللّٰهَ سَرِيۡعُ الۡحِسَابِ",
       "tl": "Wa inna min Ahlil Kitaabi lamai yu minu billaahi wa maaa unzila ilaikum wa maaa unzila ilaihim khaashi 'eena lillaahi laa yashtaroona bi Aayaatil laahi samanan qaleelaa; ulaaa'ika lahum ajruhum 'inda Rabbihim; innal laaha saree'ul hisaab",
       "en": "And indeed, among the People of the Scripture are those who believe in Allah and what was revealed to you and what was revealed to them, [being] humbly submissive to Allah. They do not exchange the verses of Allah for a small price. Those will have their reward with their Lord. Indeed, Allah is swift in account."
     },
     {
       "number": 200,
-      "ar": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "ar": "يٰ٘اَيُّهَا الَّذِيۡنَ اٰمَنُوا اصۡبِرُوۡا وَصَابِرُوۡا وَرَابِطُوۡاࣞ وَاتَّقُوا اللّٰهَ لَعَلَّكُمۡ تُفۡلِحُوۡنَࣖ‏",
       "tl": "Yaaa aiyuhal lazeena aamanus biroo wa saabiroo wa raabitoo wattaqul laaha la'allakum tuflihoon",
       "en": "O you who have believed, persevere and endure and remain stationed and fear Allah that you may be successful."
     }

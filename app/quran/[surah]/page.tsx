@@ -76,7 +76,7 @@ export default async function SurahReaderPage({ params }: Params) {
           dir="rtl"
           className="font-amiri mb-14 text-center text-[36px] leading-[1.6] text-gold"
         >
-          بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+          بِسۡمِ اللّٰهِ الرَّحۡمٰنِ الرَّحِيۡمِ
         </div>
       )}
 

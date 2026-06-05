@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Amiri, Cinzel, Cormorant_Garamond } from "next/font/google";
+import { Cinzel, Cormorant_Garamond, Scheherazade_New } from "next/font/google";
 import { BookmarksClient } from "@/components/BookmarksClient";
 import { Footer } from "@/components/Footer";
 import { Nav } from "@/components/Nav";
@@ -8,10 +8,15 @@ import "./globals.css";
 // Only the weights/subsets/styles actually used in the codebase.
 // Each combination is its own woff2 — keeping this list tight is the
 // single biggest win for first paint.
-const amiri = Amiri({
+//
+// Arabic is rendered in Scheherazade New (SIL) — a Naskh designed to
+// handle IndoPak conventions (small-high-jeem sukūn, اللّٰه stacks,
+// no alef-wasla) cleanly. Variable kept as --font-amiri so we don't
+// have to rename every callsite; the underlying typeface changed.
+const arabicFont = Scheherazade_New({
   variable: "--font-amiri",
   subsets: ["arabic"],
-  weight: ["400"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -64,7 +69,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${amiri.variable} ${cinzel.variable} ${cormorant.variable}`}
+      className={`${arabicFont.variable} ${cinzel.variable} ${cormorant.variable}`}
     >
       <body className="min-h-screen">
         <Nav />

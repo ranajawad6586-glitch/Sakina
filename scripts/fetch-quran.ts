@@ -1,31 +1,44 @@
 /**
  * fetch-quran.ts
  *
- * Pulls the Uthmānī Arabic text, Sahih International translation, and
- * transliteration from alquran.cloud and writes one file per surah to
- * data/quran/{nnn}.json + a metadata index at data/surahs.json.
+ * Pulls three Qur'an editions and merges them into per-surah JSON
+ * files under data/quran/ plus a data/surahs.json metadata index.
+ *
+ * - Arabic: IndoPak script (the script most Pakistani readers grew up
+ *   with — uses small-high-jeem sukūn ۡ instead of the round ْ , no
+ *   alef-wasla ٱ , and اللّٰه instead of ٱللَّه). Sourced from the
+ *   fawazahmed0/quran-api mirror of King Fahd Quran Complex.
+ * - English: Sahih International (alquran.cloud / Tanzil).
+ * - Transliteration: standard romanisation (alquran.cloud / Tanzil).
  *
  * Run with:  npx tsx scripts/fetch-quran.ts
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { Ayah, Surah, SurahMeta } from "../lib/types";
+import type { Ayah, RevelationType, Surah, SurahMeta } from "../lib/types";
 
 const ENDPOINTS = {
-  arabic: "https://api.alquran.cloud/v1/quran/quran-uthmani",
+  arabic:
+    "https://raw.githubusercontent.com/fawazahmed0/quran-api/1/editions/ara-quranindopak.min.json",
   english: "https://api.alquran.cloud/v1/quran/en.sahih",
   translit: "https://api.alquran.cloud/v1/quran/en.transliteration",
 } as const;
 
-// The alquran.cloud Uthmānī edition uses a specific diacritic
-// ordering (shadda-before-fatha) that does NOT match a freshly-typed
-// bismillah. Rather than hardcode a literal, we derive the canonical
-// bismillah from the API itself — see deriveBismillah() — so we strip
-// only what the source actually shipped. (CLAUDE.md §4.8: don't
-// normalise the diacritics; match the source exactly.)
-//
-// U+FEFF (ZWNBSP / BOM) sometimes prefixes surah 1, verse 1.
+// The IndoPak edition's bismillah, as emitted by the source. Derived
+// from surah 1 verse 1 below; non-Fātiḥah, non-Tawbah surahs are
+// inspected for this prefix on verse 1 so the reader can render it
+// once as a header instead of inline (matches the printed Mushaf).
 const ZWNBSP = "﻿";
+
+interface IndoPakAyah {
+  chapter: number;
+  verse: number;
+  text: string;
+}
+
+interface IndoPakDoc {
+  quran: IndoPakAyah[];
+}
 
 interface AqcAyah {
   number: number;
@@ -60,22 +73,7 @@ function pad3(n: number): string {
   return String(n).padStart(3, "0");
 }
 
-function deriveBismillah(arabicSurahs: AqcSurah[]): string {
-  // Surah 1 (Al-Fātiḥah) verse 1 IS the bismillah. Strip the optional
-  // U+FEFF prefix and any leading whitespace. This gives us the exact
-  // glyphs the API uses, so the strip below matches byte-for-byte.
-  const fatihahV1 = arabicSurahs.find((s) => s.number === 1)?.ayahs[0]?.text;
-  if (!fatihahV1) {
-    throw new Error("Could not find Al-Fātiḥah verse 1 to derive bismillah");
-  }
-  let canonical = fatihahV1;
-  while (canonical.startsWith(ZWNBSP)) canonical = canonical.slice(1);
-  return canonical.trim();
-}
-
 function stripLeadingBismillah(text: string, bismillah: string): string {
-  // Remove optional leading BOM / whitespace, then peel off the exact
-  // canonical bismillah if present. Anything else is left alone.
   let head = text;
   while (head.startsWith(ZWNBSP)) head = head.slice(1);
   head = head.trimStart();
@@ -85,71 +83,92 @@ function stripLeadingBismillah(text: string, bismillah: string): string {
   return text;
 }
 
+function groupBySurah(ayahs: IndoPakAyah[]): Map<number, IndoPakAyah[]> {
+  const out = new Map<number, IndoPakAyah[]>();
+  for (const a of ayahs) {
+    let bucket = out.get(a.chapter);
+    if (!bucket) {
+      bucket = [];
+      out.set(a.chapter, bucket);
+    }
+    bucket.push(a);
+  }
+  for (const bucket of out.values()) {
+    bucket.sort((a, b) => a.verse - b.verse);
+  }
+  return out;
+}
+
 async function main(): Promise<void> {
-  console.log("Fetching Qur'an editions from alquran.cloud ...");
-  const [arabic, english, translit] = await Promise.all([
-    fetchJson<AqcResponse>(ENDPOINTS.arabic),
+  console.log("Fetching IndoPak Qur'an + English editions ...");
+  const [indo, english, translit] = await Promise.all([
+    fetchJson<IndoPakDoc>(ENDPOINTS.arabic),
     fetchJson<AqcResponse>(ENDPOINTS.english),
     fetchJson<AqcResponse>(ENDPOINTS.translit),
   ]);
 
+  if (indo.quran.length !== 6236) {
+    throw new Error(
+      `IndoPak edition has ${indo.quran.length} ayahs, expected 6236`,
+    );
+  }
   if (
-    arabic.data.surahs.length !== 114 ||
     english.data.surahs.length !== 114 ||
     translit.data.surahs.length !== 114
   ) {
     throw new Error(
-      `Expected 114 surahs from each edition, got ` +
-        `${arabic.data.surahs.length}/${english.data.surahs.length}/${translit.data.surahs.length}`,
+      `Expected 114 surahs from each English edition, got ` +
+        `${english.data.surahs.length}/${translit.data.surahs.length}`,
     );
   }
+
+  const indoBySurah = groupBySurah(indo.quran);
+
+  // Derive the canonical bismillah from the IndoPak source itself
+  // (Al-Fātiḥah verse 1 IS the bismillah).
+  const fatihahV1 = indoBySurah.get(1)?.[0]?.text;
+  if (!fatihahV1) {
+    throw new Error("Could not find Al-Fātiḥah verse 1 to derive bismillah");
+  }
+  let BISMILLAH = fatihahV1;
+  while (BISMILLAH.startsWith(ZWNBSP)) BISMILLAH = BISMILLAH.slice(1);
+  BISMILLAH = BISMILLAH.trim();
+  console.log(`Canonical IndoPak bismillah derived (${BISMILLAH.length} chars).`);
 
   const outDir = join(process.cwd(), "data", "quran");
   await mkdir(outDir, { recursive: true });
 
-  const BISMILLAH = deriveBismillah(arabic.data.surahs);
-  console.log(`Canonical bismillah glyphs derived (${BISMILLAH.length} chars).`);
-
   const metaIndex: SurahMeta[] = [];
   let totalAyahs = 0;
 
-  for (let i = 0; i < 114; i++) {
-    const aSurah = arabic.data.surahs[i];
-    const eSurah = english.data.surahs[i];
-    const tSurah = translit.data.surahs[i];
+  for (let n = 1; n <= 114; n++) {
+    const indoAyahs = indoBySurah.get(n) ?? [];
+    const eSurah = english.data.surahs[n - 1];
+    const tSurah = translit.data.surahs[n - 1];
 
     if (
-      aSurah.number !== eSurah.number ||
-      aSurah.number !== tSurah.number ||
-      aSurah.ayahs.length !== eSurah.ayahs.length ||
-      aSurah.ayahs.length !== tSurah.ayahs.length
+      indoAyahs.length !== eSurah.ayahs.length ||
+      indoAyahs.length !== tSurah.ayahs.length
     ) {
       throw new Error(
-        `Surah ${aSurah.number} ayah-count mismatch between editions: ` +
-          `${aSurah.ayahs.length}/${eSurah.ayahs.length}/${tSurah.ayahs.length}`,
+        `Surah ${n} ayah-count mismatch between editions: ` +
+          `${indoAyahs.length}/${eSurah.ayahs.length}/${tSurah.ayahs.length}`,
       );
     }
 
-    const surahNumber = aSurah.number;
-    const isFatihah = surahNumber === 1;
-    const isTawbah = surahNumber === 9;
+    const isFatihah = n === 1;
+    const isTawbah = n === 9;
     const bismillahInline = isFatihah;
 
-    const ayahs: Ayah[] = aSurah.ayahs.map((a, idx) => {
+    const ayahs: Ayah[] = indoAyahs.map((a, idx) => {
       let arText = a.text;
-
-      // Strip the prepended bismillah on verse 1 of every surah other
-      // than Al-Fātiḥah (where it IS the verse) and At-Tawbah (which
-      // has no bismillah at all).
       if (idx === 0 && !isFatihah && !isTawbah) {
         arText = stripLeadingBismillah(arText, BISMILLAH);
       } else if (idx === 0 && isFatihah) {
-        // Strip the optional U+FEFF prefix from Al-Fātiḥah verse 1.
         while (arText.startsWith(ZWNBSP)) arText = arText.slice(1);
       }
-
       return {
-        number: a.numberInSurah,
+        number: a.verse,
         ar: arText,
         tl: tSurah.ayahs[idx].text,
         en: eSurah.ayahs[idx].text,
@@ -157,12 +176,12 @@ async function main(): Promise<void> {
     });
 
     const surah: Surah = {
-      number: surahNumber,
-      name_ar: aSurah.name,
-      name_en: aSurah.englishName,
-      meaning: aSurah.englishNameTranslation,
+      number: n,
+      name_ar: eSurah.name,
+      name_en: eSurah.englishName,
+      meaning: eSurah.englishNameTranslation,
       verses: ayahs.length,
-      type: aSurah.revelationType.toLowerCase() as "meccan" | "medinan",
+      type: eSurah.revelationType.toLowerCase() as RevelationType,
       bismillah_inline: bismillahInline,
       ayahs,
     };
@@ -178,7 +197,7 @@ async function main(): Promise<void> {
 
     totalAyahs += ayahs.length;
 
-    const outPath = join(outDir, `${pad3(surahNumber)}.json`);
+    const outPath = join(outDir, `${pad3(n)}.json`);
     await writeFile(outPath, `${JSON.stringify(surah, null, 2)}\n`, "utf-8");
   }
 
@@ -207,7 +226,7 @@ async function main(): Promise<void> {
   }
 
   console.log(
-    `OK — wrote 114 surah files + surahs.json, total ${totalAyahs} ayahs.`,
+    `OK — wrote 114 surah files + surahs.json, total ${totalAyahs} ayahs (IndoPak Arabic).`,
   );
 }
 

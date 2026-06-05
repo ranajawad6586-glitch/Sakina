@@ -22,7 +22,7 @@ export default async function HomePage() {
             textShadow: "0 0 40px rgba(212, 165, 116, 0.2)",
           }}
         >
-          بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+          بِسۡمِ اللّٰهِ الرَّحۡمٰنِ الرَّحِيۡمِ
         </p>
 
         <p className="font-cinzel mb-12 text-[13px] uppercase tracking-[0.3em] text-muted">

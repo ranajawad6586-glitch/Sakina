@@ -9,7 +9,7 @@ export function Footer() {
         dir="rtl"
         className="font-amiri mb-2.5 text-[20px] text-gold"
       >
-        فَٱللَّهُ خَيْرٌ حَٰفِظًا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ
+        فَاللّٰهُ خَيۡرٌ حٰفِظًا وَّهُوَ اَرۡحَمُ الرّٰحِمِيۡنَ
       </div>
       <p className="font-cormorant text-[16px] italic">
         “But Allah is the best Guardian, and He is the most Merciful of
