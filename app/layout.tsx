@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Cinzel, Cormorant_Garamond, Scheherazade_New } from "next/font/google";
+import { AudioController } from "@/components/AudioController";
 import { BookmarksClient } from "@/components/BookmarksClient";
 import { Footer } from "@/components/Footer";
 import { Nav } from "@/components/Nav";
@@ -78,6 +79,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <BookmarksClient />
+        <AudioController />
       </body>
     </html>
   );

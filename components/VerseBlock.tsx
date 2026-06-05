@@ -1,4 +1,5 @@
 import { BookmarkStar } from "@/components/BookmarkStar";
+import { VerseAudioButton } from "@/components/VerseAudioButton";
 import type { Ayah } from "@/lib/types";
 
 export function VerseBlock({ ayah, surah }: { ayah: Ayah; surah: number }) {
@@ -27,7 +28,8 @@ export function VerseBlock({ ayah, surah }: { ayah: Ayah; surah: number }) {
         </span>
       </div>
 
-      <div className="mb-3 flex items-center justify-end">
+      <div className="mb-3 flex items-center justify-end gap-1">
+        <VerseAudioButton surah={surah} ayah={ayah.number} />
         <BookmarkStar kind="verse" surah={surah} ayah={ayah.number} />
       </div>
 

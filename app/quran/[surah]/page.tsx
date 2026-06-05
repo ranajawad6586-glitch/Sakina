@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllSurahsMeta, getSurah } from "@/lib/quran";
+import { ReciterPicker } from "@/components/ReciterPicker";
 import { VerseBlock } from "@/components/VerseBlock";
 
 export async function generateStaticParams() {
@@ -68,6 +69,9 @@ export default async function SurahReaderPage({ params }: Params) {
           <span>Surah {s.number}</span>
           <span>{s.verses} Verses</span>
           <span>{typeLabel}</span>
+        </div>
+        <div>
+          <ReciterPicker />
         </div>
       </header>
 

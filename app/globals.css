@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+/* Kitab — Pakistani Mushaf-style Naskh. Self-hosted under
+   /public/fonts/ so the rendering doesn't depend on a third-party
+   CDN. Pairs natively with the IndoPak text encoding. */
+@font-face {
+  font-family: "Kitab";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/kitab-base.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Kitab";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/kitab-base-bold.woff2") format("woff2");
+}
+
 /* ============================================================
    Sakīna — Design tokens (locked; sourced from CLAUDE.md §3)
    Do not introduce new colours. Token names are canonical.
@@ -42,7 +60,7 @@
   --color-line:         var(--border);
   --color-line-soft:    var(--border-soft);
 
-  --font-amiri:     var(--font-amiri);
+  --font-amiri:     "Kitab", var(--font-amiri), "Scheherazade New", serif;
   --font-cinzel:    var(--font-cinzel);
   --font-cormorant: var(--font-cormorant);
 }
@@ -133,3 +151,36 @@ main {
 .bookmark-star:hover svg { transform: scale(1.1); }
 .bookmark-star .star-fill { fill: none; }
 .bookmark-star.is-active .star-fill { fill: currentColor; }
+
+/* Per-verse play button — driven by <AudioController/> via event
+   delegation, so the three icon-state variants are toggled via CSS
+   classes rather than React state. */
+.verse-audio {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+.verse-audio:hover { color: var(--gold); }
+.verse-audio.is-playing,
+.verse-audio.is-loading { color: var(--gold); }
+.verse-audio svg { width: 18px; height: 18px; }
+.verse-audio .audio-icon-pause,
+.verse-audio .audio-icon-loading { display: none; }
+.verse-audio.is-playing .audio-icon-play,
+.verse-audio.is-loading .audio-icon-play { display: none; }
+.verse-audio.is-playing .audio-icon-pause { display: inline; }
+.verse-audio.is-loading .audio-icon-loading {
+  display: inline;
+  animation: sakina-spin 0.9s linear infinite;
+}
+@keyframes sakina-spin {
+  to { transform: rotate(360deg); }
+}
