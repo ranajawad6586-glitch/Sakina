@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
-/* Kitab — Pakistani Mushaf-style Naskh. Self-hosted under
-   /public/fonts/ so the rendering doesn't depend on a third-party
-   CDN. Pairs natively with the IndoPak text encoding. */
+/* IndoPak Nastaleeq Quran font — the same "AlQuran IndoPak by
+   QuranWBW" face that quran.com serves for its IndoPak reading
+   mode and that Pakistani Quran apps (Maariful Quran et al.) use.
+   Self-hosted under /public/fonts/ for zero third-party calls. */
+@font-face {
+  font-family: "IndoPakQuran";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/indopak-nastaleeq.woff2") format("woff2");
+}
+
+/* Kitab kept around as a fallback — small (32KB) and renders any
+   IndoPak codepoints the primary font might be missing. */
 @font-face {
   font-family: "Kitab";
   font-style: normal;
@@ -60,7 +71,7 @@
   --color-line:         var(--border);
   --color-line-soft:    var(--border-soft);
 
-  --font-amiri:     "Kitab", var(--font-amiri), "Scheherazade New", serif;
+  --font-amiri:     "IndoPakQuran", "Kitab", var(--font-amiri), "Scheherazade New", serif;
   --font-cinzel:    var(--font-cinzel);
   --font-cormorant: var(--font-cormorant);
 }
