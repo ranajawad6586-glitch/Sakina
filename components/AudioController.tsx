@@ -30,29 +30,91 @@ function setButtonState(
 }
 
 /**
- * Single page-level audio controller. There is only one <audio>
- * element on the page at a time — clicking a new verse stops the
- * previous one (matches the "stillness" UX in CLAUDE.md). No
- * autoplay, no chain-playback; the user always initiates.
+ * Single page-level audio controller. One <audio> element lives for
+ * the lifetime of the page — we set src and call play() for every
+ * verse, including auto-advance. That matters because browsers track
+ * "user-activated" status on the audio element itself; spawning a
+ * fresh Audio() inside an ended-event handler loses that activation
+ * and play() gets silently blocked.
+ *
+ * Auto-advance: when a verse finishes, the next [data-verse-audio]
+ * on the page plays automatically and is scrolled smoothly to
+ * centre. The chain stops at end-of-surah. Any user action (pause,
+ * click a different verse, reciter change) breaks the chain.
  */
 export function AudioController() {
   useEffect(() => {
     let audio: HTMLAudioElement | null = null;
     let currentBtn: HTMLElement | null = null;
 
-    const stop = () => {
-      if (audio) {
-        audio.pause();
-        audio.src = "";
-        audio = null;
+    function ensureAudio(): HTMLAudioElement {
+      if (audio) return audio;
+      const el = new Audio();
+      el.preload = "auto";
+      el.addEventListener("playing", () => {
+        if (currentBtn) setButtonState(currentBtn, "playing");
+      });
+      el.addEventListener("ended", handleEnded);
+      el.addEventListener("error", handleError);
+      audio = el;
+      return el;
+    }
+
+    function handleError() {
+      if (!currentBtn) return;
+      setButtonState(currentBtn, "idle");
+      currentBtn.setAttribute("title", "Recitation unavailable");
+      currentBtn = null;
+    }
+
+    function handleEnded() {
+      if (!currentBtn) return;
+      const finished = currentBtn;
+      setButtonState(finished, "idle");
+
+      // Auto-advance to the next [data-verse-audio] in DOM order.
+      const all = Array.from(
+        document.querySelectorAll<HTMLElement>("[data-verse-audio]"),
+      );
+      const idx = all.indexOf(finished);
+      const next = idx >= 0 ? all[idx + 1] : null;
+
+      if (!next) {
+        currentBtn = null;
+        return;
       }
+
+      const key = next.getAttribute("data-verse-audio") || "";
+      const [s, a] = key.split(":").map((x) => Number.parseInt(x, 10));
+      if (!Number.isFinite(s) || !Number.isFinite(a)) {
+        currentBtn = null;
+        return;
+      }
+
+      next.scrollIntoView({ behavior: "smooth", block: "center" });
+      playVerse(next, s, a);
+    }
+
+    function playVerse(btn: HTMLElement, s: number, a: number) {
+      const el = ensureAudio();
+      currentBtn = btn;
+      setButtonState(btn, "loading");
+      el.src = audioUrl(readReciter(), s, a);
+      el.play().catch(() => {
+        // Browser blocked playback (autoplay policy, network, etc.)
+        if (currentBtn === btn) setButtonState(btn, "idle");
+      });
+    }
+
+    function stopActive() {
+      if (audio && !audio.paused) audio.pause();
       if (currentBtn) {
         setButtonState(currentBtn, "idle");
         currentBtn = null;
       }
-    };
+    }
 
-    const onClick = (e: Event) => {
+    function onClick(e: Event) {
       const target = e.target as HTMLElement | null;
       const btn = target?.closest<HTMLElement>("[data-verse-audio]");
       if (!btn) return;
@@ -62,71 +124,35 @@ export function AudioController() {
       const [s, a] = key.split(":").map((x) => Number.parseInt(x, 10));
       if (!Number.isFinite(s) || !Number.isFinite(a)) return;
 
-      // Clicking the currently-playing verse → stop.
+      // Tap on currently-playing verse → pause and break the chain.
       if (currentBtn === btn && audio && !audio.paused) {
-        stop();
+        stopActive();
         return;
       }
 
-      // Any other click → stop the previous and start the new.
-      stop();
-      currentBtn = btn;
-      setButtonState(btn, "loading");
+      // Tap on any other verse → stop previous, start new.
+      if (currentBtn && currentBtn !== btn) {
+        setButtonState(currentBtn, "idle");
+      }
+      if (audio) audio.pause();
+      playVerse(btn, s, a);
+    }
 
-      const reciter = readReciter();
-      const url = audioUrl(reciter, s, a);
-      audio = new Audio(url);
-      audio.preload = "auto";
-      audio.addEventListener("playing", () => {
-        if (currentBtn === btn) setButtonState(btn, "playing");
-      });
-      audio.addEventListener("ended", () => {
-        if (currentBtn !== btn) return;
-        setButtonState(btn, "idle");
-        audio = null;
-        currentBtn = null;
-
-        // Auto-advance: find the next ayah on this page and play it,
-        // scrolling it gently into view. Stops at end of surah (no
-        // next button found). User can interrupt at any time by
-        // clicking pause or another verse.
-        const all = Array.from(
-          document.querySelectorAll<HTMLElement>("[data-verse-audio]"),
-        );
-        const idx = all.indexOf(btn);
-        const next = idx >= 0 ? all[idx + 1] : null;
-        if (next) {
-          next.scrollIntoView({ behavior: "smooth", block: "center" });
-          // Slight delay so the scroll starts before the browser
-          // commits to loading the next audio file.
-          setTimeout(() => next.click(), 120);
-        }
-      });
-      audio.addEventListener("error", () => {
-        if (currentBtn === btn) {
-          setButtonState(btn, "idle");
-          btn.setAttribute("title", "Recitation unavailable");
-          audio = null;
-          currentBtn = null;
-        }
-      });
-      audio.play().catch(() => {
-        // Browser blocked playback (no user gesture, autoplay policy, etc.)
-        setButtonState(btn, "idle");
-      });
-    };
-
-    const onReciterChange = () => {
-      // If something is playing when the user switches reciter, stop
-      // it — next play will use the new reciter.
-      stop();
-    };
+    function onReciterChange() {
+      // Changing reciter mid-playback: stop and let user re-start.
+      stopActive();
+      if (audio) {
+        audio.src = "";
+      }
+    }
 
     document.addEventListener("click", onClick);
     window.addEventListener(RECITER_CHANGE_EVENT, onReciterChange);
 
     return () => {
-      stop();
+      stopActive();
+      if (audio) audio.src = "";
+      audio = null;
       document.removeEventListener("click", onClick);
       window.removeEventListener(RECITER_CHANGE_EVENT, onReciterChange);
     };
