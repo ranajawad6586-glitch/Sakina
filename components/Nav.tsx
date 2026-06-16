@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { BrandMark } from "./BrandMark";
+import { LastReadNavLink } from "./LastReadNavLink";
 
 type NavItem = { href: string; label: string };
 
@@ -75,6 +76,7 @@ export function Nav() {
               );
             })}
           </ul>
+          <LastReadNavLink />
           <Link
             href="/bookmarks"
             aria-label="Bookmarks"
