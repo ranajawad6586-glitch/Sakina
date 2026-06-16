@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllSurahsMeta, getSurah } from "@/lib/quran";
+import { LastReadTracker } from "@/components/LastReadTracker";
 import { ReciterPicker } from "@/components/ReciterPicker";
 import { VerseBlock } from "@/components/VerseBlock";
 
@@ -89,6 +90,8 @@ export default async function SurahReaderPage({ params }: Params) {
           <VerseBlock key={a.number} ayah={a} surah={s.number} />
         ))}
       </div>
+
+      <LastReadTracker surah={s.number} surahName={s.name_en} />
     </div>
   );
 }

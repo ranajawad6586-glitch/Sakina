@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ContinueReadingCard } from "@/components/ContinueReadingCard";
 import { DailyCards } from "@/components/DailyCards";
 import { Ornament } from "@/components/Ornament";
 import { getDailyHadithPool, getDailyVerses } from "@/lib/daily";
@@ -44,6 +45,8 @@ export default async function HomePage() {
           Sunnah of the Messenger of Allah ﷺ.
         </p>
       </section>
+
+      <ContinueReadingCard />
 
       <DailyCards verses={verses} hadiths={hadiths} />
 

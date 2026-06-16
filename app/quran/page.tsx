@@ -1,3 +1,4 @@
+import { ContinueReadingCard } from "@/components/ContinueReadingCard";
 import { getAllSurahsMeta } from "@/lib/quran";
 import { SurahList } from "@/components/SurahList";
 
@@ -30,6 +31,8 @@ export default async function QuranIndexPage() {
           read.
         </p>
       </div>
+
+      <ContinueReadingCard />
 
       <SurahList surahs={surahs} />
     </div>
